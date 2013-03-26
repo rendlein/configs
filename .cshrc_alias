@@ -1,0 +1,11 @@
+alias ssh 	ssh -4 -2  -c aes256-cbc
+
+alias delta 	ssh jacobboone@xserver.delta.edu
+
+alias ab        cmus
+
+alias rip       "mplayer -novideo -quiet -vc null -vo null -ao pcm "
+
+alias scheme    scheme48
+alias libd      musicpd ~/.mpd.lib/mpd.conf
+alias lib       ncmpcpp -p 6601 -c ~/.ncmpcpp.lib/config

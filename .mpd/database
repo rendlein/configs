@@ -1,0 +1,5948 @@
+info_begin
+format: 1
+mpd_version: 0.17.2
+fs_charset: UTF-8
+tag: Artist
+tag: ArtistSort
+tag: Album
+tag: AlbumArtist
+tag: AlbumArtistSort
+tag: Title
+tag: Track
+tag: Name
+tag: Genre
+tag: Date
+tag: Composer
+tag: Performer
+tag: Disc
+tag: MUSICBRAINZ_ARTISTID
+tag: MUSICBRAINZ_ALBUMID
+tag: MUSICBRAINZ_ALBUMARTISTID
+tag: MUSICBRAINZ_TRACKID
+info_end
+directory: Amaranthe
+mtime: 1364235891
+begin: Amaranthe
+directory: Amaranthe
+mtime: 1364235890
+begin: Amaranthe/Amaranthe
+song_begin: 01. Leave Everything Behind.mp3
+Time: 199
+Artist: Amaranthe
+Title: Leave Everything Behind
+Album: Amaranthe
+Track: 1
+Genre: Modern Metal
+mtime: 1364235884
+song_end
+song_begin: 02. Hunger.mp3
+Time: 193
+Artist: Amaranthe
+Title: Hunger
+Album: Amaranthe
+Track: 2
+Genre: Modern Metal
+mtime: 1364235884
+song_end
+song_begin: 03. 1.000.000 Lightyears.mp3
+Time: 196
+Artist: Amaranthe
+Title: 1.000.000 Lightyears
+Album: Amaranthe
+Track: 3
+Genre: Modern Metal
+mtime: 1364235885
+song_end
+song_begin: 04. Automatic.mp3
+Time: 205
+Artist: Amaranthe
+Title: Automatic
+Album: Amaranthe
+Track: 4
+Genre: Modern Metal
+mtime: 1364235885
+song_end
+song_begin: 05. My Transition.mp3
+Time: 232
+Artist: Amaranthe
+Title: My Transition
+Album: Amaranthe
+Track: 5
+Genre: Modern Metal
+mtime: 1364235886
+song_end
+song_begin: 06. Amaranthine.mp3
+Time: 210
+Artist: Amaranthe
+Title: Amaranthine
+Album: Amaranthe
+Track: 6
+Genre: Modern Metal
+mtime: 1364235886
+song_end
+song_begin: 07. It's All About Me.mp3
+Time: 225
+Artist: Amaranthe
+Title: It's All About Me
+Album: Amaranthe
+Track: 7
+Genre: Modern Metal
+mtime: 1364235891
+song_end
+song_begin: 08. Call Out My Name.mp3
+Time: 198
+Artist: Amaranthe
+Title: Call Out My Name
+Album: Amaranthe
+Track: 8
+Genre: Modern Metal
+mtime: 1364235887
+song_end
+song_begin: 09. Enter the Maze.mp3
+Time: 244
+Artist: Amaranthe
+Title: Enter the Maze
+Album: Amaranthe
+Track: 9
+Genre: Modern Metal
+mtime: 1364235888
+song_end
+song_begin: 10. Director's Cut.mp3
+Time: 290
+Artist: Amaranthe
+Title: Director's Cut
+Album: Amaranthe
+Track: 10
+Genre: Modern Metal
+mtime: 1364235889
+song_end
+song_begin: 11. Act of Desperation.mp3
+Time: 185
+Artist: Amaranthe
+Title: Act of Desperation
+Album: Amaranthe
+Track: 11
+Genre: Modern Metal
+mtime: 1364235889
+song_end
+song_begin: 12. Serendipity.mp3
+Time: 206
+Artist: Amaranthe
+Title: Serendipity
+Album: Amaranthe
+Track: 12
+Genre: Modern Metal
+mtime: 1364235890
+song_end
+playlist_begin: 00. Amaranthe - Amaranthe 2011.m3u
+mtime: 1364235883
+playlist_end
+end: Amaranthe/Amaranthe
+directory: The Nexus
+mtime: 1364235895
+begin: Amaranthe/The Nexus
+song_begin: 01. Afterlife.mp3
+Time: 196
+Artist: Amaranthe
+AlbumArtist: Amaranthe
+Title: Afterlife
+Album: The Nexus
+Track: 1
+Date: 2013
+mtime: 1364235895
+song_end
+song_begin: 02. Invincible.mp3
+Time: 191
+Artist: Amaranthe
+AlbumArtist: Amaranthe
+Title: Invincible
+Album: The Nexus
+Track: 2
+Date: 2013
+mtime: 1364235891
+song_end
+song_begin: 03. The Nexus.mp3
+Time: 196
+Artist: Amaranthe
+AlbumArtist: Amaranthe
+Title: The Nexus
+Album: The Nexus
+Track: 3
+Date: 2013
+mtime: 1364235892
+song_end
+song_begin: 04. Theory Of Everything.mp3
+Time: 215
+Artist: Amaranthe
+AlbumArtist: Amaranthe
+Title: Theory Of Everything
+Album: The Nexus
+Track: 4
+Date: 2013
+mtime: 1364235892
+song_end
+song_begin: 05. Stardust.mp3
+Time: 188
+Artist: Amaranthe
+AlbumArtist: Amaranthe
+Title: Stardust
+Album: The Nexus
+Track: 5
+Date: 2013
+mtime: 1364235892
+song_end
+song_begin: 06. Burn With Me.mp3
+Time: 240
+Artist: Amaranthe
+AlbumArtist: Amaranthe
+Title: Burn With Me
+Album: The Nexus
+Track: 6
+Date: 2013
+mtime: 1364235893
+song_end
+song_begin: 07. Mecanical Illusion.mp3
+Time: 241
+Artist: Amaranthe
+AlbumArtist: Amaranthe
+Title: Mecanical Illusion
+Album: The Nexus
+Track: 7
+Date: 2013
+mtime: 1364235893
+song_end
+song_begin: 08. Razorblade.mp3
+Time: 185
+Artist: Amaranthe
+AlbumArtist: Amaranthe
+Title: Razorblade
+Album: The Nexus
+Track: 8
+Date: 2013
+mtime: 1364235894
+song_end
+song_begin: 09. Future On Hold.mp3
+Time: 197
+Artist: Amaranthe
+AlbumArtist: Amaranthe
+Title: Future On Hold
+Album: The Nexus
+Track: 9
+Date: 2013
+mtime: 1364235894
+song_end
+song_begin: 10. Electroheart.mp3
+Time: 228
+Artist: Amaranthe
+AlbumArtist: Amaranthe
+Title: Electroheart
+Album: The Nexus
+Track: 10
+Date: 2013
+mtime: 1364235894
+song_end
+song_begin: 11. Transhuman.mp3
+Time: 235
+Artist: Amaranthe
+AlbumArtist: Amaranthe
+Title: Transhuman
+Album: The Nexus
+Track: 11
+Date: 2013
+mtime: 1364235895
+song_end
+song_begin: 12. Infinity.mp3
+Time: 185
+Artist: Amaranthe
+AlbumArtist: Amaranthe
+Title: Infinity
+Album: The Nexus
+Track: 12
+Date: 2013
+mtime: 1364235891
+song_end
+end: Amaranthe/The Nexus
+end: Amaranthe
+directory: Boys Noize
+mtime: 1364235777
+begin: Boys Noize
+directory: Oi Oi Oi
+mtime: 1364235776
+begin: Boys Noize/Oi Oi Oi
+song_begin: 01 - & Down.mp3
+Time: 258
+Artist: Boys Noize
+Title: & Down
+Album: Oi Oi Oi
+Track: 1
+Genre: Other
+mtime: 1364235777
+song_end
+song_begin: 02 - Lava Lava.mp3
+Time: 241
+Artist: Boys Noize
+Title: Lava Lava
+Album: Oi Oi Oi
+Track: 2
+Genre: Other
+mtime: 1364235767
+song_end
+song_begin: 03 - The Battery.mp3
+Time: 320
+Artist: Boys Noize
+Title: The Battery
+Album: Oi Oi Oi
+Track: 3
+Genre: Other
+mtime: 1364235768
+song_end
+song_begin: 04 - Oh!.mp3
+Time: 306
+Artist: Boys Noize
+Title: Oh!
+Album: Oi Oi Oi
+Track: 4
+Genre: Other
+mtime: 1364235768
+song_end
+song_begin: 05 - Let's Buy Happiness.mp3
+Time: 293
+Artist: Boys Noize
+Title: Let´s Buy Happiness
+Album: Oi Oi Oi
+Track: 5
+Genre: Other
+mtime: 1364235769
+song_end
+song_begin: 06 - Arcade Robot.mp3
+Time: 254
+Artist: Boys Noize
+Title: Arcade Robot
+Album: Oi Oi Oi
+Track: 6
+Genre: Other
+mtime: 1364235770
+song_end
+song_begin: 08 - Shine Shine.mp3
+Time: 360
+Artist: Boys Noize
+Title: Shine Shine
+Album: Oi Oi Oi
+Track: 8
+Genre: Other
+mtime: 1364235771
+song_end
+song_begin: 09 - Vergiftet.mp3
+Time: 281
+Artist: Boys Noize
+Title: Vergiftet
+Album: Oi Oi Oi
+Track: 9
+Genre: Other
+mtime: 1364235772
+song_end
+song_begin: 10 - Superfresh.mp3
+Time: 319
+Artist: Boys Noize
+Title: Superfresh
+Album: Oi Oi Oi
+Track: 10
+Genre: Other
+mtime: 1364235773
+song_end
+song_begin: 11 - Wu Tang Battery  Pt. 2.mp3
+Time: 202
+Artist: Boys Noize
+Title: Wu-tang - Battery Pt.2
+Album: Oi Oi Oi
+Track: 11
+Genre: Other
+mtime: 1364235773
+song_end
+song_begin: 12 - Don't Believe the Hype.mp3
+Time: 331
+Artist: Boys Noize
+Title: Don't Believe The Hype
+Album: Oi Oi Oi
+Track: 12
+Genre: Other
+mtime: 1364235774
+song_end
+song_begin: 13 - I-robots.mp3
+Time: 308
+Artist: Boys Noize
+Title: Frau Feat. I-robots
+Album: Oi Oi Oi
+Track: 13
+Genre: Other
+mtime: 1364235775
+song_end
+song_begin: 14 - My Moon My Man (Boys Noize Remix).mp3
+Time: 404
+Artist: Boys Noize
+AlbumArtist: Boys Noize
+Title: Feist - My Moon My Man (Boys Noize Remix)
+Album: Oi Oi Oi
+Track: 14
+Genre: Other
+mtime: 1364235776
+song_end
+song_begin: 15 - 3 Bass.mp3
+Time: 381
+Artist: Boys Noize
+Title: 3 Bass
+Album: Oi Oi Oi
+Track: 15
+Genre: Other
+mtime: 1364235766
+song_end
+end: Boys Noize/Oi Oi Oi
+directory: Power
+mtime: 1364235787
+begin: Boys Noize/Power
+song_begin: 01 - Gax.mp3
+Time: 277
+Artist: Boys Noize
+Title: Gax
+Album: Power
+Track: 1/12
+Date: 2009
+Genre: Electronic
+mtime: 1364235788
+song_end
+song_begin: 02 - Kontact Me.mp3
+Time: 264
+Artist: Boys Noize
+Title: Kontact Me
+Album: Power
+Track: 2/12
+Date: 2009
+Genre: Electronic
+mtime: 1364235778
+song_end
+song_begin: 03 - Starter.mp3
+Time: 223
+Artist: Boys Noize
+Title: Starter
+Album: Power
+Track: 3/12
+Date: 2009
+Genre: Electronic
+mtime: 1364235779
+song_end
+song_begin: 04 - Jeffer.mp3
+Time: 227
+Artist: Boys Noize
+Title: Jeffer
+Album: Power
+Track: 4/12
+Date: 2009
+Genre: Electronic
+mtime: 1364235780
+song_end
+song_begin: 05 - Transmission.mp3
+Time: 373
+Artist: Boys Noize
+Title: Transmission
+Album: Power
+Track: 5/12
+Date: 2009
+Genre: Electronic
+mtime: 1364235781
+song_end
+song_begin: 06 - Nerve.mp3
+Time: 307
+Artist: Boys Noize
+Title: Nerve
+Album: Power
+Track: 6/12
+Date: 2009
+Genre: Electronic
+mtime: 1364235782
+song_end
+song_begin: 07 - Trooper.mp3
+Time: 343
+Artist: Boys Noize
+Title: Trooper
+Album: Power
+Track: 7/12
+Date: 2009
+Genre: Electronic
+mtime: 1364235783
+song_end
+song_begin: 08 - Drummer.mp3
+Time: 319
+Artist: Boys Noize
+Title: Drummer
+Album: Power
+Track: 8/12
+Date: 2009
+Genre: Electronic
+mtime: 1364235784
+song_end
+song_begin: 09 - Sweet Light.mp3
+Time: 317
+Artist: Boys Noize
+Title: Sweet Light
+Album: Power
+Track: 9/12
+Date: 2009
+Genre: Electronic
+mtime: 1364235785
+song_end
+song_begin: 10 - Rozz Box.mp3
+Time: 361
+Artist: Boys Noize
+Title: Rozz Box
+Album: Power
+Track: 10/12
+Date: 2009
+Genre: Electronic
+mtime: 1364235786
+song_end
+song_begin: 11 - Nott.mp3
+Time: 316
+Artist: Boys Noize
+Title: Nott
+Album: Power
+Track: 11/12
+Date: 2009
+Genre: Electronic
+mtime: 1364235787
+song_end
+song_begin: 12 - Heart Attack.mp3
+Time: 272
+Artist: Boys Noize
+Title: Heart Attack
+Album: Power
+Track: 12/12
+Date: 2009
+Genre: Electronic
+mtime: 1364235778
+song_end
+end: Boys Noize/Power
+end: Boys Noize
+directory: Celldweller
+mtime: 1364235800
+begin: Celldweller
+directory: Soundtrack For The Voices In My Head Vol. 2
+mtime: 1364235799
+begin: Celldweller/Soundtrack For The Voices In My Head Vol. 2
+song_begin: 01 - First Person Shooter.mp3
+Time: 171
+Artist: Celldweller
+Title: First Person Shooter
+Album: Soundtrack For The Voices In My Head Vol. 2
+Track: 01/19
+Date: 2012
+Genre: Electronic
+Composer: Klayton
+mtime: 1364235800
+song_end
+song_begin: 02 - Earth Scraper.mp3
+Time: 142
+Artist: Celldweller
+Title: Earth Scraper
+Album: Soundtrack For The Voices In My Head Vol. 2
+Track: 02/19
+Date: 2012
+Genre: Electronic
+Composer: Klayton
+mtime: 1364235792
+song_end
+song_begin: 03 - The Wings of Icarus.mp3
+Time: 178
+Artist: Celldweller
+Title: The Wings of Icarus
+Album: Soundtrack For The Voices In My Head Vol. 2
+Track: 03/19
+Date: 2012
+Genre: Electronic
+Composer: Klayton
+mtime: 1364235792
+song_end
+song_begin: 04 - ShutEmDown.mp3
+Time: 142
+Artist: Celldweller
+Title: ShutEmDown
+Album: Soundtrack For The Voices In My Head Vol. 2
+Track: 04/19
+Date: 2012
+Genre: Electronic
+Composer: Klayton
+mtime: 1364235793
+song_end
+song_begin: 05 - Senorita Bonita.mp3
+Time: 98
+Artist: Celldweller
+Title: Senorita Bonita
+Album: Soundtrack For The Voices In My Head Vol. 2
+Track: 05/19
+Date: 2012
+Genre: Electronic
+Composer: Klayton
+mtime: 1364235793
+song_end
+song_begin: 06 - The Sentinel.mp3
+Time: 192
+Artist: Celldweller
+Title: The Sentinel
+Album: Soundtrack For The Voices In My Head Vol. 2
+Track: 06/19
+Date: 2012
+Genre: Electronic
+Composer: Klayton
+mtime: 1364235794
+song_end
+song_begin: 07 - Distants.mp3
+Time: 139
+Artist: Celldweller
+Title: Distants
+Album: Soundtrack For The Voices In My Head Vol. 2
+Track: 07/19
+Date: 2012
+Genre: Electronic
+Composer: Klayton
+mtime: 1364235794
+song_end
+song_begin: 08 - How This All Began.mp3
+Time: 162
+Artist: Celldweller
+Title: How This All Began
+Album: Soundtrack For The Voices In My Head Vol. 2
+Track: 08/19
+Date: 2012
+Genre: Electronic
+Composer: Klayton
+mtime: 1364235795
+song_end
+song_begin: 09 - Scandroid.mp3
+Time: 80
+Artist: Celldweller
+Title: Scandroid
+Album: Soundtrack For The Voices In My Head Vol. 2
+Track: 09/19
+Date: 2012
+Genre: Electronic
+Composer: Klayton
+mtime: 1364235795
+song_end
+song_begin: 10 - Pulsar.mp3
+Time: 120
+Artist: Celldweller
+Title: Pulsar
+Album: Soundtrack For The Voices In My Head Vol. 2
+Track: 10/19
+Date: 2012
+Genre: Electronic
+Composer: Klayton
+mtime: 1364235795
+song_end
+song_begin: 11 - Solid State Playmate.mp3
+Time: 127
+Artist: Celldweller
+Title: Solid State Playmate
+Album: Soundtrack For The Voices In My Head Vol. 2
+Track: 11/19
+Date: 2012
+Genre: Electronic
+Composer: Klayton
+mtime: 1364235796
+song_end
+song_begin: 12 - Empyrean.mp3
+Time: 123
+Artist: Celldweller
+Title: Empyrean
+Album: Soundtrack For The Voices In My Head Vol. 2
+Track: 12/19
+Date: 2012
+Genre: Electronic
+Composer: Klayton
+mtime: 1364235796
+song_end
+song_begin: 13 - Chronus.mp3
+Time: 207
+Artist: Celldweller
+Title: Chronus
+Album: Soundtrack For The Voices In My Head Vol. 2
+Track: 13/19
+Date: 2012
+Genre: Electronic
+Composer: Klayton
+mtime: 1364235797
+song_end
+song_begin: 14 - Heart-Break.mp3
+Time: 111
+Artist: Celldweller
+Title: Heart-Break
+Album: Soundtrack For The Voices In My Head Vol. 2
+Track: 14/19
+Date: 2012
+Genre: Electronic
+Composer: Klayton
+mtime: 1364235797
+song_end
+song_begin: 15 - Elara.mp3
+Time: 177
+Artist: Celldweller
+Title: Elara
+Album: Soundtrack For The Voices In My Head Vol. 2
+Track: 15/19
+Date: 2012
+Genre: Electronic
+Composer: Klayton
+mtime: 1364235797
+song_end
+song_begin: 16 - Awakening.mp3
+Time: 71
+Artist: Celldweller
+Title: Awakening
+Album: Soundtrack For The Voices In My Head Vol. 2
+Track: 16/19
+Date: 2012
+Genre: Electronic
+Composer: Klayton
+mtime: 1364235798
+song_end
+song_begin: 17 - The End.mp3
+Time: 234
+Artist: Celldweller
+Title: The End
+Album: Soundtrack For The Voices In My Head Vol. 2
+Track: 17/19
+Date: 2012
+Genre: Electronic
+Composer: Klayton
+mtime: 1364235798
+song_end
+song_begin: 18 - Venus.mp3
+Time: 302
+Artist: Celldweller
+Title: Venus
+Album: Soundtrack For The Voices In My Head Vol. 2
+Track: 18/19
+Date: 2012
+Genre: Electronic
+Composer: Klayton
+mtime: 1364235799
+song_end
+song_begin: 19 - Adrift On Celestial Seas.mp3
+Time: 1200
+Artist: Celldweller
+Title: Adrift On Celestial Seas
+Album: Soundtrack For The Voices In My Head Vol. 2
+Track: 19/19
+Date: 2012
+Genre: Electronic
+Composer: Klayton
+mtime: 1364235791
+song_end
+end: Celldweller/Soundtrack For The Voices In My Head Vol. 2
+directory: Wish Upon A Blackstar
+mtime: 1364235814
+begin: Celldweller/Wish Upon A Blackstar
+song_begin: 01 - The Arrival.mp3
+Time: 35
+Artist: Celldweller
+Title: The Arrival
+Album: Wish Upon A Blackstar
+Track: 01/17
+Date: 2012
+Genre: Electronic Rock
+Composer: Klayton (ASCAP)
+Disc: 1/2
+mtime: 1364235815
+song_end
+song_begin: 02 - It Makes No Difference Who We Are.mp3
+Time: 183
+Artist: Celldweller
+Title: It Makes No Difference Who We Are
+Album: Wish Upon A Blackstar
+Track: 02/17
+Date: 2012
+Genre: Electronic Rock
+Composer: Klayton (ASCAP)
+Disc: 1/2
+mtime: 1364235801
+song_end
+song_begin: 03 - Blackstar.mp3
+Time: 247
+Artist: Celldweller
+Title: Blackstar
+Album: Wish Upon A Blackstar
+Track: 03/17
+Date: 2012
+Genre: Electronic Rock
+Composer: Klayton (ASCAP)
+Disc: 1/2
+mtime: 1364235801
+song_end
+song_begin: 04 - Louder Than Words.mp3
+Time: 281
+Artist: Celldweller
+Title: Louder Than Words
+Album: Wish Upon A Blackstar
+Track: 04/17
+Date: 2012
+Genre: Electronic Rock
+Composer: Klayton (ASCAP)
+Disc: 1/2
+mtime: 1364235802
+song_end
+song_begin: 05 - The Lucky One.mp3
+Time: 407
+Artist: Celldweller
+Title: The Lucky One
+Album: Wish Upon A Blackstar
+Track: 05/17
+Date: 2012
+Genre: Electronic Rock
+Composer: Klayton (ASCAP)
+Disc: 1/2
+mtime: 1364235804
+song_end
+song_begin: 06 - Unshakeable.mp3
+Time: 309
+Artist: Celldweller
+Title: Unshakeable
+Album: Wish Upon A Blackstar
+Track: 06/17
+Date: 2012
+Genre: Electronic Rock
+Composer: Klayton (ASCAP)
+Disc: 1/2
+mtime: 1364235805
+song_end
+song_begin: 07 - I Can't Wait.mp3
+Time: 324
+Artist: Celldweller
+Title: I Can't Wait
+Album: Wish Upon A Blackstar
+Track: 07/17
+Date: 2012
+Genre: Electronic Rock
+Composer: Klayton (ASCAP)
+Disc: 1/2
+mtime: 1364235806
+song_end
+song_begin: 08 - Eon.mp3
+Time: 383
+Artist: Celldweller
+Title: Eon
+Album: Wish Upon A Blackstar
+Track: 08/17
+Date: 2012
+Genre: Electronic Rock
+Composer: Klayton (ASCAP)
+Disc: 1/2
+mtime: 1364235807
+song_end
+song_begin: 09 - So Long Sentiment.mp3
+Time: 363
+Artist: Celldweller
+Title: So Long Sentiment
+Album: Wish Upon A Blackstar
+Track: 09/17
+Date: 2012
+Genre: Electronic Rock
+Composer: Klayton (ASCAP)
+Disc: 1/2
+mtime: 1364235808
+song_end
+song_begin: 10 - Gift For You.mp3
+Time: 347
+Artist: Celldweller
+Title: Gift For You
+Album: Wish Upon A Blackstar
+Track: 10/17
+Date: 2012
+Genre: Electronic Rock
+Composer: Klayton (ASCAP)
+Disc: 1/2
+mtime: 1364235810
+song_end
+song_begin: 11 - The Seven Sisters.mp3
+Time: 220
+Artist: Celldweller
+Title: The Seven Sisters
+Album: Wish Upon A Blackstar
+Track: 11/17
+Date: 2012
+Genre: Electronic Rock
+Composer: Klayton (ASCAP)
+Disc: 1/2
+mtime: 1364235810
+song_end
+song_begin: 12 - The Best It's Gonna Get.mp3
+Time: 321
+Artist: Celldweller
+Title: The Best It's Gonna Get
+Album: Wish Upon A Blackstar
+Track: 12/17
+Date: 2012
+Genre: Electronic Rock
+Composer: Klayton (ASCAP)
+Disc: 1/2
+mtime: 1364235811
+song_end
+song_begin: 13 - Memories of a Girl I Haven't Met.mp3
+Time: 61
+Artist: Celldweller
+Title: Memories of a Girl I Haven't Met
+Album: Wish Upon A Blackstar
+Track: 13/17
+Date: 2012
+Genre: Electronic Rock
+Composer: Klayton (ASCAP)
+Disc: 1/2
+mtime: 1364235812
+song_end
+song_begin: 14 - Birthright.mp3
+Time: 321
+Artist: Celldweller
+Title: Birthright
+Album: Wish Upon A Blackstar
+Track: 14/17
+Date: 2012
+Genre: Electronic Rock
+Composer: Klayton (ASCAP)
+Disc: 1/2
+mtime: 1364235813
+song_end
+song_begin: 15 - Tainted.mp3
+Time: 273
+Artist: Celldweller
+Title: Tainted
+Album: Wish Upon A Blackstar
+Track: 15/17
+Date: 2012
+Genre: Electronic Rock
+Composer: Klayton (ASCAP)
+Disc: 1/2
+mtime: 1364235813
+song_end
+song_begin: 16 - Against The Tide.mp3
+Time: 350
+Artist: Celldweller
+Title: Against The Tide
+Album: Wish Upon A Blackstar
+Track: 16/17
+Date: 2012
+Genre: Electronic Rock
+Composer: Klayton (ASCAP)
+Disc: 1/2
+mtime: 1364235814
+song_end
+song_begin: 17 - The Departure.mp3
+Time: 60
+Artist: Celldweller
+Title: The Departure
+Album: Wish Upon A Blackstar
+Track: 17/17
+Date: 2012
+Genre: Electronic Rock
+Composer: Klayton (ASCAP)
+Disc: 1/2
+mtime: 1364235800
+song_end
+end: Celldweller/Wish Upon A Blackstar
+end: Celldweller
+directory: Dan Bull
+mtime: 1364235819
+begin: Dan Bull
+directory: Face
+mtime: 1364235818
+begin: Dan Bull/Face
+song_begin: 01 - New Leaf.mp3
+Time: 157
+Artist: Dan Bull
+Title: New Leaf
+Album: Face
+Track: 01
+Date: 2011
+Genre: Hip-Hop
+mtime: 1364235819
+song_end
+song_begin: 02 - Medicine Ball.mp3
+Time: 199
+Artist: Dan Bull
+Title: Medicine Ball
+Album: Face
+Track: 02
+Date: 2011
+Genre: Hip-Hop
+mtime: 1364235815
+song_end
+song_begin: 03 - The Staircase.mp3
+Time: 159
+Artist: Dan Bull
+Title: The Staircase
+Album: Face
+Track: 03
+Date: 2011
+Genre: Hip-Hop
+mtime: 1364235816
+song_end
+song_begin: 04 - John Lennon.mp3
+Time: 144
+Artist: Dan Bull
+Title: John Lennon
+Album: Face
+Track: 04
+Date: 2011
+Genre: Hip-Hop
+mtime: 1364235816
+song_end
+song_begin: 05 - America.mp3
+Time: 212
+Artist: Dan Bull
+Title: America
+Album: Face
+Track: 05
+Date: 2011
+Genre: Hip-Hop
+mtime: 1364235816
+song_end
+song_begin: 06 - Guilty.mp3
+Time: 171
+Artist: Dan Bull
+Title: Guilty
+Album: Face
+Track: 06
+Date: 2011
+Genre: Hip-Hop
+mtime: 1364235817
+song_end
+song_begin: 07 - Dream Girl.mp3
+Time: 304
+Artist: Dan Bull
+Title: Dream Girl
+Album: Face
+Track: 07
+Date: 2011
+Genre: Hip-Hop
+mtime: 1364235817
+song_end
+song_begin: 08 - Rituals.mp3
+Time: 148
+Artist: Dan Bull
+Title: Rituals
+Album: Face
+Track: 08
+Date: 2011
+Genre: Hip-Hop
+mtime: 1364235818
+song_end
+song_begin: 09 - I'm Fine.mp3
+Time: 186
+Artist: Dan Bull
+Title: I'm Fine
+Album: Face
+Track: 09
+Date: 2011
+Genre: Hip-Hop
+mtime: 1364235818
+song_end
+song_begin: 10 - A Portrait of the Autist.mp3
+Time: 197
+Artist: Dan Bull
+Title: A Portrait of the Autist
+Album: Face
+Track: 10
+Date: 2011
+Genre: Hip-Hop
+mtime: 1364235818
+song_end
+song_begin: 11 - Proud.mp3
+Time: 150
+Artist: Dan Bull
+Title: Proud
+Album: Face
+Track: 11
+Date: 2011
+Genre: Hip-Hop
+mtime: 1364235818
+song_end
+song_begin: 12 - Return.mp3
+Time: 280
+Artist: Dan Bull
+Title: Return
+Album: Face
+Track: 12
+Date: 2011
+Genre: Hip-Hop
+mtime: 1364235815
+song_end
+end: Dan Bull/Face
+directory: Safe
+mtime: 1364235822
+begin: Dan Bull/Safe
+song_begin: 01 - Prelude.mp3
+Time: 128
+Artist: Dan Bull
+Title: Prelude
+Album: Safe
+Track: 01
+Date: 2009
+Genre: Hip-Hop
+mtime: 1364235822
+song_end
+song_begin: 02 - Summer.mp3
+Time: 213
+Artist: Dan Bull
+Title: Summer
+Album: Safe
+Track: 02
+Date: 2009
+Genre: Hip-Hop
+mtime: 1364235819
+song_end
+song_begin: 03 - My Catharsis.mp3
+Time: 137
+Artist: Dan Bull
+Title: My Catharsis
+Album: Safe
+Track: 03
+Date: 2009
+Genre: Hip-Hop
+mtime: 1364235820
+song_end
+song_begin: 04 - Cut.mp3
+Time: 226
+Artist: Dan Bull
+Title: Cut
+Album: Safe
+Track: 04
+Date: 2009
+Genre: Hip-Hop
+mtime: 1364235820
+song_end
+song_begin: 05 - Blocked.mp3
+Time: 223
+Artist: Dan Bull
+Title: Blocked
+Album: Safe
+Track: 05
+Date: 2009
+Genre: Hip-Hop
+mtime: 1364235820
+song_end
+song_begin: 06 - Misfit.mp3
+Time: 238
+Artist: Dan Bull
+Title: Misfit
+Album: Safe
+Track: 06
+Date: 2009
+Genre: Hip-Hop
+mtime: 1364235820
+song_end
+song_begin: 07 - Thistopia.mp3
+Time: 152
+Artist: Dan Bull
+Title: Thistopia
+Album: Safe
+Track: 07
+Date: 2009
+Genre: Hip-Hop
+mtime: 1364235821
+song_end
+song_begin: 08 - After Life.mp3
+Time: 201
+Artist: Dan Bull
+Title: After Life
+Album: Safe
+Track: 08
+Date: 2009
+Genre: Hip-Hop
+mtime: 1364235821
+song_end
+song_begin: 09 - St. Ebbs.mp3
+Time: 168
+Artist: Dan Bull
+Title: St. Ebbs
+Album: Safe
+Track: 09
+Date: 2009
+Genre: Hip-Hop
+mtime: 1364235821
+song_end
+song_begin: 10 - Outbound.mp3
+Time: 227
+Artist: Dan Bull
+Title: Outbound
+Album: Safe
+Track: 10
+Date: 2009
+Genre: Hip-Hop
+mtime: 1364235821
+song_end
+song_begin: 11 - Safe.mp3
+Time: 265
+Artist: Dan Bull
+Title: Safe
+Album: Safe
+Track: 11
+Date: 2009
+Genre: Hip-Hop
+mtime: 1364235822
+song_end
+song_begin: 12 - Winter.mp3
+Time: 284
+Artist: Dan Bull
+Title: Winter
+Album: Safe
+Track: 12
+Date: 2009
+Genre: Hip-Hop
+mtime: 1364235819
+song_end
+end: Dan Bull/Safe
+end: Dan Bull
+directory: Digitalism
+mtime: 1364235828
+begin: Digitalism
+directory: I Love You, Dude
+mtime: 1364235828
+begin: Digitalism/I Love You, Dude
+song_begin: 01 Stratosphere.mp3
+Time: 180
+Artist: Digitalism
+AlbumArtist: Digitalism
+Title: Stratosphere
+Album: I Love You, Dude
+Track: 01
+Date: 2011
+Genre: Electro
+mtime: 1364235828
+song_end
+song_begin: 02 2 Hearts.mp3
+Time: 235
+Artist: Digitalism
+AlbumArtist: Digitalism
+Title: 2 Hearts
+Album: I Love You, Dude
+Track: 02
+Date: 2011
+Genre: Electro
+mtime: 1364235823
+song_end
+song_begin: 03 Circles.mp3
+Time: 225
+Artist: Digitalism
+AlbumArtist: Digitalism
+Title: Circles
+Album: I Love You, Dude
+Track: 03
+Date: 2011
+Genre: Electro
+mtime: 1364235824
+song_end
+song_begin: 04 Blitz.mp3
+Time: 256
+Artist: Digitalism
+AlbumArtist: Digitalism
+Title: Blitz
+Album: I Love You, Dude
+Track: 04
+Date: 2011
+Genre: Electro
+mtime: 1364235825
+song_end
+song_begin: 05 Forrest Gump.mp3
+Time: 213
+Artist: Digitalism
+AlbumArtist: Digitalism
+Title: Forrest Gump
+Album: I Love You, Dude
+Track: 05
+Date: 2011
+Genre: Electro
+mtime: 1364235825
+song_end
+song_begin: 06 Reeperbahn.mp3
+Time: 231
+Artist: Digitalism
+AlbumArtist: Digitalism
+Title: Reeperbahn
+Album: I Love You, Dude
+Track: 06
+Date: 2011
+Genre: Electro
+mtime: 1364235826
+song_end
+song_begin: 07 Antibiotics.mp3
+Time: 238
+Artist: Digitalism
+AlbumArtist: Digitalism
+Title: Antibiotics
+Album: I Love You, Dude
+Track: 07
+Date: 2011
+Genre: Electro
+mtime: 1364235827
+song_end
+song_begin: 08 Just Gazin'.mp3
+Time: 207
+Artist: Digitalism
+AlbumArtist: Digitalism
+Title: Just Gazin'
+Album: I Love You, Dude
+Track: 08
+Date: 2011
+Genre: Electro
+mtime: 1364235827
+song_end
+song_begin: 09 Miami Showdown.mp3
+Time: 207
+Artist: Digitalism
+AlbumArtist: Digitalism
+Title: Miami Showdown
+Album: I Love You, Dude
+Track: 09
+Date: 2011
+Genre: Electro
+mtime: 1364235828
+song_end
+song_begin: 10 Encore.mp3
+Time: 255
+Artist: Digitalism
+AlbumArtist: Digitalism
+Title: Encore
+Album: I Love You, Dude
+Track: 10
+Date: 2011
+Genre: Electro
+mtime: 1364235823
+song_end
+end: Digitalism/I Love You, Dude
+directory: Idealism
+mtime: 1364235833
+begin: Digitalism/Idealism
+song_begin: 01 Magnets.mp3
+Time: 231
+Artist: Digitalism
+Title: Magnets
+Album: Idealism
+Track: 01
+Date: 2007
+mtime: 1364235833
+song_end
+song_begin: 02 Zdarlight.mp3
+Time: 341
+Artist: Digitalism
+Title: Zdarlight
+Album: Idealism
+Track: 02
+Date: 2007
+mtime: 1364235829
+song_end
+song_begin: 03 I Want I Want.mp3
+Time: 209
+Artist: Digitalism
+Title: I Want I Want
+Album: Idealism
+Track: 03
+Date: 2007
+mtime: 1364235830
+song_end
+song_begin: 04 Idealistic.mp3
+Time: 251
+Artist: Digitalism
+Title: Idealistic
+Album: Idealism
+Track: 04
+Date: 2007
+mtime: 1364235830
+song_end
+song_begin: 05 Digitalism In Cairo.mp3
+Time: 289
+Artist: Digitalism
+Title: Digitalism In Cairo
+Album: Idealism
+Track: 05
+Date: 2007
+mtime: 1364235830
+song_end
+song_begin: 06 Departure from Cairo.mp3
+Time: 54
+Artist: Digitalism
+Title: Departure from Cairo
+Album: Idealism
+Track: 06
+Date: 2007
+mtime: 1364235830
+song_end
+song_begin: 07 Echoes.mp3
+Time: 219
+Artist: Digitalism
+Title: Echoes
+Album: Idealism
+Track: 07
+Date: 2007
+mtime: 1364235831
+song_end
+song_begin: 08 Jupiter Approach.mp3
+Time: 73
+Artist: Digitalism
+Title: Jupiter Approach
+Album: Idealism
+Track: 08
+Date: 2007
+mtime: 1364235831
+song_end
+song_begin: 09 Jupiter Room (Martian Assault Mix.mp3
+Time: 303
+Artist: Digitalism
+Title: Jupiter Room (Martian Assault Mix
+Album: Idealism
+Track: 09
+Date: 2007
+mtime: 1364235831
+song_end
+song_begin: 10 Pogo.mp3
+Time: 227
+Artist: Digitalism
+Title: Pogo
+Album: Idealism
+Track: 10
+Date: 2007
+mtime: 1364235831
+song_end
+song_begin: 11 Moonlight.mp3
+Time: 172
+Artist: Digitalism
+Title: Moonlight
+Album: Idealism
+Track: 11
+Date: 2007
+mtime: 1364235832
+song_end
+song_begin: 12 Anything New.mp3
+Time: 299
+Artist: Digitalism
+Title: Anything New
+Album: Idealism
+Track: 12
+Date: 2007
+mtime: 1364235832
+song_end
+song_begin: 13 The Pulse.mp3
+Time: 259
+Artist: Digitalism
+Title: The Pulse
+Album: Idealism
+Track: 13
+Date: 2007
+mtime: 1364235832
+song_end
+song_begin: 14 Home Zone.mp3
+Time: 129
+Artist: Digitalism
+Title: Home Zone
+Album: Idealism
+Track: 14
+Date: 2007
+mtime: 1364235832
+song_end
+song_begin: 15 Apollo-Gize.mp3
+Time: 140
+Artist: Digitalism
+Title: Apollo-Gize
+Album: Idealism
+Track: 15
+Date: 2007
+mtime: 1364235833
+song_end
+song_begin: 16 Jupiter Room (Planetary Lobby Ver.mp3
+Time: 285
+Artist: Digitalism
+Title: Jupiter Room (Planetary Lobby Ver
+Album: Idealism
+Track: 16
+Date: 2007
+mtime: 1364235833
+song_end
+song_begin: 17 TV TV.mp3
+Time: 342
+Artist: Digitalism
+Title: TV TV
+Album: Idealism
+Track: 17
+Date: 2007
+mtime: 1364235829
+song_end
+end: Digitalism/Idealism
+end: Digitalism
+directory: Disturbed
+mtime: 1364235872
+begin: Disturbed
+directory: Asylum
+mtime: 1364235844
+begin: Disturbed/Asylum
+song_begin: 01 Remnants.mp3
+Time: 164
+Artist: Disturbed
+Title: Remnants
+Album: Asylum
+Track: 1
+mtime: 1364235844
+song_end
+song_begin: 02 Asylum.mp3
+Time: 276
+Artist: Disturbed
+Title: Asylum
+Album: Asylum
+Track: 2
+mtime: 1364235835
+song_end
+song_begin: 03 The Infection.mp3
+Time: 249
+Artist: Disturbed
+Title: The Infection
+Album: Asylum
+Track: 3
+mtime: 1364235836
+song_end
+song_begin: 04 Warrior.mp3
+Time: 205
+Artist: Disturbed
+Title: Warrior
+Album: Asylum
+Track: 4
+mtime: 1364235836
+song_end
+song_begin: 05 Another Way To Die.mp3
+Time: 253
+Artist: Disturbed
+Title: Another Way To Die
+Album: Asylum
+Track: 5
+mtime: 1364235837
+song_end
+song_begin: 06 Never Again.mp3
+Time: 214
+Artist: Disturbed
+Title: Never Again
+Album: Asylum
+Track: 6
+mtime: 1364235838
+song_end
+song_begin: 07 The Animal.mp3
+Time: 254
+Artist: Disturbed
+Title: The Animal
+Album: Asylum
+Track: 7
+mtime: 1364235838
+song_end
+song_begin: 08 Crucified.mp3
+Time: 277
+Artist: Disturbed
+Title: Crucified
+Album: Asylum
+Track: 8
+mtime: 1364235839
+song_end
+song_begin: 09 Serpentine.mp3
+Time: 250
+Artist: Disturbed
+Title: Serpentine
+Album: Asylum
+Track: 9
+mtime: 1364235840
+song_end
+song_begin: 10 My Child.mp3
+Time: 198
+Artist: Disturbed
+Title: My Child
+Album: Asylum
+Track: 10
+mtime: 1364235840
+song_end
+song_begin: 11 Sacrifice.mp3
+Time: 240
+Artist: Disturbed
+Title: Sacrifice
+Album: Asylum
+Track: 11
+mtime: 1364235841
+song_end
+song_begin: 12 Innocence.mp3
+Time: 271
+Artist: Disturbed
+Title: Innocence
+Album: Asylum
+Track: 12
+mtime: 1364235842
+song_end
+song_begin: 13 Down With The Sickness (Live).mp3
+Time: 328
+Artist: Disturbed
+Title: Down With The Sickness (Live)
+Album: Asylum
+Track: 13
+mtime: 1364235843
+song_end
+song_begin: 14 Stricken (Live).mp3
+Time: 355
+Artist: Disturbed
+Title: Stricken (Live)
+Album: Asylum
+Track: 14
+mtime: 1364235844
+song_end
+song_begin: 15 Bonus.mp3
+Time: 257
+Artist: Disturbed
+Title: Bonus
+Album: Asylum
+Track: 15
+mtime: 1364235834
+song_end
+end: Disturbed/Asylum
+directory: Believe
+mtime: 1364235852
+begin: Disturbed/Believe
+song_begin: Prayer.mp3
+Time: 221
+Artist: Disturbed
+AlbumArtist: Disturbed
+Title: Prayer
+Album: Believe
+Track: 01
+Date: 2002
+Genre: Heavy Metal
+Composer: Disturbed
+mtime: 1364235851
+song_end
+song_begin: Liberate.mp3
+Time: 210
+Artist: Disturbed
+AlbumArtist: Disturbed
+Title: Liberate
+Album: Believe
+Track: 02
+Date: 2002
+Genre: Heavy Metal
+Composer: Disturbed
+mtime: 1364235850
+song_end
+song_begin: Awaken.mp3
+Time: 269
+Artist: Disturbed
+AlbumArtist: Disturbed
+Title: Awaken
+Album: Believe
+Track: 03
+Date: 2002
+Genre: Heavy Metal
+Composer: Disturbed
+mtime: 1364235853
+song_end
+song_begin: Believe.mp3
+Time: 268
+Artist: Disturbed
+AlbumArtist: Disturbed
+Title: Believe
+Album: Believe
+Track: 04
+Date: 2002
+Genre: Heavy Metal
+Composer: Disturbed
+mtime: 1364235846
+song_end
+song_begin: Remember.mp3
+Time: 251
+Artist: Disturbed
+AlbumArtist: Disturbed
+Title: Remember
+Album: Believe
+Track: 05
+Date: 2002
+Genre: Heavy Metal
+Composer: Disturbed
+mtime: 1364235852
+song_end
+song_begin: Intoxication.mp3
+Time: 194
+Artist: Disturbed
+AlbumArtist: Disturbed
+Title: Intoxication
+Album: Believe
+Track: 06
+Date: 2002
+Genre: Heavy Metal
+Composer: Disturbed
+mtime: 1364235849
+song_end
+song_begin: Rise.mp3
+Time: 237
+Artist: Disturbed
+AlbumArtist: Disturbed
+Title: Rise
+Album: Believe
+Track: 07
+Date: 2002
+Genre: Heavy Metal
+Composer: Disturbed
+mtime: 1364235845
+song_end
+song_begin: Mistress.mp3
+Time: 227
+Artist: Disturbed
+AlbumArtist: Disturbed
+Title: Mistress
+Album: Believe
+Track: 08
+Date: 2002
+Genre: Heavy Metal
+Composer: Disturbed
+mtime: 1364235851
+song_end
+song_begin: Breathe.mp3
+Time: 261
+Artist: Disturbed
+AlbumArtist: Disturbed
+Title: Breathe
+Album: Believe
+Track: 09
+Date: 2002
+Genre: Heavy Metal
+Composer: Disturbed
+mtime: 1364235847
+song_end
+song_begin: Bound.mp3
+Time: 233
+Artist: Disturbed
+AlbumArtist: Disturbed
+Title: Bound
+Album: Believe
+Track: 10
+Date: 2002
+Genre: Heavy Metal
+Composer: Disturbed
+mtime: 1364235847
+song_end
+song_begin: Devour.mp3
+Time: 233
+Artist: Disturbed
+AlbumArtist: Disturbed
+Title: Devour
+Album: Believe
+Track: 11
+Date: 2002
+Genre: Heavy Metal
+Composer: Disturbed
+mtime: 1364235849
+song_end
+song_begin: Darkness.mp3
+Time: 237
+Artist: Disturbed
+AlbumArtist: Disturbed
+Title: Darkness
+Album: Believe
+Track: 12
+Date: 2002
+Genre: Heavy Metal
+Composer: Disturbed
+mtime: 1364235848
+song_end
+end: Disturbed/Believe
+directory: Indestructible
+mtime: 1364235861
+begin: Disturbed/Indestructible
+song_begin: 01 Indestructible.mp3
+Time: 278
+Artist: Disturbed
+Title: Indestructible
+Album: Indestructible
+Track: 1
+mtime: 1364235861
+song_end
+song_begin: 02 Inside The Fire.mp3
+Time: 231
+Artist: Disturbed
+Title: Inside The Fire
+Album: Indestructible
+Track: 2
+mtime: 1364235854
+song_end
+song_begin: 03 Deceiver.mp3
+Time: 229
+Artist: Disturbed
+Title: Deceiver
+Album: Indestructible
+Track: 3
+mtime: 1364235855
+song_end
+song_begin: 04 The Night.mp3
+Time: 286
+Artist: Disturbed
+Title: The Night
+Album: Indestructible
+Track: 4
+mtime: 1364235856
+song_end
+song_begin: 05 Perfect Insanity.mp3
+Time: 236
+Artist: Disturbed
+Title: Perfect Insanity
+Album: Indestructible
+Track: 5
+mtime: 1364235856
+song_end
+song_begin: 06 Haunted.mp3
+Time: 282
+Artist: Disturbed
+Title: Haunted
+Album: Indestructible
+Track: 6
+mtime: 1364235857
+song_end
+song_begin: 07 Enough.mp3
+Time: 260
+Artist: Disturbed
+Title: Enough
+Album: Indestructible
+Track: 7
+mtime: 1364235858
+song_end
+song_begin: 08 The Curse.mp3
+Time: 204
+Artist: Disturbed
+Title: The Curse
+Album: Indestructible
+Track: 8
+mtime: 1364235858
+song_end
+song_begin: 09 Torn.mp3
+Time: 249
+Artist: Disturbed
+Title: Torn
+Album: Indestructible
+Track: 9
+mtime: 1364235859
+song_end
+song_begin: 10 Criminal.mp3
+Time: 256
+Artist: Disturbed
+Title: Criminal
+Album: Indestructible
+Track: 10
+mtime: 1364235860
+song_end
+song_begin: 11 Divide.mp3
+Time: 216
+Artist: Disturbed
+Title: Divide
+Album: Indestructible
+Track: 11
+mtime: 1364235861
+song_end
+song_begin: 12 Façade.mp3
+Time: 227
+Artist: Disturbed
+Title: Façade
+Album: Indestructible
+Track: 12
+mtime: 1364235854
+song_end
+end: Disturbed/Indestructible
+directory: Ten Thousand Fists
+mtime: 1364235871
+begin: Disturbed/Ten Thousand Fists
+song_begin: 01 Ten Thousand Fists.mp3
+Time: 213
+Artist: Disturbed
+Title: Ten Thousand Fists
+Album: Ten Thousand Fists
+Track: 1
+mtime: 1364235872
+song_end
+song_begin: 02 Just Stop.mp3
+Time: 226
+Artist: Disturbed
+Title: Just Stop
+Album: Ten Thousand Fists
+Track: 2
+mtime: 1364235863
+song_end
+song_begin: 03 Guarded.mp3
+Time: 202
+Artist: Disturbed
+Title: Guarded
+Album: Ten Thousand Fists
+Track: 3
+mtime: 1364235864
+song_end
+song_begin: 04 Deify.mp3
+Time: 258
+Artist: Disturbed
+Title: Deify
+Album: Ten Thousand Fists
+Track: 4
+mtime: 1364235864
+song_end
+song_begin: 05 Stricken.mp3
+Time: 247
+Artist: Disturbed
+Title: Stricken
+Album: Ten Thousand Fists
+Track: 5
+mtime: 1364235865
+song_end
+song_begin: 06 I'm Alive.mp3
+Time: 282
+Artist: Disturbed
+Title: I'm Alive
+Album: Ten Thousand Fists
+Track: 6
+mtime: 1364235866
+song_end
+song_begin: 07 Sons Of Plunder.mp3
+Time: 230
+Artist: Disturbed
+Title: Sons Of Plunder
+Album: Ten Thousand Fists
+Track: 7
+mtime: 1364235867
+song_end
+song_begin: 08 Overburdened.mp3
+Time: 359
+Artist: Disturbed
+Title: Overburdened
+Album: Ten Thousand Fists
+Track: 8
+mtime: 1364235868
+song_end
+song_begin: 09 Decadence.mp3
+Time: 207
+Artist: Disturbed
+Title: Decadence
+Album: Ten Thousand Fists
+Track: 9
+mtime: 1364235868
+song_end
+song_begin: 10 Forgiven.mp3
+Time: 255
+Artist: Disturbed
+Title: Forgiven
+Album: Ten Thousand Fists
+Track: 10
+mtime: 1364235869
+song_end
+song_begin: 11 Land Of Confusion.mp3
+Time: 290
+Artist: Disturbed
+Title: Land Of Confusion
+Album: Ten Thousand Fists
+Track: 11
+mtime: 1364235870
+song_end
+song_begin: 12 Sacred Lie.mp3
+Time: 188
+Artist: Disturbed
+Title: Sacred Lie
+Album: Ten Thousand Fists
+Track: 12
+mtime: 1364235870
+song_end
+song_begin: 13 Pain Redefined.mp3
+Time: 250
+Artist: Disturbed
+Title: Pain Redefined
+Album: Ten Thousand Fists
+Track: 13
+mtime: 1364235871
+song_end
+song_begin: 14 Avarice.mp3
+Time: 177
+Artist: Disturbed
+Title: Avarice
+Album: Ten Thousand Fists
+Track: 14
+mtime: 1364235862
+song_end
+end: Disturbed/Ten Thousand Fists
+directory: The Sickness
+mtime: 1364235880
+begin: Disturbed/The Sickness
+song_begin: 01 Voices.mp3
+Time: 192
+Artist: Disturbed
+Title: Voices
+Album: The Sickness (10th Anniversary Edition)
+Track: 1
+mtime: 1364235881
+song_end
+song_begin: 02 The Game.mp3
+Time: 227
+Artist: Disturbed
+Title: The Game
+Album: The Sickness (10th Anniversary Edition)
+Track: 2
+mtime: 1364235873
+song_end
+song_begin: 03 Stupify.mp3
+Time: 274
+Artist: Disturbed
+Title: Stupify
+Album: The Sickness (10th Anniversary Edition)
+Track: 3
+mtime: 1364235874
+song_end
+song_begin: 04 Down With The Sickness.mp3
+Time: 279
+Artist: Disturbed
+Title: Down With The Sickness
+Album: The Sickness (10th Anniversary Edition)
+Track: 4
+mtime: 1364235875
+song_end
+song_begin: 05 Violence Fetish.mp3
+Time: 203
+Artist: Disturbed
+Title: Violence Fetish
+Album: The Sickness (10th Anniversary Edition)
+Track: 5
+mtime: 1364235875
+song_end
+song_begin: 06 Fear.mp3
+Time: 227
+Artist: Disturbed
+Title: Fear
+Album: The Sickness (10th Anniversary Edition)
+Track: 6
+mtime: 1364235876
+song_end
+song_begin: 07 Numb.mp3
+Time: 225
+Artist: Disturbed
+Title: Numb
+Album: The Sickness (10th Anniversary Edition)
+Track: 7
+mtime: 1364235876
+song_end
+song_begin: 08 Want.mp3
+Time: 232
+Artist: Disturbed
+Title: Want
+Album: The Sickness (10th Anniversary Edition)
+Track: 8
+mtime: 1364235877
+song_end
+song_begin: 09 Conflict.mp3
+Time: 275
+Artist: Disturbed
+Title: Conflict
+Album: The Sickness (10th Anniversary Edition)
+Track: 9
+mtime: 1364235878
+song_end
+song_begin: 10 Shout 2000.mp3
+Time: 258
+Artist: Disturbed
+Title: Shout 2000
+Album: The Sickness (10th Anniversary Edition)
+Track: 10
+mtime: 1364235878
+song_end
+song_begin: 11 Droppin' Plates.mp3
+Time: 229
+Artist: Disturbed
+Title: Droppin' Plates
+Album: The Sickness (10th Anniversary Edition)
+Track: 11
+mtime: 1364235879
+song_end
+song_begin: 12 Meaning Of Life.mp3
+Time: 242
+Artist: Disturbed
+Title: Meaning Of Life
+Album: The Sickness (10th Anniversary Edition)
+Track: 12
+mtime: 1364235880
+song_end
+song_begin: 13 God Of The Mind.mp3
+Time: 186
+Artist: Disturbed
+Title: God Of The Mind
+Album: The Sickness (10th Anniversary Edition)
+Track: 13
+mtime: 1364235880
+song_end
+song_begin: 14 A Welcome Burden.mp3
+Time: 212
+Artist: Disturbed
+Title: A Welcome Burden
+Album: The Sickness (10th Anniversary Edition)
+Track: 14
+mtime: 1364235872
+song_end
+end: Disturbed/The Sickness
+end: Disturbed
+directory: Eths
+mtime: 1364235760
+begin: Eths
+directory: Autopsie
+mtime: 1364235744
+begin: Eths/Autopsie
+song_begin: 01 - Pourquoi.mp3
+Time: 237
+Artist: Eths
+Title: Pourquoi
+Album: Autopsie
+Track: 01
+Genre: .
+mtime: 1364235744
+song_end
+song_begin: 02 - La chair & le sang.mp3
+Time: 169
+Artist: Eths
+Title: La chair & le sang
+Album: Autopsie
+Track: 02
+Genre: .
+mtime: 1364235743
+song_end
+song_begin: 03 - A la droite de Dieu.mp3
+Time: 190
+Artist: Eths
+Title: A la droite de Dieu
+Album: Autopsie
+Track: 03
+Genre: .
+mtime: 1364235743
+song_end
+song_begin: 04 - Le MÃ¢le.mp3
+Time: 155
+Artist: Eths
+Title: Le Mâle
+Album: Autopsie
+Track: 04
+Genre: .
+mtime: 1364235743
+song_end
+song_begin: 05 - Des hommes bons.mp3
+Time: 241
+Artist: Eths
+Title: Des hommes bons
+Album: Autopsie
+Track: 05
+Genre: .
+mtime: 1364235744
+song_end
+song_begin: 06 - Autopsie.mp3
+Time: 237
+Artist: Eths
+Title: Autopsie
+Album: Autopsie
+Track: 06
+Genre: .
+mtime: 1364235744
+song_end
+song_begin: 07 - DÃ©vore.mp3
+Time: 612
+Artist: Eths
+Title: Dévore
+Album: Autopsie
+Track: 07
+Genre: .
+mtime: 1364235745
+song_end
+end: Eths/Autopsie
+directory: III
+mtime: 1364235752
+begin: Eths/III
+song_begin: 01 - Voragine.mp3
+Time: 227
+Artist: Eths
+AlbumArtist: Eths
+Title: Voragine
+Album: III
+Track: 01
+Date: 2012
+Genre: Metal
+mtime: 1364235753
+song_end
+song_begin: 02 - Harmaguedon.mp3
+Time: 287
+Artist: Eths
+AlbumArtist: Eths
+Title: Harmaguedon
+Album: III
+Track: 02
+Date: 2012
+Genre: Metal
+mtime: 1364235746
+song_end
+song_begin: 03 - Adonai.mp3
+Time: 240
+Artist: Eths
+AlbumArtist: Eths
+Title: Adonai
+Album: III
+Track: 03
+Date: 2012
+Genre: Metal
+mtime: 1364235747
+song_end
+song_begin: 04 - Gravis Venter.mp3
+Time: 304
+Artist: Eths
+AlbumArtist: Eths
+Title: Gravis Venter
+Album: III
+Track: 04
+Date: 2012
+Genre: Metal
+mtime: 1364235748
+song_end
+song_begin: 05 - Inanis Venter.mp3
+Time: 264
+Artist: Eths
+AlbumArtist: Eths
+Title: Inanis Venter
+Album: III
+Track: 05
+Date: 2012
+Genre: Metal
+mtime: 1364235749
+song_end
+song_begin: 06 - Sidus.mp3
+Time: 287
+Artist: Eths
+AlbumArtist: Eths
+Title: Sidus
+Album: III
+Track: 06
+Date: 2012
+Genre: Metalcore
+mtime: 1364235749
+song_end
+song_begin: 07 - Proserpina.mp3
+Time: 345
+Artist: Eths
+AlbumArtist: Eths
+Title: Proserpina
+Album: III
+Track: 07
+Date: 2012
+Genre: Metalcore
+mtime: 1364235750
+song_end
+song_begin: 08 - Hercolubus .mp3
+Time: 305
+Artist: Eths
+AlbumArtist: Eths
+Title: Hercolubus
+Album: III
+Track: 08
+Date: 2012
+Genre: Metalcore
+mtime: 1364235751
+song_end
+song_begin: 09 - Praedator .mp3
+Time: 96
+Artist: Eths
+AlbumArtist: Eths
+Title: Praedator
+Album: III
+Track: 09
+Date: 2012
+Genre: Metalcore
+mtime: 1364235751
+song_end
+song_begin: 11 - Music .mp3
+Time: 241
+Artist: Eths
+AlbumArtist: Eths
+Title: Music
+Album: III
+Track: 11
+Date: 2012
+Genre: Metalcore
+mtime: 1364235752
+song_end
+song_begin: 12 - 7 .mp3
+Time: 233
+Artist: Eths
+AlbumArtist: Eths
+Title: 7
+Album: III
+Track: 12
+Date: 2012
+Genre: Metalcore
+mtime: 1364235752
+song_end
+song_begin: 13 - Cerebellum .mp3
+Time: 252
+Artist: Eths
+AlbumArtist: Eths
+Title: Cerebellum
+Album: III
+Track: 13
+Date: 2012
+Genre: Metalcore
+mtime: 1364235746
+song_end
+end: Eths/III
+directory: Samantha
+mtime: 1364235754
+begin: Eths/Samantha
+song_begin: 01 - Intro.mp3
+Time: 23
+Artist: Eths
+Title: Intro
+Album: Samantha
+Track: 01
+Genre: Rock/Pop
+mtime: 1364235754
+song_end
+song_begin: 02 - Samantha.mp3
+Time: 302
+Artist: Eths
+Title: Samantha
+Album: Samantha
+Track: 02
+Genre: Rock/Pop
+mtime: 1364235753
+song_end
+song_begin: 03 - Des Cendres.mp3
+Time: 203
+Artist: Eths
+Title: Des Cendres
+Album: Samantha
+Track: 03
+Genre: Rock/Pop
+mtime: 1364235754
+song_end
+song_begin: 04 - Encore.mp3
+Time: 189
+Artist: Eths
+Title: Encore
+Album: Samantha
+Track: 04
+Genre: Rock/Pop
+mtime: 1364235753
+song_end
+song_begin: 05 - VolÃ©e.mp3
+Time: 174
+Artist: Eths
+Title: Volée
+Album: Samantha
+Track: 05
+Genre: Rock/Pop
+mtime: 1364235754
+song_end
+song_begin: 06 - Le Projet Humain.mp3
+Time: 298
+Artist: Eths
+Title: Le Projet Humain
+Album: Samantha
+Track: 06
+Genre: Rock/Pop
+mtime: 1364235754
+song_end
+song_begin: 07 - Animadversion.mp3
+Time: 650
+Artist: Eths
+Title: Animadversion
+Album: Samantha
+Track: 07
+Genre: Rock/Pop
+mtime: 1364235755
+song_end
+end: Eths/Samantha
+directory: TÃ©ratologie
+mtime: 1364235765
+begin: Eths/TÃ©ratologie
+song_begin: 01 - intro.mp3
+Time: 39
+Artist: Eths
+Title: intro
+Album: Teratologie
+Track: 01
+Date: 2007
+mtime: 1364235765
+song_end
+song_begin: 02 - Blumiarexia.mp3
+Time: 247
+Artist: Eths
+Title: Blumiarexia
+Album: Teratologie
+Track: 02
+Date: 2007
+mtime: 1364235761
+song_end
+song_begin: 03 - NaOCL.mp3
+Time: 102
+Artist: Eths
+Title: NaOCL
+Album: Teratologie
+Track: 03
+Date: 2007
+mtime: 1364235761
+song_end
+song_begin: 04 - TÃ©ratologie.mp3
+Time: 289
+Artist: Eths
+Title: Tératologie
+Album: Teratologie
+Track: 04
+Date: 2007
+mtime: 1364235761
+song_end
+song_begin: 05 - V.I.T.R.I.O.L.mp3
+Time: 248
+Artist: Eths
+Title: V.I.T.R.I.O.L
+Album: Teratologie
+Track: 05
+Date: 2007
+mtime: 1364235762
+song_end
+song_begin: 06 - Priape.mp3
+Time: 286
+Artist: Eths
+Title: Priape
+Album: Teratologie
+Track: 06
+Date: 2007
+mtime: 1364235762
+song_end
+song_begin: 07 - Hydracombustio.mp3
+Time: 238
+Artist: Eths
+Title: Hydracombustio
+Album: Teratologie
+Track: 07
+Date: 2007
+mtime: 1364235762
+song_end
+song_begin: 08 - AtavhystÃ©rie.mp3
+Time: 306
+Artist: Eths
+Title: Atavhystérie
+Album: Teratologie
+Track: 08
+Date: 2007
+mtime: 1364235763
+song_end
+song_begin: 09 - Rythmique de la bÃªte.mp3
+Time: 195
+Artist: Eths
+Title: Rythmique de la bête
+Album: Teratologie
+Track: 09
+Date: 2007
+mtime: 1364235763
+song_end
+song_begin: 10 - Ileus TÃ©rÃ©belle.mp3
+Time: 207
+Artist: Eths
+Title: Ileus Térébelle
+Album: Teratologie
+Track: 10
+Date: 2007
+mtime: 1364235763
+song_end
+song_begin: 11 - Ileus Matricis.mp3
+Time: 205
+Artist: Eths
+Title: Ileus Matricis
+Album: Teratologie
+Track: 11
+Date: 2007
+mtime: 1364235763
+song_end
+song_begin: 12 - Holocauste en trois temps.mp3
+Time: 369
+Artist: Eths
+Title: Holocauste en trois temps
+Album: Teratologie
+Track: 12
+Date: 2007
+mtime: 1364235764
+song_end
+song_begin: 13 - Anima Exhalare.mp3
+Time: 246
+Artist: Eths
+Title: Anima Exhalare
+Album: Teratologie
+Track: 13
+Date: 2007
+mtime: 1364235764
+song_end
+song_begin: 14 - Liquide Ã©phÃ©mÃ¨re.mp3
+Time: 531
+Artist: Eths
+Title: Liquide éphémère
+Album: Teratologie
+Track: 14
+Date: 2007
+mtime: 1364235765
+song_end
+song_begin: 15 - Outro.mp3
+Time: 632
+Artist: Eths
+Title: Outro
+Album: Teratologie
+Track: 15
+Date: 2007
+mtime: 1364235760
+song_end
+end: Eths/TÃ©ratologie
+directory: SÃ´ma
+mtime: 1364235759
+begin: Eths/SÃ´ma
+song_begin: 01 - MÃ©lÃ©na.mp3
+Time: 147
+Artist: Eths
+Title: Méléna
+Album: Sôma
+Track: 01
+Genre: Metal
+mtime: 1364235760
+song_end
+song_begin: 02 - CrucifÃ¨re.mp3
+Time: 217
+Artist: Eths
+Title: Crucifère
+Album: Sôma
+Track: 02
+Genre: Metal
+mtime: 1364235757
+song_end
+song_begin: 03 - DÃ©truis-moi.mp3
+Time: 219
+Artist: Eths
+Title: Détruis-moi
+Album: Sôma
+Track: 03
+Genre: Metal
+mtime: 1364235757
+song_end
+song_begin: 04 - Septum Lucidum.mp3
+Time: 286
+Artist: Eths
+Title: Septum Lucidum
+Album: Sôma
+Track: 04
+Genre: Metal
+mtime: 1364235757
+song_end
+song_begin: 05 - Le Fruit Des Anges.mp3
+Time: 227
+Artist: Eths
+Title: Le Fruit Des Anges
+Album: Sôma
+Track: 05
+Genre: Metal
+mtime: 1364235758
+song_end
+song_begin: 06 - Infini.mp3
+Time: 292
+Artist: Eths
+Title: Infini
+Album: Sôma
+Track: 06
+Genre: Metal
+mtime: 1364235758
+song_end
+song_begin: 07 - Rutsah.mp3
+Time: 249
+Artist: Eths
+Title: Rutsah
+Album: Sôma
+Track: 07
+Genre: Metal
+mtime: 1364235758
+song_end
+song_begin: 08 - Je Vous Hais.mp3
+Time: 181
+Artist: Eths
+Title: Je Vous Hais
+Album: Sôma
+Track: 08
+Genre: Metal
+mtime: 1364235758
+song_end
+song_begin: 09 - L'instant Sourd.mp3
+Time: 148
+Artist: Eths
+Title: L'instant Sourd
+Album: Sôma
+Track: 09
+Genre: Metal
+mtime: 1364235759
+song_end
+song_begin: 10 - Simiesque.mp3
+Time: 397
+Artist: Eths
+Title: Simiesque
+Album: Sôma
+Track: 10
+Genre: Metal
+mtime: 1364235759
+song_end
+song_begin: 11 - Ailleurs C'est Ici.mp3
+Time: 319
+Artist: Eths
+Title: Ailleurs C'est Ici
+Album: Sôma
+Track: 11
+Genre: Metal
+mtime: 1364235759
+song_end
+song_begin: 12 - Elle S'endort.mp3
+Time: 1087
+Artist: Eths
+Title: Elle S'endort
+Album: Sôma
+Track: 12
+Genre: Metal
+mtime: 1364235756
+song_end
+end: Eths/SÃ´ma
+end: Eths
+directory: Example
+mtime: 1364235928
+begin: Example
+directory: Playing In The Shadows
+mtime: 1364235905
+begin: Example/Playing In The Shadows
+song_begin: 01 - Skies Don't Lie.mp3
+Time: 265
+Artist: Example
+AlbumArtist: Example
+Title: Skies Don't Lie
+Album: Playing In the Shadows (Bonus Track Version)
+Track: 01/15
+Date: 2011
+Genre: Dance
+Disc: 1/1
+mtime: 1364235906
+song_end
+song_begin: 02 - Stay Awake.mp3
+Time: 205
+Artist: Example
+AlbumArtist: Example
+Title: Stay Awake
+Album: Playing In the Shadows (Bonus Track Version)
+Track: 02/15
+Date: 2011
+Genre: Dance
+Disc: 1/1
+mtime: 1364235897
+song_end
+song_begin: 03 - Changed the Way You Kiss Me.mp3
+Time: 196
+Artist: Example
+AlbumArtist: Example
+Title: Changed the Way You Kiss Me
+Album: Playing In the Shadows (Bonus Track Version)
+Track: 03/15
+Date: 2011
+Genre: Dance
+Disc: 1/1
+mtime: 1364235897
+song_end
+song_begin: 04 - The Way.mp3
+Time: 269
+Artist: Example
+AlbumArtist: Example
+Title: The Way
+Album: Playing In the Shadows (Bonus Track Version)
+Track: 04/15
+Date: 2011
+Genre: Dance
+Disc: 1/1
+mtime: 1364235898
+song_end
+song_begin: 05 - Natural Disaster (Laidback Luke vs. Example) [Album Extended].mp3
+Time: 306
+Artist: Example
+AlbumArtist: Example
+Title: Natural Disaster (Laidback Luke vs. Example) [Album Extended]
+Album: Playing In the Shadows (Bonus Track Version)
+Track: 05/15
+Date: 2011
+Genre: Dance
+Disc: 1/1
+mtime: 1364235899
+song_end
+song_begin: 06 - Never Had a Day.mp3
+Time: 234
+Artist: Example
+AlbumArtist: Example
+Title: Never Had a Day
+Album: Playing In the Shadows (Bonus Track Version)
+Track: 06/15
+Date: 2011
+Genre: Dance
+Disc: 1/1
+mtime: 1364235900
+song_end
+song_begin: 07 - Microphone.mp3
+Time: 256
+Artist: Example
+AlbumArtist: Example
+Title: Microphone
+Album: Playing In the Shadows (Bonus Track Version)
+Track: 07/15
+Date: 2011
+Genre: Dance
+Disc: 1/1
+mtime: 1364235900
+song_end
+song_begin: 08 - Playing In the Shadows.mp3
+Time: 280
+Artist: Example
+AlbumArtist: Example
+Title: Playing In the Shadows
+Album: Playing In the Shadows (Bonus Track Version)
+Track: 08/15
+Date: 2011
+Genre: Dance
+Disc: 1/1
+mtime: 1364235901
+song_end
+song_begin: 09 - Midnight Run.mp3
+Time: 239
+Artist: Example
+AlbumArtist: Example
+Title: Midnight Run
+Album: Playing In the Shadows (Bonus Track Version)
+Track: 09/15
+Date: 2011
+Genre: Dance
+Disc: 1/1
+mtime: 1364235902
+song_end
+song_begin: 10 - Under the Influence.mp3
+Time: 295
+Artist: Example
+AlbumArtist: Example
+Title: Under the Influence
+Album: Playing In the Shadows (Bonus Track Version)
+Track: 10/15
+Date: 2011
+Genre: Dance
+Disc: 1/1
+mtime: 1364235903
+song_end
+song_begin: 11 - Wrong In the Head.mp3
+Time: 191
+Artist: Example
+AlbumArtist: Example
+Title: Wrong In the Head
+Album: Playing In the Shadows (Bonus Track Version)
+Track: 11/15
+Date: 2011
+Genre: Dance
+Disc: 1/1
+mtime: 1364235903
+song_end
+song_begin: 12 - Anything.mp3
+Time: 212
+Artist: Example
+AlbumArtist: Example
+Title: Anything
+Album: Playing In the Shadows (Bonus Track Version)
+Track: 12/15
+Date: 2011
+Genre: Dance
+Disc: 1/1
+mtime: 1364235904
+song_end
+song_begin: 13 - Plastic Smile (Example vs. Felguk) [Bonus Track].mp3
+Time: 282
+Artist: Example
+AlbumArtist: Example
+Title: Plastic Smile (Example vs. Felguk) [Bonus Track]
+Album: Playing In the Shadows (Bonus Track Version)
+Track: 13/15
+Date: 2011
+Genre: Dance
+Disc: 1/1
+mtime: 1364235905
+song_end
+song_begin: 14 - Shot Yourself In the Foot Again (Bonus Track).mp3
+Time: 223
+Artist: Example
+AlbumArtist: Example
+Title: Shot Yourself In the Foot Again (Bonus Track)
+Album: Playing In the Shadows (Bonus Track Version)
+Track: 14/15
+Date: 2011
+Genre: Dance
+Disc: 1/1
+mtime: 1364235905
+song_end
+song_begin: 15 - Changed the Way You Kiss Me (Friction Remix) [Bonus Track].mp3
+Time: 286
+Artist: Example
+AlbumArtist: Example
+Title: Changed the Way You Kiss Me (Friction Remix) [Bonus Track]
+Album: Playing In the Shadows (Bonus Track Version)
+Track: 15/15
+Date: 2011
+Genre: Dance
+Disc: 1/1
+mtime: 1364235896
+song_end
+end: Example/Playing In The Shadows
+directory: The Evolution f Man
+mtime: 1364235921
+begin: Example/The Evolution f Man
+song_begin: 01 - Example - Come Taste the Rainbow.mp3
+Time: 251
+Artist: Example
+AlbumArtist: Example
+Title: Come Taste the Rainbow
+Album: The Evolution of Man (Deluxe Version)
+Track: 01/21
+Date: 2012
+Genre: Dance
+Disc: 1/1
+mtime: 1364235922
+song_end
+song_begin: 02 - Example - Close Enemies.mp3
+Time: 263
+Artist: Example
+AlbumArtist: Example
+Title: Close Enemies
+Album: The Evolution of Man (Deluxe Version)
+Track: 02/21
+Date: 2012
+Genre: Dance
+Disc: 1/1
+mtime: 1364235907
+song_end
+song_begin: 03 - Example - Perfect Replacement.mp3
+Time: 209
+Artist: Example
+AlbumArtist: Example
+Title: Perfect Replacement
+Album: The Evolution of Man (Deluxe Version)
+Track: 03/21
+Date: 2012
+Genre: Dance
+Disc: 1/1
+mtime: 1364235908
+song_end
+song_begin: 04 - Example - Crying Out for Help.mp3
+Time: 254
+Artist: Example
+AlbumArtist: Example
+Title: Crying Out for Help
+Album: The Evolution of Man (Deluxe Version)
+Track: 04/21
+Date: 2012
+Genre: Dance
+Disc: 1/1
+mtime: 1364235908
+song_end
+song_begin: 05 - Example - Queen of Your Dreams.mp3
+Time: 193
+Artist: Example
+AlbumArtist: Example
+Title: Queen of Your Dreams
+Album: The Evolution of Man (Deluxe Version)
+Track: 05/21
+Date: 2012
+Genre: Dance
+Disc: 1/1
+mtime: 1364235909
+song_end
+song_begin: 06 - Example - Say Nothing.mp3
+Time: 221
+Artist: Example
+AlbumArtist: Example
+Title: Say Nothing
+Album: The Evolution of Man (Deluxe Version)
+Track: 06/21
+Date: 2012
+Genre: Dance
+Disc: 1/1
+mtime: 1364235909
+song_end
+song_begin: 07 - Example - All My Lows.mp3
+Time: 351
+Artist: Example
+AlbumArtist: Example
+Title: All My Lows
+Album: The Evolution of Man (Deluxe Version)
+Track: 07/21
+Date: 2012
+Genre: Dance
+Disc: 1/1
+mtime: 1364235910
+song_end
+song_begin: 08 - Example - The Evolution of Man.mp3
+Time: 237
+Artist: Example
+AlbumArtist: Example
+Title: The Evolution of Man
+Album: The Evolution of Man (Deluxe Version)
+Track: 08/21
+Date: 2012
+Genre: Dance
+Disc: 1/1
+mtime: 1364235911
+song_end
+song_begin: 09 - Example - One Way Mirror.mp3
+Time: 280
+Artist: Example
+AlbumArtist: Example
+Title: One Way Mirror
+Album: The Evolution of Man (Deluxe Version)
+Track: 09/21
+Date: 2012
+Genre: Dance
+Disc: 1/1
+mtime: 1364235912
+song_end
+song_begin: 10 - Example - Snakeskin.mp3
+Time: 262
+Artist: Example
+AlbumArtist: Example
+Title: Snakeskin
+Album: The Evolution of Man (Deluxe Version)
+Track: 10/21
+Date: 2012
+Genre: Dance
+Disc: 1/1
+mtime: 1364235913
+song_end
+song_begin: 11 - Example - Blood from a Stone.mp3
+Time: 290
+Artist: Example
+AlbumArtist: Example
+Title: Blood from a Stone
+Album: The Evolution of Man (Deluxe Version)
+Track: 11/21
+Date: 2012
+Genre: Dance
+Disc: 1/1
+mtime: 1364235914
+song_end
+song_begin: 12 - Example - Are You Sitting Comfortably-.mp3
+Time: 218
+Artist: Example
+AlbumArtist: Example
+Title: Are You Sitting Comfortably?
+Album: The Evolution of Man (Deluxe Version)
+Track: 12/21
+Date: 2012
+Genre: Dance
+Disc: 1/1
+mtime: 1364235914
+song_end
+song_begin: 13 - Calvin Harris & Example - We'll Be Coming Back.mp3
+Time: 238
+Artist: Example
+AlbumArtist: Example
+Title: We’ll Be Coming Back
+Album: The Evolution of Man (Deluxe Version)
+Track: 13/21
+Date: 2012
+Genre: Dance
+Disc: 1/1
+mtime: 1364235915
+song_end
+song_begin: 14 - Example - Lets Be Fucking Stupid.mp3
+Time: 244
+Artist: Example
+AlbumArtist: Example
+Title: Let’s Be Fucking Stupid
+Album: The Evolution of Man (Deluxe Version)
+Track: 14/21
+Date: 2012
+Genre: Dance
+Disc: 1/1
+mtime: 1364235916
+song_end
+song_begin: 15 - Example & Dillon Francis - Someone to Die For.mp3
+Time: 275
+Artist: Example
+AlbumArtist: Example
+Title: Someone to Die For
+Album: The Evolution of Man (Deluxe Version)
+Track: 15/21
+Date: 2012
+Genre: Dance
+Disc: 1/1
+mtime: 1364235916
+song_end
+song_begin: 16 - Example, AN21 & Max Vangeli - Whisper.mp3
+Time: 242
+Artist: Example
+AlbumArtist: Example
+Title: Whisper
+Album: The Evolution of Man (Deluxe Version)
+Track: 16/21
+Date: 2012
+Genre: Dance
+Disc: 1/1
+mtime: 1364235917
+song_end
+song_begin: 17 - Example & Laidback Luke - Eutopia (Fade Away).mp3
+Time: 271
+Artist: Example
+AlbumArtist: Example
+Title: Eutopia (Fade Away)
+Album: The Evolution of Man (Deluxe Version)
+Track: 17/21
+Date: 2012
+Genre: Dance
+Disc: 1/1
+mtime: 1364235918
+song_end
+song_begin: 18 - Example & Flux Pavilion - Daydreamer.mp3
+Time: 232
+Artist: Example
+AlbumArtist: Example
+Title: Daydreamer
+Album: The Evolution of Man (Deluxe Version)
+Track: 18/21
+Date: 2012
+Genre: Dance
+Disc: 1/1
+mtime: 1364235919
+song_end
+song_begin: 19 - Example - Say Nothing (Hardwell & Dannic Remix).mp3
+Time: 373
+Artist: Example
+AlbumArtist: Example
+Title: Say Nothing (Hardwell & Dannic Remix)
+Album: The Evolution of Man (Deluxe Version)
+Track: 19/21
+Date: 2012
+Genre: Dance
+Disc: 1/1
+mtime: 1364235920
+song_end
+song_begin: 20 - Example - Close Enemies (Joker Remix).mp3
+Time: 246
+Artist: Example
+AlbumArtist: Example
+Title: Close Enemies (Joker Remix)
+Album: The Evolution of Man (Deluxe Version)
+Track: 20/21
+Date: 2012
+Genre: Dance
+Disc: 1/1
+mtime: 1364235920
+song_end
+song_begin: 21 - Example - Close Enemies (Dyro Remix).mp3
+Time: 260
+Artist: Example
+AlbumArtist: Example
+Title: Close Enemies (Dyro Remix)
+Album: The Evolution of Man (Deluxe Version)
+Track: 21/21
+Date: 2012
+Genre: Dance
+Disc: 1/1
+mtime: 1364235921
+song_end
+end: Example/The Evolution f Man
+directory: What We Made
+mtime: 1364235927
+begin: Example/What We Made
+song_begin: 01 - So Many Roads.mp3
+Time: 214
+Artist: Example
+AlbumArtist: Example
+Title: So Many Roads
+Album: What We Made
+Track: 01
+Date: 2007
+mtime: 1364235928
+song_end
+song_begin: 02 - You Can't Rap.mp3
+Time: 195
+Artist: Example
+AlbumArtist: Example
+Title: You Can't Rap
+Album: What We Made
+Track: 02
+Date: 2007
+mtime: 1364235923
+song_end
+song_begin: 03 - Milk Your Goat.mp3
+Time: 262
+Artist: Example
+AlbumArtist: Example
+Title: Milk Your Goat
+Album: What We Made
+Track: 03
+Date: 2007
+mtime: 1364235923
+song_end
+song_begin: 04 - Birthday Card.mp3
+Time: 282
+Artist: Example
+AlbumArtist: Example
+Title: Birthday Card
+Album: What We Made
+Track: 04
+Date: 2007
+mtime: 1364235924
+song_end
+song_begin: 05 - I Dont Want To.mp3
+Time: 230
+Artist: Example
+AlbumArtist: Example
+Title: I Dont Want To
+Album: What We Made
+Track: 05
+Date: 2007
+mtime: 1364235924
+song_end
+song_begin: 06 - Popcorn & Fisticuffs.mp3
+Time: 231
+Artist: Example
+AlbumArtist: Example
+Title: Popcorn & Fisticuffs
+Album: What We Made
+Track: 06
+Date: 2007
+mtime: 1364235925
+song_end
+song_begin: 07 - Posh Birds.mp3
+Time: 230
+Artist: Example
+AlbumArtist: Example
+Title: Posh Birds
+Album: What We Made
+Track: 07
+Date: 2007
+mtime: 1364235925
+song_end
+song_begin: 08 - No Sleep For The Wicked.mp3
+Time: 1343
+Artist: Example
+AlbumArtist: Example
+Title: No Sleep For The Wicked
+Album: What We Made
+Track: 08
+Date: 2007
+mtime: 1364235926
+song_end
+song_begin: 09 - Me & Mandy.mp3
+Time: 207
+Artist: Example
+AlbumArtist: Example
+Title: Me & Mandy
+Album: What We Made
+Track: 09
+Date: 2007
+mtime: 1364235926
+song_end
+song_begin: 10 - Really Sorry.mp3
+Time: 1464
+Artist: Example
+AlbumArtist: Example
+Title: Really Sorry
+Album: What We Made
+Track: 10
+Date: 2007
+mtime: 1364235926
+song_end
+song_begin: 11 - Today I Met Myself.mp3
+Time: 199
+Artist: Example
+AlbumArtist: Example
+Title: Today I Met Myself
+Album: What We Made
+Track: 11
+Date: 2007
+mtime: 1364235927
+song_end
+song_begin: 12 - Care 4 U.mp3
+Time: 208
+Artist: Example
+AlbumArtist: Example
+Title: Care 4 U
+Album: What We Made
+Track: 12
+Date: 2007
+mtime: 1364235927
+song_end
+song_begin: 13 - What We Made.mp3
+Time: 238
+Artist: Example
+AlbumArtist: Example
+Title: What We Made
+Album: What We Made
+Track: 13
+Date: 2007
+mtime: 1364235923
+song_end
+end: Example/What We Made
+directory: Wont Go Quietly
+mtime: 1364235936
+begin: Example/Wont Go Quietly
+song_begin: 01 - From Space.mp3
+Time: 190
+Artist: Example
+Title: From Space
+Album: Won't Go Quietly
+Track: 01
+Date: 2010
+Genre: Hip-Hop
+Disc: 1/2
+mtime: 1364235936
+song_end
+song_begin: 02 - Won't Go Quietly.mp3
+Time: 242
+Artist: Example
+Title: Won't Go Quietly
+Album: Won't Go Quietly
+Track: 02
+Date: 2010
+Genre: Hip-Hop
+Disc: 1/2
+mtime: 1364235929
+song_end
+song_begin: 03 - Watch The Sun Come Up.mp3
+Time: 263
+Artist: Example
+Title: Watch The Sun Come Up
+Album: Won't Go Quietly
+Track: 03
+Date: 2010
+Genre: Hip-Hop
+Disc: 1/2
+mtime: 1364235929
+song_end
+song_begin: 04 - Time Machine.mp3
+Time: 251
+Artist: Example
+Title: Time Machine
+Album: Won't Go Quietly
+Track: 04
+Date: 2010
+Genre: Hip-Hop
+Disc: 1/2
+mtime: 1364235930
+song_end
+song_begin: 05 - Something In The Water.mp3
+Time: 233
+Artist: Example
+Title: Something In The Water
+Album: Won't Go Quietly
+Track: 05
+Date: 2010
+Genre: Hip-Hop
+Disc: 1/2
+mtime: 1364235930
+song_end
+song_begin: 06 - Last Ones Standing.mp3
+Time: 204
+Artist: Example
+Title: Last Ones Standing
+Album: Won't Go Quietly
+Track: 06
+Date: 2010
+Genre: Hip-Hop
+Disc: 1/2
+mtime: 1364235931
+song_end
+song_begin: 07 - Millionaires.mp3
+Time: 210
+Artist: Example
+Title: Millionaires
+Album: Won't Go Quietly
+Track: 07
+Date: 2010
+Genre: Hip-Hop
+Disc: 1/2
+mtime: 1364235931
+song_end
+song_begin: 08 - Two Lives.mp3
+Time: 209
+Artist: Example
+Title: Two Lives
+Album: Won't Go Quietly
+Track: 08
+Date: 2010
+Genre: Hip-Hop
+Disc: 1/2
+mtime: 1364235931
+song_end
+song_begin: 09 - Kickstarts.mp3
+Time: 182
+Artist: Example
+Title: Kickstarts
+Album: Won't Go Quietly
+Track: 09
+Date: 2010
+Genre: Hip-Hop
+Disc: 1/2
+mtime: 1364235932
+song_end
+song_begin: 10 - Sick Note.mp3
+Time: 247
+Artist: Example
+Title: Sick Note
+Album: Won't Go Quietly
+Track: 10
+Date: 2010
+Genre: Hip-Hop
+Disc: 1/2
+mtime: 1364235932
+song_end
+song_begin: 11 - Dirty Face.mp3
+Time: 167
+Artist: Example
+Title: Dirty Face
+Album: Won't Go Quietly
+Track: 11
+Date: 2010
+Genre: Hip-Hop
+Disc: 1/2
+mtime: 1364235933
+song_end
+song_begin: 12 - Hooligans (VIP Mix).mp3
+Time: 217
+Artist: Example
+Title: Hooligans (VIP Mix)
+Album: Won't Go Quietly
+Track: 12
+Date: 2010
+Genre: Hip-Hop
+Disc: 1/2
+mtime: 1364235933
+song_end
+song_begin: 13 - See The Sea.mp3
+Time: 249
+Artist: Example
+Title: See The Sea
+Album: Won't Go Quietly
+Track: 13
+Date: 2010
+Genre: Hip-Hop
+Disc: 1/2
+mtime: 1364235933
+song_end
+song_begin: 14 - Won't Believe The Fools.mp3
+Time: 294
+Artist: Example
+Title: Won't Believe The Fools
+Album: Won't Go Quietly
+Track: 14
+Date: 2010
+Genre: Hip-Hop
+Disc: 1/2
+mtime: 1364235934
+song_end
+song_begin: 15 - Loud.mp3
+Time: 246
+Artist: Example
+Title: Loud
+Album: Won't Go Quietly
+Track: 15
+Date: 2010
+Genre: Hip-Hop
+Disc: 2/2
+mtime: 1364235934
+song_end
+song_begin: 16 - Girl Can't Dance (Chase & Status Remix).mp3
+Time: 217
+Artist: Example
+Title: Girl Can't Dance (Chase & Status Remix)
+Album: Won't Go Quietly
+Track: 16
+Date: 2010
+Genre: Hip-Hop
+Disc: 2/2
+mtime: 1364235935
+song_end
+song_begin: 17 - Dirty Face (Benga Remix).mp3
+Time: 288
+Artist: Example
+Title: Dirty Face (Benga Remix)
+Album: Won't Go Quietly
+Track: 17
+Date: 2010
+Genre: Hip-Hop
+Disc: 2/2
+mtime: 1364235935
+song_end
+song_begin: 18 - Hooligans (Wire Remix).mp3
+Time: 315
+Artist: Example
+Title: Hooligans (Wire Remix)
+Album: Won't Go Quietly
+Track: 18
+Date: 2010
+Genre: Hip-Hop
+Disc: 2/2
+mtime: 1364235936
+song_end
+song_begin: 19 - Won't Go Quietly (Wideboys Stadium Remix).mp3
+Time: 192
+Artist: Example
+Title: Won't Go Quietly (Wideboys Stadium Remix)
+Album: Won't Go Quietly
+Track: 19
+Date: 2010
+Genre: Hip-Hop
+Disc: 2/2
+mtime: 1364235936
+song_end
+song_begin: 20 - Watch The Sun Come Up (Fred Falke Remix).mp3
+Time: 492
+Artist: Example
+Title: Watch The Sun Come Up (Fred Falke Remix)
+Album: Won't Go Quietly
+Track: 20
+Date: 2010
+Genre: Hip-Hop
+Disc: 2/2
+mtime: 1364235928
+song_end
+end: Example/Wont Go Quietly
+end: Example
+directory: Gin Wigmore
+mtime: 1364235943
+begin: Gin Wigmore
+directory: Gravel And Wine
+mtime: 1364235942
+begin: Gin Wigmore/Gravel And Wine
+song_begin: 01 - Black Sheep.mp3
+Time: 184
+Artist: Gin Wigmore
+AlbumArtist: Gin Wigmore
+Title: Black Sheep
+Album: Gravel & Wine
+Track: 1/11
+Date: 2011
+Genre: Alternative
+Disc: 1/1
+mtime: 1364235943
+song_end
+song_begin: 02 - Man Like That.mp3
+Time: 170
+Artist: Gin Wigmore
+AlbumArtist: Gin Wigmore
+Title: Man Like That
+Album: Gravel & Wine
+Track: 2/11
+Date: 2011
+Genre: Alternative
+Disc: 1/1
+mtime: 1364235938
+song_end
+song_begin: 03 - Poison.mp3
+Time: 188
+Artist: Gin Wigmore
+AlbumArtist: Gin Wigmore
+Title: Poison
+Album: Gravel & Wine
+Track: 3/11
+Date: 2011
+Genre: Alternative
+Disc: 1/1
+mtime: 1364235938
+song_end
+song_begin: 04 - Kill Of The Night.mp3
+Time: 205
+Artist: Gin Wigmore
+AlbumArtist: Gin Wigmore
+Title: Kill Of The Night
+Album: Gravel & Wine
+Track: 4/11
+Date: 2011
+Genre: Alternative
+Disc: 1/1
+mtime: 1364235939
+song_end
+song_begin: 05 - Devil In Me.mp3
+Time: 206
+Artist: Gin Wigmore
+AlbumArtist: Gin Wigmore
+Title: Devil In Me
+Album: Gravel & Wine
+Track: 5/11
+Date: 2011
+Genre: Alternative
+Disc: 1/1
+mtime: 1364235939
+song_end
+song_begin: 06 - If Only.mp3
+Time: 285
+Artist: Gin Wigmore
+AlbumArtist: Gin Wigmore
+Title: If Only
+Album: Gravel & Wine
+Track: 6/11
+Date: 2011
+Genre: Alternative
+Disc: 1/1
+mtime: 1364235940
+song_end
+song_begin: 07 - Dirty Love.mp3
+Time: 172
+Artist: Gin Wigmore
+AlbumArtist: Gin Wigmore
+Title: Dirty Love
+Album: Gravel & Wine
+Track: 7/11
+Date: 2011
+Genre: Alternative
+Disc: 1/1
+mtime: 1364235941
+song_end
+song_begin: 08 - Happy Ever After.mp3
+Time: 203
+Artist: Gin Wigmore
+AlbumArtist: Gin Wigmore
+Title: Happy Ever After
+Album: Gravel & Wine
+Track: 8/11
+Date: 2011
+Genre: Alternative
+Disc: 1/1
+mtime: 1364235941
+song_end
+song_begin: 09 - Saturday Smile.mp3
+Time: 202
+Artist: Gin Wigmore
+AlbumArtist: Gin Wigmore
+Title: Saturday Smile
+Album: Gravel & Wine
+Track: 9/11
+Date: 2011
+Genre: Alternative
+Disc: 1/1
+mtime: 1364235942
+song_end
+song_begin: 10 - Sweet Hell.mp3
+Time: 217
+Artist: Gin Wigmore
+AlbumArtist: Gin Wigmore
+Title: Sweet Hell
+Album: Gravel & Wine
+Track: 10/11
+Date: 2011
+Genre: Alternative
+Disc: 1/1
+mtime: 1364235942
+song_end
+song_begin: 11 - Singin' My Soul.mp3
+Time: 190
+Artist: Gin Wigmore
+AlbumArtist: Gin Wigmore
+Title: Singin' My Soul
+Album: Gravel & Wine
+Track: 11/11
+Date: 2011
+Genre: Alternative
+Disc: 1/1
+mtime: 1364235937
+song_end
+end: Gin Wigmore/Gravel And Wine
+directory: Holy Smoke
+mtime: 1364235948
+begin: Gin Wigmore/Holy Smoke
+song_begin: 01 - Oh My.mp3
+Time: 258
+Artist: Gin Wigmore
+Title: Oh My
+Album: Holy Smoke
+Track: 01
+Date: 2009
+Genre: Pop
+mtime: 1364235944
+song_end
+song_begin: 02 - Hey Ho.mp3
+Time: 245
+Artist: Gin Wigmore
+Title: Hey Ho
+Album: Holy Smoke
+Track: 02
+Date: 2009
+Genre: Pop
+mtime: 1364235944
+song_end
+song_begin: 03 - New Revolution.mp3
+Time: 262
+Artist: Gin Wigmore
+Title: New Revolution
+Album: Holy Smoke
+Track: 03
+Date: 2009
+Genre: Pop
+mtime: 1364235945
+song_end
+song_begin: 04 - Don't Stop.mp3
+Time: 209
+Artist: Gin Wigmore
+Title: Don't Stop
+Album: Holy Smoke
+Track: 04
+Date: 2009
+Genre: Pop
+mtime: 1364235945
+song_end
+song_begin: 05 - I Do.mp3
+Time: 248
+Artist: Gin Wigmore
+Title: I Do
+Album: Holy Smoke
+Track: 05
+Date: 2009
+Genre: Pop
+mtime: 1364235946
+song_end
+song_begin: 06 - Too Late For Lovers.mp3
+Time: 228
+Artist: Gin Wigmore
+Title: Too Late For Lovers
+Album: Holy Smoke
+Track: 06
+Date: 2009
+Genre: Pop
+mtime: 1364235946
+song_end
+song_begin: 07 - Mr Freakshow.mp3
+Time: 232
+Artist: Gin Wigmore
+Title: Mr Freakshow
+Album: Holy Smoke
+Track: 07
+Date: 2009
+Genre: Pop
+mtime: 1364235947
+song_end
+song_begin: 08 - One Last Look.mp3
+Time: 157
+Artist: Gin Wigmore
+Title: One Last Look
+Album: Holy Smoke
+Track: 08
+Date: 2009
+Genre: Pop
+mtime: 1364235947
+song_end
+song_begin: 09 - Golden Ship.mp3
+Time: 235
+Artist: Gin Wigmore
+Title: Golden Ship
+Album: Holy Smoke
+Track: 09
+Date: 2009
+Genre: Pop
+mtime: 1364235948
+song_end
+song_begin: 10 - Dying Day.mp3
+Time: 194
+Artist: Gin Wigmore
+Title: Dying Day
+Album: Holy Smoke
+Track: 10
+Date: 2009
+Genre: Pop
+mtime: 1364235943
+song_end
+playlist_begin: 00-gin_wigmore-holy_smoke-2009.m3u
+mtime: 1364235948
+playlist_end
+end: Gin Wigmore/Holy Smoke
+end: Gin Wigmore
+directory: Jonathan Coulton
+mtime: 1364235984
+begin: Jonathan Coulton
+directory: Artificial Heart
+mtime: 1364235971
+begin: Jonathan Coulton/Artificial Heart
+song_begin: 01 Sticking It to Myself.mp3
+Time: 139
+Artist: Jonathan Coulton
+AlbumArtist: Jonathan Coulton
+Title: Sticking It to Myself
+Album: Artificial Heart
+Track: 1
+Genre: Folk
+Genre: Folk
+mtime: 1364235971
+song_end
+song_begin: 02 Artificial Heart.mp3
+Time: 153
+Artist: Jonathan Coulton
+AlbumArtist: Jonathan Coulton
+Title: Artificial Heart
+Album: Artificial Heart
+Track: 2
+Genre: Folk
+Genre: Folk
+mtime: 1364235964
+song_end
+song_begin: 03 Nemeses.mp3
+Time: 182
+Artist: Jonathan Coulton
+AlbumArtist: Jonathan Coulton
+Title: Nemeses
+Album: Artificial Heart
+Track: 3
+Genre: Folk
+Genre: Folk
+mtime: 1364235964
+song_end
+song_begin: 04 The World Belongs to You.mp3
+Time: 131
+Artist: Jonathan Coulton
+AlbumArtist: Jonathan Coulton
+Title: The World Belongs to You
+Album: Artificial Heart
+Track: 4
+Genre: Folk
+Genre: Folk
+mtime: 1364235965
+song_end
+song_begin: 05 Today with Your Wife.mp3
+Time: 177
+Artist: Jonathan Coulton
+AlbumArtist: Jonathan Coulton
+Title: Today with Your Wife
+Album: Artificial Heart
+Track: 5
+Genre: Folk
+Genre: Folk
+mtime: 1364235965
+song_end
+song_begin: 06 Sucker Punch.mp3
+Time: 102
+Artist: Jonathan Coulton
+AlbumArtist: Jonathan Coulton
+Title: Sucker Punch
+Album: Artificial Heart
+Track: 6
+Genre: Folk
+Genre: Folk
+mtime: 1364235966
+song_end
+song_begin: 07 Glasses.mp3
+Time: 167
+Artist: Jonathan Coulton
+AlbumArtist: Jonathan Coulton
+Title: Glasses
+Album: Artificial Heart
+Track: 7
+Genre: Folk
+Genre: Folk
+mtime: 1364235966
+song_end
+song_begin: 08 Je Suis Rick Springfield.mp3
+Time: 148
+Artist: Jonathan Coulton
+AlbumArtist: Jonathan Coulton
+Title: Je Suis Rick Springfield
+Album: Artificial Heart
+Track: 8
+Genre: Folk
+Genre: Folk
+mtime: 1364235967
+song_end
+song_begin: 09 Alone at Home.mp3
+Time: 122
+Artist: Jonathan Coulton
+AlbumArtist: Jonathan Coulton
+Title: Alone at Home
+Album: Artificial Heart
+Track: 9
+Genre: Folk
+Genre: Folk
+mtime: 1364235967
+song_end
+song_begin: 10 Fraud.mp3
+Time: 180
+Artist: Jonathan Coulton
+AlbumArtist: Jonathan Coulton
+Title: Fraud
+Album: Artificial Heart
+Track: 10
+Genre: Folk
+Genre: Folk
+mtime: 1364235967
+song_end
+song_begin: 11 Good Morning Tucson.mp3
+Time: 148
+Artist: Jonathan Coulton
+AlbumArtist: Jonathan Coulton
+Title: Good Morning Tucson
+Album: Artificial Heart
+Track: 11
+Genre: Folk
+Genre: Folk
+mtime: 1364235968
+song_end
+song_begin: 12 Now I Am an Arsonist.mp3
+Time: 173
+Artist: Jonathan Coulton
+AlbumArtist: Jonathan Coulton
+Title: Now I Am an Arsonist
+Album: Artificial Heart
+Track: 12
+Genre: Folk
+Genre: Folk
+mtime: 1364235968
+song_end
+song_begin: 13 Down Today.mp3
+Time: 142
+Artist: Jonathan Coulton
+AlbumArtist: Jonathan Coulton
+Title: Down Today
+Album: Artificial Heart
+Track: 13
+Genre: Folk
+Genre: Folk
+mtime: 1364235969
+song_end
+song_begin: 14 Dissolve.mp3
+Time: 178
+Artist: Jonathan Coulton
+AlbumArtist: Jonathan Coulton
+Title: Dissolve
+Album: Artificial Heart
+Track: 14
+Genre: Folk
+Genre: Folk
+mtime: 1364235969
+song_end
+song_begin: 15 Nobody Loves You Like Me.mp3
+Time: 139
+Artist: Jonathan Coulton
+AlbumArtist: Jonathan Coulton
+Title: Nobody Loves You Like Me
+Album: Artificial Heart
+Track: 15
+Genre: Folk
+Genre: Folk
+mtime: 1364235970
+song_end
+song_begin: 16 Still Alive.mp3
+Time: 255
+Artist: Jonathan Coulton
+AlbumArtist: Jonathan Coulton
+Title: Still Alive
+Album: Artificial Heart
+Track: 16
+Genre: Folk
+Genre: Folk
+mtime: 1364235971
+song_end
+song_begin: 17 Want You Gone.mp3
+Time: 141
+Artist: Jonathan Coulton
+AlbumArtist: Jonathan Coulton
+Title: Want You Gone
+Album: Artificial Heart
+Track: 17
+Genre: Folk
+Genre: Folk
+mtime: 1364235971
+song_end
+song_begin: 18 The Stache.mp3
+Time: 180
+Artist: Jonathan Coulton
+AlbumArtist: Jonathan Coulton
+Title: The Stache
+Album: Artificial Heart
+Track: 18
+Genre: Folk
+Genre: Folk
+mtime: 1364235963
+song_end
+end: Jonathan Coulton/Artificial Heart
+directory: Other Experiments
+mtime: 1364235953
+begin: Jonathan Coulton/Other Experiments
+song_begin: Screwed (Demo).mp3
+Time: 235
+Artist: Jonathan Coulton
+Title: Screwed (Demo)
+Album: Other Experiments
+Track: 1/13
+Date: 2003
+Composer: Jonathan Coulton
+mtime: 1364235953
+song_end
+song_begin: Bills, Bills, Bills.mp3
+Time: 197
+Artist: Jonathan Coulton
+Title: Bills, Bills, Bills
+Album: Other Experiments
+Track: 2/13
+Date: 2003
+Composer: Destiny's Child
+mtime: 1364235950
+song_end
+song_begin: A Laptop Like You (Demo).mp3
+Time: 206
+Artist: Jonathan Coulton
+Title: A Laptop Like You (Demo)
+Album: Other Experiments
+Track: 3/13
+Date: 2004
+Composer: Jonathan Coulton
+mtime: 1364235953
+song_end
+song_begin: Bacteria.mp3
+Time: 156
+Artist: Jonathan Coulton
+Title: Bacteria
+Album: Other Experiments
+Track: 4/13
+Date: 2004
+Composer: Jonathan Coulton
+mtime: 1364235950
+song_end
+song_begin: Brookline (Demo).mp3
+Time: 253
+Artist: Jonathan Coulton
+Title: Brookline (Demo)
+Album: Other Experiments
+Track: 5/13
+Date: 2003
+Composer: Jonathan Coulton
+mtime: 1364235951
+song_end
+song_begin: Dance, Soterios Johnson, Dance (Demo).mp3
+Time: 196
+Artist: Jonathan Coulton
+Title: Dance, Soterios Johnson, Dance (Demo)
+Album: Other Experiments
+Track: 6/13
+Date: 2003
+Composer: Jonathan Coulton
+mtime: 1364235951
+song_end
+song_begin: Beds Hurt My Booty.mp3
+Time: 74
+Artist: Jonathan Coulton
+Title: Beds Hurt My Booty
+Album: Other Experiments
+Track: 7/13
+Date: 2002
+Composer: Jonathan Coulton
+mtime: 1364235950
+song_end
+song_begin: I Crush Everything (Demo).mp3
+Time: 288
+Artist: Jonathan Coulton
+Title: I Crush Everything (Demo)
+Album: Other Experiments
+Track: 8/13
+Date: 2003
+Composer: Jonathan Coulton
+mtime: 1364235952
+song_end
+song_begin: Skullcrusher Mountain (Demo).mp3
+Time: 252
+Artist: Jonathan Coulton
+Title: Skullcrusher Mountain (Demo)
+Album: Other Experiments
+Track: 9/13
+Date: 2003
+Composer: Jonathan Coulton
+mtime: 1364235953
+song_end
+song_begin: The Future Soon (Demo).mp3
+Time: 232
+Artist: Jonathan Coulton
+Title: The Future Soon (Demo)
+Album: Other Experiments
+Track: 10/13
+Date: 2003
+Composer: Jonathan Coulton
+mtime: 1364235950
+song_end
+song_begin: Gambler's Prayer (Demo).mp3
+Time: 262
+Artist: Jonathan Coulton
+Title: Gambler's Prayer (Demo)
+Album: Other Experiments
+Track: 11/13
+Date: 2003
+Composer: Jonathan Coulton
+mtime: 1364235952
+song_end
+song_begin: Mandelbrot Set (Demo).mp3
+Time: 240
+Artist: Jonathan Coulton
+Title: Mandelbrot Set (Demo)
+Album: Other Experiments
+Track: 12/13
+Date: 2003
+mtime: 1364235952
+song_end
+song_begin: Camp Bachelor Alma Mater.mp3
+Time: 140
+Artist: Jonathan Coulton
+Title: Camp Bachelor Alma Mater
+Album: Other Experiments
+Track: 13/13
+Date: 2002
+Composer: Jonathan Coulton
+mtime: 1364235951
+song_end
+end: Jonathan Coulton/Other Experiments
+directory: Our Bodies, Ourselves, Our Cybernetic Arms
+mtime: 1364235955
+begin: Jonathan Coulton/Our Bodies, Ourselves, Our Cybernetic Arms
+song_begin: 01. That Spells DNA.mp3
+Time: 191
+Artist: Jonathan Coulton
+Album: Our Bodies, Ourselves, Our Cybernetic Arms
+mtime: 1364235954
+song_end
+song_begin: 02. I Feel Fantastic.mp3
+Time: 183
+Artist: Jonathan Coulton
+Album: Our Bodies, Ourselves, Our Cybernetic Arms
+mtime: 1364235954
+song_end
+song_begin: 03. Womb with a View.mp3
+Time: 248
+Artist: Jonathan Coulton
+Album: Our Bodies, Ourselves, Our Cybernetic Arms
+mtime: 1364235955
+song_end
+song_begin: 04. Todd the T1000.mp3
+Time: 226
+Artist: Jonathan Coulton
+Album: Our Bodies, Ourselves, Our Cybernetic Arms
+mtime: 1364235955
+song_end
+song_begin: 05. Better.mp3
+Time: 195
+Artist: Jonathan Coulton
+Album: Our Bodies, Ourselves, Our Cybernetic Arms
+mtime: 1364235956
+song_end
+end: Jonathan Coulton/Our Bodies, Ourselves, Our Cybernetic Arms
+directory: Smoking Monkey
+mtime: 1364235961
+begin: Jonathan Coulton/Smoking Monkey
+song_begin: 01 I_m Having a Party.mp3
+Time: 207
+Artist: Jonathan Coulton
+AlbumArtist: Jonathan Coulton
+ArtistSort: Jonathan Coulton
+Title: I'm Having a Party
+Album: Smoking Monkey
+Track: 1/12
+MUSICBRAINZ_ALBUMARTISTID: d8df7087-06d5-4545-9024-831bb8558ad1
+MUSICBRAINZ_ALBUMID: 734cbc6c-67d7-4859-a35a-c4f55f2ca9a2
+MUSICBRAINZ_ARTISTID: d8df7087-06d5-4545-9024-831bb8558ad1
+MUSICBRAINZ_TRACKID: 101315b7-e9fa-4eae-a5f3-bd4228701aa4
+mtime: 1364235961
+song_end
+song_begin: 02 Bozo_s Lament.mp3
+Time: 160
+Artist: Jonathan Coulton
+AlbumArtist: Jonathan Coulton
+ArtistSort: Jonathan Coulton
+Title: Bozo's Lament
+Album: Smoking Monkey
+Track: 2/12
+MUSICBRAINZ_ALBUMARTISTID: d8df7087-06d5-4545-9024-831bb8558ad1
+MUSICBRAINZ_ALBUMID: 734cbc6c-67d7-4859-a35a-c4f55f2ca9a2
+MUSICBRAINZ_ARTISTID: d8df7087-06d5-4545-9024-831bb8558ad1
+MUSICBRAINZ_TRACKID: c390413b-25d2-4ff4-a9e0-366be2bad411
+mtime: 1364235957
+song_end
+song_begin: 03 Kennesaw Mountain Landis.mp3
+Time: 211
+Artist: Jonathan Coulton
+AlbumArtist: Jonathan Coulton
+ArtistSort: Jonathan Coulton
+Title: Kennesaw Mountain Landis
+Album: Smoking Monkey
+Track: 3/12
+MUSICBRAINZ_ALBUMARTISTID: d8df7087-06d5-4545-9024-831bb8558ad1
+MUSICBRAINZ_ALBUMID: 734cbc6c-67d7-4859-a35a-c4f55f2ca9a2
+MUSICBRAINZ_ARTISTID: d8df7087-06d5-4545-9024-831bb8558ad1
+MUSICBRAINZ_TRACKID: aa7d601f-00ec-42cf-8df7-6fc70ccab882
+mtime: 1364235957
+song_end
+song_begin: 04 Ikea.mp3
+Time: 184
+Artist: Jonathan Coulton
+AlbumArtist: Jonathan Coulton
+ArtistSort: Jonathan Coulton
+Title: Ikea
+Album: Smoking Monkey
+Track: 4/12
+MUSICBRAINZ_ALBUMARTISTID: d8df7087-06d5-4545-9024-831bb8558ad1
+MUSICBRAINZ_ALBUMID: 734cbc6c-67d7-4859-a35a-c4f55f2ca9a2
+MUSICBRAINZ_ARTISTID: d8df7087-06d5-4545-9024-831bb8558ad1
+MUSICBRAINZ_TRACKID: 79ecab83-d46e-4d7a-abc5-e9af2ef49db8
+mtime: 1364235958
+song_end
+song_begin: 05 I Hate California.mp3
+Time: 188
+Artist: Jonathan Coulton
+ArtistSort: Jonathan Coulton
+Title: I Hate California
+Album: Smoking Monkey
+Track: 5/12
+MUSICBRAINZ_ALBUMARTISTID: d8df7087-06d5-4545-9024-831bb8558ad1
+MUSICBRAINZ_ALBUMID: 734cbc6c-67d7-4859-a35a-c4f55f2ca9a2
+MUSICBRAINZ_ARTISTID: d8df7087-06d5-4545-9024-831bb8558ad1
+MUSICBRAINZ_TRACKID: 74b36199-2e0e-4bbf-8577-3ee4195e3871
+mtime: 1364235958
+song_end
+song_begin: 06 Christmas Is Interesting.mp3
+Time: 234
+Artist: Jonathan Coulton
+ArtistSort: Jonathan Coulton
+Title: Christmas Is Interesting
+Album: Smoking Monkey
+Track: 6/12
+MUSICBRAINZ_ALBUMARTISTID: d8df7087-06d5-4545-9024-831bb8558ad1
+MUSICBRAINZ_ALBUMID: 734cbc6c-67d7-4859-a35a-c4f55f2ca9a2
+MUSICBRAINZ_ARTISTID: d8df7087-06d5-4545-9024-831bb8558ad1
+MUSICBRAINZ_TRACKID: 1ee088a1-4082-478b-b888-74d033ee73d9
+mtime: 1364235958
+song_end
+song_begin: 07 Over There.mp3
+Time: 215
+Artist: Jonathan Coulton
+ArtistSort: Jonathan Coulton
+Title: Over There
+Album: Smoking Monkey
+Track: 7/12
+MUSICBRAINZ_ALBUMARTISTID: d8df7087-06d5-4545-9024-831bb8558ad1
+MUSICBRAINZ_ALBUMID: 734cbc6c-67d7-4859-a35a-c4f55f2ca9a2
+MUSICBRAINZ_ARTISTID: d8df7087-06d5-4545-9024-831bb8558ad1
+MUSICBRAINZ_TRACKID: 6f93393f-aba6-4e26-9630-b82530229de8
+mtime: 1364235959
+song_end
+song_begin: 08 Millionaire Girlfriend.mp3
+Time: 264
+Artist: Jonathan Coulton
+ArtistSort: Jonathan Coulton
+Title: Millionaire Girlfriend
+Album: Smoking Monkey
+Track: 8/12
+MUSICBRAINZ_ALBUMARTISTID: d8df7087-06d5-4545-9024-831bb8558ad1
+MUSICBRAINZ_ALBUMID: 734cbc6c-67d7-4859-a35a-c4f55f2ca9a2
+MUSICBRAINZ_ARTISTID: d8df7087-06d5-4545-9024-831bb8558ad1
+MUSICBRAINZ_TRACKID: e1eec2f1-f2cd-45f6-b79d-507a0157f683
+mtime: 1364235959
+song_end
+song_begin: 09 First of May.mp3
+Time: 250
+Artist: Jonathan Coulton
+ArtistSort: Jonathan Coulton
+Title: First of May
+Album: Smoking Monkey
+Track: 9/12
+MUSICBRAINZ_ALBUMARTISTID: d8df7087-06d5-4545-9024-831bb8558ad1
+MUSICBRAINZ_ALBUMID: 734cbc6c-67d7-4859-a35a-c4f55f2ca9a2
+MUSICBRAINZ_ARTISTID: d8df7087-06d5-4545-9024-831bb8558ad1
+MUSICBRAINZ_TRACKID: 0b51ec3b-f06d-4256-8fc6-343f51c00143
+mtime: 1364235960
+song_end
+song_begin: 10 De-Evolving.mp3
+Time: 279
+Artist: Jonathan Coulton
+ArtistSort: Jonathan Coulton
+Title: De-Evolving
+Album: Smoking Monkey
+Track: 10/12
+MUSICBRAINZ_ALBUMARTISTID: d8df7087-06d5-4545-9024-831bb8558ad1
+MUSICBRAINZ_ALBUMID: 734cbc6c-67d7-4859-a35a-c4f55f2ca9a2
+MUSICBRAINZ_ARTISTID: d8df7087-06d5-4545-9024-831bb8558ad1
+MUSICBRAINZ_TRACKID: c9ca4ad7-90e7-4d5e-92f3-f6b4bff87acb
+mtime: 1364235960
+song_end
+song_begin: 11 I_m a Mason Now.mp3
+Time: 137
+Artist: Jonathan Coulton
+ArtistSort: Jonathan Coulton
+Title: I'm a Mason Now
+Album: Smoking Monkey
+Track: 11/12
+MUSICBRAINZ_ALBUMARTISTID: d8df7087-06d5-4545-9024-831bb8558ad1
+MUSICBRAINZ_ALBUMID: 734cbc6c-67d7-4859-a35a-c4f55f2ca9a2
+MUSICBRAINZ_ARTISTID: d8df7087-06d5-4545-9024-831bb8558ad1
+MUSICBRAINZ_TRACKID: b11fc5b1-7e7a-498e-b19f-4a67c4cb6b29
+mtime: 1364235961
+song_end
+song_begin: 12 Overhead.mp3
+Time: 202
+Artist: Jonathan Coulton
+ArtistSort: Jonathan Coulton
+Title: Overhead
+Album: Smoking Monkey
+Track: 12/12
+MUSICBRAINZ_ALBUMARTISTID: d8df7087-06d5-4545-9024-831bb8558ad1
+MUSICBRAINZ_ALBUMID: 734cbc6c-67d7-4859-a35a-c4f55f2ca9a2
+MUSICBRAINZ_ARTISTID: d8df7087-06d5-4545-9024-831bb8558ad1
+MUSICBRAINZ_TRACKID: 935cdddf-2dd4-4472-82a7-680c15d9ae82
+mtime: 1364235956
+song_end
+end: Jonathan Coulton/Smoking Monkey
+directory: Songs From Ze Frank's 'The Show'
+mtime: 1364235963
+begin: Jonathan Coulton/Songs From Ze Frank's 'The Show'
+song_begin: Fun Winter.mp3
+Time: 88
+Artist: Jonathan Coulton
+Title: Fun Winter
+Album: the show with zefrank
+Date: 2007
+Composer: ze frank
+mtime: 1364235963
+song_end
+song_begin: Giant Baby.mp3
+Time: 42
+Artist: Jonathan Coulton
+Title: Giant Baby
+Album: the show with zefrank
+Date: 2007
+Composer: ze frank
+mtime: 1364235962
+song_end
+song_begin: Hindsight.mp3
+Time: 113
+Artist: Jonathan Coulton
+Title: Hindsight
+Album: the show with zefrank
+Date: 2007
+Composer: ze frank
+mtime: 1364235962
+song_end
+song_begin: Sandwich.mp3
+Time: 85
+Artist: Jonathan Coulton
+Title: Sandwich
+Album: the show with zefrank
+Date: 2007
+Composer: ze frank
+mtime: 1364235962
+song_end
+song_begin: Stay the Same.mp3
+Time: 102
+Artist: Jonathan Coulton
+Title: Stay the Same
+Album: the show with zefrank
+Date: 2007
+Composer: ze frank
+mtime: 1364235962
+song_end
+song_begin: Ugly.mp3
+Time: 66
+Artist: Jonathan Coulton
+Title: Ugly
+Album: the show with zefrank
+Date: 2007
+Composer: ze frank
+mtime: 1364235962
+song_end
+song_begin: Walnuts.mp3
+Time: 88
+Artist: Jonathan Coulton
+Title: Walnuts
+Album: the show with zefrank
+Date: 2007
+Composer: ze frank
+mtime: 1364235963
+song_end
+song_begin: Work this Thing.mp3
+Time: 109
+Artist: Jonathan Coulton
+Title: Work this Thing
+Album: the show with zefrank
+Date: 2007
+Composer: ze frank
+mtime: 1364235962
+song_end
+end: Jonathan Coulton/Songs From Ze Frank's 'The Show'
+directory: The Aftermath
+mtime: 1364235949
+begin: Jonathan Coulton/The Aftermath
+song_begin: Lady Aberlin's Muumuu.mp3
+Time: 135
+Artist: Jonathan Coulton
+Title: Lady Aberlin's Muumuu
+Date: 2008
+Composer: Jonathan Coulton
+mtime: 1364235948
+song_end
+song_begin: My Beige Bear.mp3
+Time: 198
+Artist: Jonathan Coulton
+Title: My Beige Bear
+Date: 2007
+Composer: Jonathan Coulton
+mtime: 1364235948
+song_end
+song_begin: Octopus.mp3
+Time: 176
+Artist: Jonathan Coulton
+Title: Octopus
+Date: 2007
+mtime: 1364235949
+song_end
+song_begin: Re Vos Cerveaux.mp3
+Time: 276
+Artist: Jonathan Coulton
+Title: Re: Vos Cerveaux
+Date: 2007
+Composer: Jonathan Coulton
+mtime: 1364235949
+song_end
+song_begin: Washy Ad Jeffy.mp3
+Time: 122
+Artist: Jonathan Coulton
+Title: Washy Ad Jeffy
+Date: 2008
+mtime: 1364235949
+song_end
+end: Jonathan Coulton/The Aftermath
+directory: Thing a Week 1
+mtime: 1364235974
+begin: Jonathan Coulton/Thing a Week 1
+song_begin: 01 See You All in Hell.mp3
+Time: 58
+Artist: Jonathan Coulton
+AlbumArtist: Jonathan Coulton
+Title: See You All in Hell
+Album: Thing a Week 1
+Track: 1
+Date: 2006
+Genre: Rock
+mtime: 1364235974
+song_end
+song_begin: 02 My Monkey.mp3
+Time: 167
+Artist: Jonathan Coulton
+AlbumArtist: Jonathan Coulton
+Title: My Monkey
+Album: Thing a Week 1
+Track: 2
+Date: 2006
+Genre: Rock
+mtime: 1364235972
+song_end
+song_begin: 03 W_s Duty.mp3
+Time: 109
+Artist: Jonathan Coulton
+AlbumArtist: Jonathan Coulton
+Title: W's Duty
+Album: Thing a Week 1
+Track: 3
+Date: 2006
+Genre: Rock
+mtime: 1364235972
+song_end
+song_begin: 04 Shop Vac.mp3
+Time: 211
+Artist: Jonathan Coulton
+AlbumArtist: Jonathan Coulton
+Title: Shop Vac
+Album: Thing a Week 1
+Track: 4
+Date: 2006
+Genre: Rock
+mtime: 1364235972
+song_end
+song_begin: 05 Baby Got Back.mp3
+Time: 333
+Artist: Jonathan Coulton
+AlbumArtist: Jonathan Coulton
+Title: Baby Got Back
+Album: Thing a Week 1
+Track: 5
+Date: 2006
+Genre: Rock
+mtime: 1364235973
+song_end
+song_begin: 06 Someone Is Crazy.mp3
+Time: 124
+Artist: Jonathan Coulton
+AlbumArtist: Jonathan Coulton
+Title: Someone Is Crazy
+Album: Thing a Week 1
+Track: 6
+Date: 2006
+Genre: Rock
+mtime: 1364235973
+song_end
+song_begin: 07 Brand New Sucker.mp3
+Time: 127
+Artist: Jonathan Coulton
+AlbumArtist: Jonathan Coulton
+Title: Brand New Sucker
+Album: Thing a Week 1
+Track: 7
+Date: 2006
+Genre: Rock
+mtime: 1364235973
+song_end
+song_begin: 08 Sibling Rivalry.mp3
+Time: 184
+Artist: Jonathan Coulton
+AlbumArtist: Jonathan Coulton
+Title: Sibling Rivalry
+Album: Thing a Week 1
+Track: 8
+Date: 2006
+Genre: Rock
+mtime: 1364235973
+song_end
+song_begin: 09 The Town Crotch.mp3
+Time: 284
+Artist: Jonathan Coulton
+AlbumArtist: Jonathan Coulton
+Title: The Town Crotch
+Album: Thing a Week 1
+Track: 9
+Date: 2006
+Genre: Rock
+mtime: 1364235974
+song_end
+song_begin: 10 Podsafe Christmas Song.mp3
+Time: 165
+Artist: Jonathan Coulton
+AlbumArtist: Jonathan Coulton
+Title: Podsafe Christmas Song
+Album: Thing a Week 1
+Track: 10
+Date: 2006
+Genre: Rock
+mtime: 1364235974
+song_end
+song_begin: 11 Furry Old Lobster.mp3
+Time: 122
+Artist: Jonathan Coulton
+AlbumArtist: Jonathan Coulton
+Title: Furry Old Lobster
+Album: Thing a Week 1
+Track: 11
+Date: 2006
+Genre: Rock
+mtime: 1364235974
+song_end
+song_begin: 12 Drive.mp3
+Time: 155
+Artist: Jonathan Coulton
+AlbumArtist: Jonathan Coulton
+Title: Drive
+Album: Thing a Week 1
+Track: 12
+Date: 2006
+Genre: Rock
+mtime: 1364235972
+song_end
+end: Jonathan Coulton/Thing a Week 1
+directory: Thing a Week 2
+mtime: 1364235977
+begin: Jonathan Coulton/Thing a Week 2
+song_begin: 13 Flickr.mp3
+Time: 168
+Artist: Jonathan Coulton
+AlbumArtist: Jonathan Coulton
+Title: Flickr
+Album: Thing a Week 2
+Track: 13
+Date: 2006
+Genre: Rock
+mtime: 1364235977
+song_end
+song_begin: 14 Resolutions.mp3
+Time: 140
+Artist: Jonathan Coulton
+AlbumArtist: Jonathan Coulton
+Title: Resolutions
+Album: Thing a Week 2
+Track: 14
+Date: 2006
+Genre: Rock
+mtime: 1364235975
+song_end
+song_begin: 15 You Could Be Her.mp3
+Time: 261
+Artist: Jonathan Coulton
+AlbumArtist: Jonathan Coulton
+Title: You Could Be Her
+Album: Thing a Week 2
+Track: 15
+Date: 2006
+Genre: Rock
+mtime: 1364235975
+song_end
+song_begin: 16 I Will.mp3
+Time: 136
+Artist: Jonathan Coulton
+AlbumArtist: Jonathan Coulton
+Title: I Will
+Album: Thing a Week 2
+Track: 16
+Date: 2006
+Genre: Rock
+mtime: 1364235975
+song_end
+song_begin: 17 Dance, Soterios Johnson, Dance.mp3
+Time: 231
+Artist: Jonathan Coulton
+AlbumArtist: Jonathan Coulton
+Title: Dance, Soterios Johnson, Dance
+Album: Thing a Week 2
+Track: 17
+Date: 2006
+Genre: Rock
+mtime: 1364235975
+song_end
+song_begin: 18 So Far So Good.mp3
+Time: 202
+Artist: Jonathan Coulton
+AlbumArtist: Jonathan Coulton
+Title: So Far So Good
+Album: Thing a Week 2
+Track: 18
+Date: 2006
+Genre: Rock
+mtime: 1364235976
+song_end
+song_begin: 19 Curl.mp3
+Time: 199
+Artist: Jonathan Coulton
+AlbumArtist: Jonathan Coulton
+Title: Curl
+Album: Thing a Week 2
+Track: 19
+Date: 2006
+Genre: Rock
+mtime: 1364235976
+song_end
+song_begin: 20 Chiron Beta Prime.mp3
+Time: 171
+Artist: Jonathan Coulton
+AlbumArtist: Jonathan Coulton
+Title: Chiron Beta Prime
+Album: Thing a Week 2
+Track: 20
+Date: 2006
+Genre: Rock
+mtime: 1364235976
+song_end
+song_begin: 21 Take Care of Me.mp3
+Time: 165
+Artist: Jonathan Coulton
+AlbumArtist: Jonathan Coulton
+Title: Take Care of Me
+Album: Thing a Week 2
+Track: 21
+Date: 2006
+Genre: Rock
+mtime: 1364235976
+song_end
+song_begin: 22 A Talk with George.mp3
+Time: 186
+Artist: Jonathan Coulton
+AlbumArtist: Jonathan Coulton
+Title: A Talk with George
+Album: Thing a Week 2
+Track: 22
+Date: 2006
+Genre: Rock
+mtime: 1364235977
+song_end
+song_begin: 23 Don_t Talk to Strangers.mp3
+Time: 189
+Artist: Jonathan Coulton
+AlbumArtist: Jonathan Coulton
+Title: Don't Talk to Strangers
+Album: Thing a Week 2
+Track: 23
+Date: 2006
+Genre: Rock
+mtime: 1364235977
+song_end
+song_begin: 24 Stroller Town.mp3
+Time: 167
+Artist: Jonathan Coulton
+AlbumArtist: Jonathan Coulton
+Title: Stroller Town
+Album: Thing a Week 2
+Track: 24
+Date: 2006
+Genre: Rock
+mtime: 1364235977
+song_end
+song_begin: 25 Re_ Your Brains.mp3
+Time: 273
+Artist: Jonathan Coulton
+AlbumArtist: Jonathan Coulton
+Title: Re: Your Brains
+Album: Thing a Week 2
+Track: 25
+Date: 2006
+Genre: Rock
+mtime: 1364235974
+song_end
+end: Jonathan Coulton/Thing a Week 2
+directory: Thing a Week 3
+mtime: 1364235981
+begin: Jonathan Coulton/Thing a Week 3
+song_begin: Drinking with You.mp3
+Time: 211
+Artist: Jonathan Coulton
+AlbumArtist: Jonathan Coulton
+Title: Drinking with You
+Album: Thing a Week 3
+mtime: 1364235978
+song_end
+song_begin: Famous Blue Raincoat.mp3
+Time: 241
+Artist: Jonathan Coulton
+AlbumArtist: Jonathan Coulton
+Title: Famous Blue Raincoat
+Album: Thing a Week 3
+mtime: 1364235978
+song_end
+song_begin: Just as Long as Me.mp3
+Time: 133
+Artist: Jonathan Coulton
+AlbumArtist: Jonathan Coulton
+Title: Just as Long as Me
+Album: Thing a Week 3
+mtime: 1364235978
+song_end
+song_begin: Madelaine.mp3
+Time: 223
+Artist: Jonathan Coulton
+AlbumArtist: Jonathan Coulton
+Title: Madelaine
+Album: Thing a Week 3
+mtime: 1364235979
+song_end
+song_begin: Not About You.mp3
+Time: 132
+Artist: Jonathan Coulton
+AlbumArtist: Jonathan Coulton
+Title: Not About You
+Album: Thing a Week 3
+mtime: 1364235979
+song_end
+song_begin: Pizza Day.mp3
+Time: 189
+Artist: Jonathan Coulton
+AlbumArtist: Jonathan Coulton
+Title: Pizza Day
+Album: Thing a Week 3
+mtime: 1364235979
+song_end
+song_begin: Rock and Roll Boy.mp3
+Time: 209
+Artist: Jonathan Coulton
+AlbumArtist: Jonathan Coulton
+Title: Rock and Roll Boy
+Album: Thing a Week 3
+mtime: 1364235979
+song_end
+song_begin: Soft Rocked by Me.mp3
+Time: 259
+Artist: Jonathan Coulton
+AlbumArtist: Jonathan Coulton
+Title: Soft Rocked by Me
+Album: Thing a Week 3
+mtime: 1364235980
+song_end
+song_begin: The Presidents.mp3
+Time: 249
+Artist: Jonathan Coulton
+AlbumArtist: Jonathan Coulton
+Title: The Presidents
+Album: Thing a Week 3
+mtime: 1364235980
+song_end
+song_begin: Till the Money Comes.mp3
+Time: 210
+Artist: Jonathan Coulton
+AlbumArtist: Jonathan Coulton
+Title: Till the Money Comes
+Album: Thing a Week 3
+mtime: 1364235980
+song_end
+song_begin: Tom Cruise Crazy.mp3
+Time: 221
+Artist: Jonathan Coulton
+AlbumArtist: Jonathan Coulton
+Title: Tom Cruise Crazy
+Album: Thing a Week 3
+mtime: 1364235981
+song_end
+song_begin: When You Go.mp3
+Time: 233
+Artist: Jonathan Coulton
+AlbumArtist: Jonathan Coulton
+Title: When You Go
+Album: Thing a Week 3
+mtime: 1364235978
+song_end
+song_begin: 28 Code Monkey.mp3
+Time: 189
+Artist: Jonathan Coulton
+AlbumArtist: Jonathan Coulton
+Title: Code Monkey
+Album: Thing a Week 3
+Track: 28
+Date: 2006
+Genre: Rock
+mtime: 1364235981
+song_end
+end: Jonathan Coulton/Thing a Week 3
+directory: Thing a Week 4
+mtime: 1364235984
+begin: Jonathan Coulton/Thing a Week 4
+song_begin: Big Bad World One.mp3
+Time: 170
+Artist: Jonathan Coulton
+AlbumArtist: Jonathan Coulton
+Title: Big Bad World One
+Album: Thing a Week 4
+mtime: 1364235984
+song_end
+song_begin: Creepy Doll.mp3
+Time: 240
+Artist: Jonathan Coulton
+AlbumArtist: Jonathan Coulton
+Title: Creepy Doll
+Album: Thing a Week 4
+mtime: 1364235981
+song_end
+song_begin: I_m Your Moon.mp3
+Time: 193
+Artist: Jonathan Coulton
+AlbumArtist: Jonathan Coulton
+Title: I'm Your Moon
+Album: Thing a Week 4
+mtime: 1364235982
+song_end
+song_begin: Make You Cry.mp3
+Time: 189
+Artist: Jonathan Coulton
+AlbumArtist: Jonathan Coulton
+Title: Make You Cry
+Album: Thing a Week 4
+mtime: 1364235982
+song_end
+song_begin: Mr_ Fancy Pants.mp3
+Time: 80
+Artist: Jonathan Coulton
+AlbumArtist: Jonathan Coulton
+Title: Mr. Fancy Pants
+Album: Thing a Week 4
+mtime: 1364235982
+song_end
+song_begin: Pull the String.mp3
+Time: 150
+Artist: Jonathan Coulton
+AlbumArtist: Jonathan Coulton
+Title: Pull the String
+Album: Thing a Week 4
+mtime: 1364235982
+song_end
+song_begin: Seahorse.mp3
+Time: 209
+Artist: Jonathan Coulton
+AlbumArtist: Jonathan Coulton
+Title: Seahorse
+Album: Thing a Week 4
+mtime: 1364235983
+song_end
+song_begin: SkyMall.mp3
+Time: 235
+Artist: Jonathan Coulton
+AlbumArtist: Jonathan Coulton
+Title: SkyMall
+Album: Thing a Week 4
+mtime: 1364235983
+song_end
+song_begin: Summer_s Over.mp3
+Time: 177
+Artist: Jonathan Coulton
+AlbumArtist: Jonathan Coulton
+Title: Summer's Over
+Album: Thing a Week 4
+mtime: 1364235983
+song_end
+song_begin: The Big Boom.mp3
+Time: 157
+Artist: Jonathan Coulton
+AlbumArtist: Jonathan Coulton
+Title: The Big Boom
+Album: Thing a Week 4
+mtime: 1364235983
+song_end
+song_begin: Under the Pines.mp3
+Time: 217
+Artist: Jonathan Coulton
+AlbumArtist: Jonathan Coulton
+Title: Under the Pines
+Album: Thing a Week 4
+mtime: 1364235984
+song_end
+song_begin: We Are the Champions.mp3
+Time: 133
+Artist: Jonathan Coulton
+AlbumArtist: Jonathan Coulton
+Title: We Are the Champions
+Album: Thing a Week 4
+mtime: 1364235984
+song_end
+song_begin: We Will Rock You.mp3
+Time: 114
+Artist: Jonathan Coulton
+AlbumArtist: Jonathan Coulton
+Title: We Will Rock You
+Album: Thing a Week 4
+mtime: 1364235984
+song_end
+song_begin: You Ruined Everything.mp3
+Time: 137
+Artist: Jonathan Coulton
+AlbumArtist: Jonathan Coulton
+Title: You Ruined Everything
+Album: Thing a Week 4
+mtime: 1364235981
+song_end
+end: Jonathan Coulton/Thing a Week 4
+directory: Where Tradition Meets Tomorrow
+mtime: 1364235986
+begin: Jonathan Coulton/Where Tradition Meets Tomorrow
+song_begin: 01 The Future Soon.mp3
+Time: 229
+Artist: Jonathan Coulton
+ArtistSort: Jonathan Coulton
+Title: The Future Soon
+Album: Where Tradition Meets Tomorrow
+Track: 1/5
+MUSICBRAINZ_ALBUMARTISTID: d8df7087-06d5-4545-9024-831bb8558ad1
+MUSICBRAINZ_ALBUMID: 7f1de836-80ba-4195-adc3-72a5624f69b3
+MUSICBRAINZ_ARTISTID: d8df7087-06d5-4545-9024-831bb8558ad1
+MUSICBRAINZ_TRACKID: 5c627a87-37fc-432f-baf0-8a28f64d0269
+mtime: 1364235985
+song_end
+song_begin: 02 Skullcrusher Mountain.mp3
+Time: 256
+Artist: Jonathan Coulton
+ArtistSort: Jonathan Coulton
+Title: Skullcrusher Mountain
+Album: Where Tradition Meets Tomorrow
+Track: 2/5
+MUSICBRAINZ_ALBUMARTISTID: d8df7087-06d5-4545-9024-831bb8558ad1
+MUSICBRAINZ_ALBUMID: 7f1de836-80ba-4195-adc3-72a5624f69b3
+MUSICBRAINZ_ARTISTID: d8df7087-06d5-4545-9024-831bb8558ad1
+MUSICBRAINZ_TRACKID: 95661940-4b03-4730-8e02-59694349dc6d
+mtime: 1364235985
+song_end
+song_begin: 03 I Crush Everything.mp3
+Time: 283
+Artist: Jonathan Coulton
+ArtistSort: Jonathan Coulton
+Title: I Crush Everything
+Album: Where Tradition Meets Tomorrow
+Track: 3/5
+MUSICBRAINZ_ALBUMARTISTID: d8df7087-06d5-4545-9024-831bb8558ad1
+MUSICBRAINZ_ALBUMID: 7f1de836-80ba-4195-adc3-72a5624f69b3
+MUSICBRAINZ_ARTISTID: d8df7087-06d5-4545-9024-831bb8558ad1
+MUSICBRAINZ_TRACKID: 18396d42-16a5-4b3f-8af3-93ff053b08f4
+mtime: 1364235986
+song_end
+song_begin: 04 Betty and Me.mp3
+Time: 186
+Artist: Jonathan Coulton
+ArtistSort: Jonathan Coulton
+Title: Betty and Me
+Album: Where Tradition Meets Tomorrow
+Track: 4/5
+MUSICBRAINZ_ALBUMARTISTID: d8df7087-06d5-4545-9024-831bb8558ad1
+MUSICBRAINZ_ALBUMID: 7f1de836-80ba-4195-adc3-72a5624f69b3
+MUSICBRAINZ_ARTISTID: d8df7087-06d5-4545-9024-831bb8558ad1
+MUSICBRAINZ_TRACKID: 8e61f617-defa-49d6-9a14-bfb43e2dac98
+mtime: 1364235986
+song_end
+song_begin: 05 Mandelbrot Set.mp3
+Time: 264
+Artist: Jonathan Coulton
+ArtistSort: Jonathan Coulton
+Title: Mandelbrot Set
+Album: Where Tradition Meets Tomorrow
+Track: 5/5
+MUSICBRAINZ_ALBUMARTISTID: d8df7087-06d5-4545-9024-831bb8558ad1
+MUSICBRAINZ_ALBUMID: 7f1de836-80ba-4195-adc3-72a5624f69b3
+MUSICBRAINZ_ARTISTID: d8df7087-06d5-4545-9024-831bb8558ad1
+MUSICBRAINZ_TRACKID: 98cafb72-927a-4226-a954-e75b8f01637a
+mtime: 1364235987
+song_end
+end: Jonathan Coulton/Where Tradition Meets Tomorrow
+end: Jonathan Coulton
+directory: NIN
+mtime: 1364236019
+begin: NIN
+directory: NIN - 2008 - [halo 27] The Slip
+mtime: 1364235993
+begin: NIN/NIN - 2008 - [halo 27] The Slip
+song_begin: 01 999,999.mp3
+Time: 85
+Artist: Nine Inch Nails
+Title: 999,999
+Album: The Slip
+Track: 1/10
+Date: 2008
+Genre: Metal
+Composer: Trent Reznor
+Disc: 1/1
+mtime: 1364235993
+song_end
+song_begin: 02 1,000,000.mp3
+Time: 236
+Artist: Nine Inch Nails
+Title: 1,000,000
+Album: The Slip
+Track: 2/10
+Date: 2008
+Genre: Metal
+Composer: Trent Reznor
+Disc: 1/1
+mtime: 1364235988
+song_end
+song_begin: 03 Letting You.mp3
+Time: 230
+Artist: Nine Inch Nails
+Title: Letting You
+Album: The Slip
+Track: 3/10
+Date: 2008
+Genre: Metal
+Composer: Trent Reznor
+Disc: 1/1
+mtime: 1364235989
+song_end
+song_begin: 04 Discipline.mp3
+Time: 259
+Artist: Nine Inch Nails
+Title: Discipline
+Album: The Slip
+Track: 4/10
+Date: 2008
+Genre: Metal
+Composer: Trent Reznor
+Disc: 1/1
+mtime: 1364235990
+song_end
+song_begin: 05 Echoplex.mp3
+Time: 285
+Artist: Nine Inch Nails
+Title: Echoplex
+Album: The Slip
+Track: 5/10
+Date: 2008
+Genre: Metal
+Composer: Trent Reznor
+Disc: 1/1
+mtime: 1364235990
+song_end
+song_begin: 06 Head Down.mp3
+Time: 295
+Artist: Nine Inch Nails
+Title: Head Down
+Album: The Slip
+Track: 6/10
+Date: 2008
+Genre: Metal
+Composer: Trent Reznor
+Disc: 1/1
+mtime: 1364235991
+song_end
+song_begin: 07 Lights in the Sky.mp3
+Time: 210
+Artist: Nine Inch Nails
+Title: Lights in the Sky
+Album: The Slip
+Track: 7/10
+Date: 2008
+Genre: Metal
+Composer: Trent Reznor
+Disc: 1/1
+mtime: 1364235991
+song_end
+song_begin: 08 Corona Radiata.mp3
+Time: 454
+Artist: Nine Inch Nails
+Title: Corona Radiata
+Album: The Slip
+Track: 8/10
+Date: 2008
+Genre: Metal
+Composer: Trent Reznor
+Disc: 1/1
+mtime: 1364235992
+song_end
+song_begin: 09 The Four of Us are Dying.mp3
+Time: 278
+Artist: Nine Inch Nails
+Title: The Four of Us are Dying
+Album: The Slip
+Track: 9/10
+Date: 2008
+Genre: Metal
+Composer: Trent Reznor
+Disc: 1/1
+mtime: 1364235993
+song_end
+song_begin: 10 Demon Seed.mp3
+Time: 299
+Artist: Nine Inch Nails
+Title: Demon Seed
+Album: The Slip
+Track: 10/10
+Date: 2008
+Genre: Metal
+Composer: Trent Reznor
+Disc: 1/1
+mtime: 1364235988
+song_end
+end: NIN/NIN - 2008 - [halo 27] The Slip
+directory: NIN - [halo 24] year zero
+mtime: 1364236000
+begin: NIN/NIN - [halo 24] year zero
+song_begin: 01 hyperpower!.mp3
+Time: 102
+Artist: Nine Inch Nails
+AlbumArtist: Nine Inch Nails
+Title: HYPERPOWER!
+Album: Year Zero
+Track: 01
+Date: 2007
+Genre: Metal
+mtime: 1364236000
+song_end
+song_begin: 02 the beginning of the end.mp3
+Time: 167
+Artist: Nine Inch Nails
+AlbumArtist: Nine Inch Nails
+Title: The Beginning of the End
+Album: Year Zero
+Track: 2/16
+Date: 2007
+Genre: Metal
+mtime: 1364235994
+song_end
+song_begin: 03 survivalism.mp3
+Time: 264
+Artist: Nine Inch Nails
+Title: Survivalism
+Album: Year Zero
+Track: 3
+Date: 2007
+Genre: Metal
+mtime: 1364235995
+song_end
+song_begin: 04 the good soldier.mp3
+Time: 203
+Artist: Nine Inch Nails
+AlbumArtist: Nine Inch Nails
+Title: The Good Soldier
+Album: Year Zero
+Track: 04
+Date: 2007
+Genre: Metal
+mtime: 1364235995
+song_end
+song_begin: 05 vessel.mp3
+Time: 293
+Artist: Nine Inch Nails
+AlbumArtist: Nine Inch Nails
+Title: Vessel
+Album: Year Zero
+Track: 05
+Date: 2007
+Genre: Metal
+mtime: 1364235996
+song_end
+song_begin: 06 me, i'm not.mp3
+Time: 292
+Artist: Nine Inch Nails
+Title: Me, I'm Not
+Album: Year Zero
+Track: 6
+Date: 2007
+Genre: Metal
+mtime: 1364235996
+song_end
+song_begin: 07 capital g.mp3
+Time: 230
+Artist: Nine Inch Nails
+AlbumArtist: Nine Inch Nails
+Title: Capital G
+Album: Year Zero
+Track: 7
+Date: 2007
+Genre: Metal
+mtime: 1364235997
+song_end
+song_begin: 08 my violent heart.mp3
+Time: 237
+Artist: Nine Inch Nails
+Title: My Violent Heart
+Album: Year Zero
+Track: 8
+Date: 2007
+Genre: Metal
+mtime: 1364235997
+song_end
+song_begin: 09 the warning.mp3
+Time: 219
+Artist: Nine Inch Nails
+AlbumArtist: Nine Inch Nails
+Title: The Warning
+Album: Year Zero
+Track: 09
+Date: 2007
+Genre: Metal
+mtime: 1364235998
+song_end
+song_begin: 10 god given.mp3
+Time: 231
+Artist: Nine Inch Nails
+AlbumArtist: Nine Inch Nails
+Title: God Given
+Album: Year Zero
+Track: 10
+Date: 2007
+Genre: Metal
+mtime: 1364235998
+song_end
+song_begin: 11 meet your master.mp3
+Time: 249
+Artist: Nine Inch Nails
+AlbumArtist: Nine Inch Nails
+Title: Meet Your Master
+Album: Year Zero
+Track: 11
+Date: 2007
+Genre: Metal
+mtime: 1364235998
+song_end
+song_begin: 12 the greater good.mp3
+Time: 292
+Artist: Nine Inch Nails
+AlbumArtist: Nine Inch Nails
+Title: The Greater Good
+Album: Year Zero
+Track: 12
+Date: 2007
+Genre: Metal
+mtime: 1364235999
+song_end
+song_begin: 13 the great destroyer.mp3
+Time: 197
+Artist: Nine Inch Nails
+AlbumArtist: Nine Inch Nails
+Title: The Great Destroyer
+Album: Year Zero
+Track: 13
+Date: 2007
+Genre: Metal
+mtime: 1364235999
+song_end
+song_begin: 14 another version of the truth.mp3
+Time: 250
+Artist: Nine Inch Nails
+AlbumArtist: Nine Inch Nails
+Title: Another Version Of The Truth
+Album: Year Zero
+Track: 14
+Date: 2007
+Genre: Metal
+mtime: 1364235999
+song_end
+song_begin: 15 in this twilight.mp3
+Time: 214
+Artist: Nine Inch Nails
+Title: In This Twilight
+Album: Year Zero
+Track: 15
+Date: 2007
+Genre: Metal
+mtime: 1364236000
+song_end
+song_begin: 16 zero sum.mp3
+Time: 375
+Artist: Nine Inch Nails
+AlbumArtist: Nine Inch Nails
+Title: Zero Sum
+Album: Year Zero
+Track: 16
+Date: 2007
+Genre: Metal
+mtime: 1364235994
+song_end
+end: NIN/NIN - [halo 24] year zero
+directory: NIN - [halo 26] Ghosts
+mtime: 1364236000
+begin: NIN/NIN - [halo 26] Ghosts
+directory: Ghosts I-IV mp3
+mtime: 1364236018
+begin: NIN/NIN - [halo 26] Ghosts/Ghosts I-IV mp3
+song_begin: 01 Ghosts I.mp3
+Time: 169
+Artist: Nine Inch Nails
+AlbumArtist: Nine Inch Nails
+Title: 1 Ghosts I
+Album: Ghosts I-IV
+Track: 1/36
+Date: 2008
+Genre: Metal
+Disc: 1/2
+mtime: 1364236001
+song_end
+song_begin: 02 Ghosts I.mp3
+Time: 196
+Artist: Nine Inch Nails
+AlbumArtist: Nine Inch Nails
+Title: 2 Ghosts I
+Album: Ghosts I-IV
+Track: 2/36
+Date: 2008
+Genre: Metal
+Disc: 1/2
+mtime: 1364236001
+song_end
+song_begin: 03 Ghosts I.mp3
+Time: 231
+Artist: Nine Inch Nails
+AlbumArtist: Nine Inch Nails
+Title: 3 Ghosts I
+Album: Ghosts I-IV
+Track: 3/36
+Date: 2008
+Genre: Metal
+Disc: 1/2
+mtime: 1364236002
+song_end
+song_begin: 04 Ghosts I.mp3
+Time: 133
+Artist: Nine Inch Nails
+AlbumArtist: Nine Inch Nails
+Title: 4 Ghosts I
+Album: Ghosts I-IV
+Track: 4/36
+Date: 2008
+Genre: Metal
+Disc: 1/2
+mtime: 1364236003
+song_end
+song_begin: 05 Ghosts I.mp3
+Time: 172
+Artist: Nine Inch Nails
+AlbumArtist: Nine Inch Nails
+Title: 5 Ghosts I
+Album: Ghosts I-IV
+Track: 5/36
+Date: 2008
+Genre: Metal
+Disc: 1/2
+mtime: 1364236003
+song_end
+song_begin: 06 Ghosts I.mp3
+Time: 259
+Artist: Nine Inch Nails
+AlbumArtist: Nine Inch Nails
+Title: 6 Ghosts I
+Album: Ghosts I-IV
+Track: 6/36
+Date: 2008
+Genre: Metal
+Disc: 1/2
+mtime: 1364236004
+song_end
+song_begin: 07 Ghosts I.mp3
+Time: 121
+Artist: Nine Inch Nails
+AlbumArtist: Nine Inch Nails
+Title: 7 Ghosts I
+Album: Ghosts I-IV
+Track: 7/36
+Date: 2008
+Genre: Metal
+Disc: 1/2
+mtime: 1364236004
+song_end
+song_begin: 08 Ghosts I.mp3
+Time: 176
+Artist: Nine Inch Nails
+AlbumArtist: Nine Inch Nails
+Title: 8 Ghosts I
+Album: Ghosts I-IV
+Track: 8/36
+Date: 2008
+Genre: Metal
+Disc: 1/2
+mtime: 1364236005
+song_end
+song_begin: 09 Ghosts I.mp3
+Time: 167
+Artist: Nine Inch Nails
+AlbumArtist: Nine Inch Nails
+Title: 9 Ghosts I
+Album: Ghosts I-IV
+Track: 9/36
+Date: 2008
+Genre: Metal
+Disc: 1/2
+mtime: 1364236005
+song_end
+song_begin: 10 Ghosts II.mp3
+Time: 162
+Artist: Nine Inch Nails
+AlbumArtist: Nine Inch Nails
+Title: 10 Ghosts II
+Album: Ghosts I-IV
+Track: 10/36
+Date: 2008
+Genre: Metal
+Disc: 1/2
+mtime: 1364236006
+song_end
+song_begin: 11 Ghosts II.mp3
+Time: 137
+Artist: Nine Inch Nails
+AlbumArtist: Nine Inch Nails
+Title: 11 Ghosts II
+Album: Ghosts I-IV
+Track: 11/36
+Date: 2008
+Genre: Metal
+Disc: 1/2
+mtime: 1364236006
+song_end
+song_begin: 12 Ghosts II.mp3
+Time: 137
+Artist: Nine Inch Nails
+AlbumArtist: Nine Inch Nails
+Title: 12 Ghosts II
+Album: Ghosts I-IV
+Track: 12/36
+Date: 2008
+Genre: Metal
+Disc: 1/2
+mtime: 1364236006
+song_end
+song_begin: 13 Ghosts II.mp3
+Time: 194
+Artist: Nine Inch Nails
+AlbumArtist: Nine Inch Nails
+Title: 13 Ghosts II
+Album: Ghosts I-IV
+Track: 13/36
+Date: 2008
+Genre: Metal
+Disc: 1/2
+mtime: 1364236007
+song_end
+song_begin: 14 Ghosts II.mp3
+Time: 186
+Artist: Nine Inch Nails
+AlbumArtist: Nine Inch Nails
+Title: 14 Ghosts II
+Album: Ghosts I-IV
+Track: 14/36
+Date: 2008
+Genre: Metal
+Disc: 1/2
+mtime: 1364236007
+song_end
+song_begin: 15 Ghosts II.mp3
+Time: 113
+Artist: Nine Inch Nails
+AlbumArtist: Nine Inch Nails
+Title: 15 Ghosts II
+Album: Ghosts I-IV
+Track: 15/36
+Date: 2008
+Genre: Metal
+Disc: 1/2
+mtime: 1364236008
+song_end
+song_begin: 16 Ghosts II.mp3
+Time: 150
+Artist: Nine Inch Nails
+AlbumArtist: Nine Inch Nails
+Title: 16 Ghosts II
+Album: Ghosts I-IV
+Track: 16/36
+Date: 2008
+Genre: Metal
+Disc: 1/2
+mtime: 1364236008
+song_end
+song_begin: 17 Ghosts II.mp3
+Time: 133
+Artist: Nine Inch Nails
+AlbumArtist: Nine Inch Nails
+Title: 17 Ghosts II
+Album: Ghosts I-IV
+Track: 17/36
+Date: 2008
+Genre: Metal
+Disc: 1/2
+mtime: 1364236009
+song_end
+song_begin: 18 Ghosts II.mp3
+Time: 323
+Artist: Nine Inch Nails
+AlbumArtist: Nine Inch Nails
+Title: 18 Ghosts II
+Album: Ghosts I-IV
+Track: 18/36
+Date: 2008
+Genre: Metal
+Disc: 1/2
+mtime: 1364236019
+song_end
+song_begin: 19 Ghosts III.mp3
+Time: 132
+Artist: Nine Inch Nails
+AlbumArtist: Nine Inch Nails
+Title: 19 Ghosts III
+Album: Ghosts I-IV
+Track: 19/36
+Date: 2008
+Genre: Metal
+Disc: 1/2
+mtime: 1364236009
+song_end
+song_begin: 20 Ghosts III.mp3
+Time: 219
+Artist: Nine Inch Nails
+AlbumArtist: Nine Inch Nails
+Title: 20 Ghosts III
+Album: Ghosts I-IV
+Track: 20/36
+Date: 2008
+Genre: Metal
+Disc: 1/2
+mtime: 1364236010
+song_end
+song_begin: 21 Ghosts III.mp3
+Time: 174
+Artist: Nine Inch Nails
+AlbumArtist: Nine Inch Nails
+Title: 21 Ghosts III
+Album: Ghosts I-IV
+Track: 21/36
+Date: 2008
+Genre: Metal
+Disc: 1/2
+mtime: 1364236010
+song_end
+song_begin: 22 Ghosts III.mp3
+Time: 151
+Artist: Nine Inch Nails
+AlbumArtist: Nine Inch Nails
+Title: 22 Ghosts III
+Album: Ghosts I-IV
+Track: 22/36
+Date: 2008
+Genre: Metal
+Disc: 1/2
+mtime: 1364236011
+song_end
+song_begin: 23 Ghosts III.mp3
+Time: 164
+Artist: Nine Inch Nails
+AlbumArtist: Nine Inch Nails
+Title: 23 Ghosts III
+Album: Ghosts I-IV
+Track: 23/36
+Date: 2008
+Genre: Metal
+Disc: 1/2
+mtime: 1364236011
+song_end
+song_begin: 24 Ghosts III.mp3
+Time: 159
+Artist: Nine Inch Nails
+AlbumArtist: Nine Inch Nails
+Title: 24 Ghosts III
+Album: Ghosts I-IV
+Track: 24/36
+Date: 2008
+Genre: Metal
+Disc: 1/2
+mtime: 1364236012
+song_end
+song_begin: 25 Ghosts III.mp3
+Time: 119
+Artist: Nine Inch Nails
+AlbumArtist: Nine Inch Nails
+Title: 25 Ghosts III
+Album: Ghosts I-IV
+Track: 25/36
+Date: 2008
+Genre: Metal
+Disc: 1/2
+mtime: 1364236012
+song_end
+song_begin: 26 Ghosts III.mp3
+Time: 146
+Artist: Nine Inch Nails
+AlbumArtist: Nine Inch Nails
+Title: 26 Ghosts III
+Album: Ghosts I-IV
+Track: 26/36
+Date: 2008
+Genre: Metal
+Disc: 1/2
+mtime: 1364236012
+song_end
+song_begin: 27 Ghosts III.mp3
+Time: 172
+Artist: Nine Inch Nails
+AlbumArtist: Nine Inch Nails
+Title: 27 Ghosts III
+Album: Ghosts I-IV
+Track: 27/36
+Date: 2008
+Genre: Metal
+Disc: 1/2
+mtime: 1364236013
+song_end
+song_begin: 28 Ghosts IV.mp3
+Time: 322
+Artist: Nine Inch Nails
+AlbumArtist: Nine Inch Nails
+Title: 28 Ghosts IV
+Album: Ghosts I-IV
+Track: 28/36
+Date: 2008
+Genre: Metal
+Disc: 1/2
+mtime: 1364236014
+song_end
+song_begin: 29 Ghosts IV.mp3
+Time: 175
+Artist: Nine Inch Nails
+AlbumArtist: Nine Inch Nails
+Title: 29 Ghosts IV
+Album: Ghosts I-IV
+Track: 29/36
+Date: 2008
+Genre: Metal
+Disc: 1/2
+mtime: 1364236014
+song_end
+song_begin: 30 Ghosts IV.mp3
+Time: 179
+Artist: Nine Inch Nails
+AlbumArtist: Nine Inch Nails
+Title: 30 Ghosts IV
+Album: Ghosts I-IV
+Track: 30/36
+Date: 2008
+Genre: Metal
+Disc: 1/2
+mtime: 1364236015
+song_end
+song_begin: 31 Ghosts IV.mp3
+Time: 146
+Artist: Nine Inch Nails
+AlbumArtist: Nine Inch Nails
+Title: 31 Ghosts IV
+Album: Ghosts I-IV
+Track: 31/36
+Date: 2008
+Genre: Metal
+Disc: 1/2
+mtime: 1364236015
+song_end
+song_begin: 32 Ghosts IV.mp3
+Time: 266
+Artist: Nine Inch Nails
+AlbumArtist: Nine Inch Nails
+Title: 32 Ghosts IV
+Album: Ghosts I-IV
+Track: 32/36
+Date: 2008
+Genre: Metal
+Disc: 1/2
+mtime: 1364236016
+song_end
+song_begin: 33 Ghosts IV.mp3
+Time: 242
+Artist: Nine Inch Nails
+AlbumArtist: Nine Inch Nails
+Title: 33 Ghosts IV
+Album: Ghosts I-IV
+Track: 33/36
+Date: 2008
+Genre: Metal
+Disc: 1/2
+mtime: 1364236017
+song_end
+song_begin: 34 Ghosts IV.mp3
+Time: 353
+Artist: Nine Inch Nails
+AlbumArtist: Nine Inch Nails
+Title: 34 Ghosts IV
+Album: Ghosts I-IV
+Track: 34/36
+Date: 2008
+Genre: Metal
+Disc: 1/2
+mtime: 1364236018
+song_end
+song_begin: 35 Ghosts IV.mp3
+Time: 210
+Artist: Nine Inch Nails
+AlbumArtist: Nine Inch Nails
+Title: 35 Ghosts IV
+Album: Ghosts I-IV
+Track: 35/36
+Date: 2008
+Genre: Metal
+Disc: 1/2
+mtime: 1364236018
+song_end
+song_begin: 36 Ghosts IV.mp3
+Time: 139
+Artist: Nine Inch Nails
+AlbumArtist: Nine Inch Nails
+Title: 36 Ghosts IV
+Album: Ghosts I-IV
+Track: 36/36
+Date: 2008
+Genre: Metal
+Disc: 1/2
+mtime: 1364236000
+song_end
+end: NIN/NIN - [halo 26] Ghosts/Ghosts I-IV mp3
+end: NIN/NIN - [halo 26] Ghosts
+directory: NIN -1994 - [halo 08] The Downward Spiral
+mtime: 1364236024
+begin: NIN/NIN -1994 - [halo 08] The Downward Spiral
+song_begin: 01 - Mr. Self Destruct.mp3
+Time: 270
+Artist: Nine Inch Nails
+Title: Mr. Self Destruct
+Album: The Downward Spiral
+Track: 01
+Date: 1994
+Genre: Metal
+Disc: 1/1
+mtime: 1364236024
+song_end
+song_begin: 02 - Piggy.mp3
+Time: 265
+Artist: Nine Inch Nails
+Title: Piggy
+Album: The Downward Spiral
+Track: 02
+Date: 1994
+Genre: Metal
+Disc: 1/1
+mtime: 1364236020
+song_end
+song_begin: 03 - Heresy.mp3
+Time: 234
+Artist: Nine Inch Nails
+Title: Heresy
+Album: The Downward Spiral
+Track: 03
+Date: 1994
+Genre: Metal
+Disc: 1/1
+mtime: 1364236021
+song_end
+song_begin: 04 - March Of The Pigs.mp3
+Time: 179
+Artist: Nine Inch Nails
+Title: March of the Pigs
+Album: The Downward Spiral
+Track: 04
+Date: 1994
+Genre: Metal
+Disc: 1/1
+mtime: 1364236021
+song_end
+song_begin: 05 - Closer.mp3
+Time: 373
+Artist: Nine Inch Nails
+Title: Closer
+Album: The Downward Spiral
+Track: 05
+Date: 1994
+Genre: Metal
+Disc: 1/1
+mtime: 1364236021
+song_end
+song_begin: 06 - Ruiner.mp3
+Time: 299
+Artist: Nine Inch Nails
+Title: Ruiner
+Album: The Downward Spiral
+Track: 06
+Date: 1994
+Genre: Metal
+Disc: 1/1
+mtime: 1364236022
+song_end
+song_begin: 07 - The Becoming.mp3
+Time: 332
+Artist: Nine Inch Nails
+Title: The Becoming
+Album: The Downward Spiral
+Track: 07
+Date: 1994
+Genre: Metal
+Composer: Trent Reznor
+Disc: 1/1
+mtime: 1364236022
+song_end
+song_begin: 08 - I Do Not Want This.mp3
+Time: 341
+Artist: Nine Inch Nails
+Title: I Do Not Want This
+Album: The Downward Spiral
+Track: 08
+Date: 1994
+Genre: Metal
+Composer: Trent Reznor
+Disc: 1/1
+mtime: 1364236022
+song_end
+song_begin: 09 - Big Man With A Gun.mp3
+Time: 98
+Artist: Nine Inch Nails
+Title: Big Man With a Gun
+Album: The Downward Spiral
+Track: 09
+Date: 1994
+Genre: Metal
+Composer: Trent Reznor
+Disc: 1/1
+mtime: 1364236023
+song_end
+song_begin: 10 - A Warm Place.mp3
+Time: 202
+Artist: Nine Inch Nails
+Title: A Warm Place
+Album: The Downward Spiral
+Track: 10
+Date: 1994
+Genre: Metal
+Disc: 1/1
+mtime: 1364236023
+song_end
+song_begin: 11 - Eraser.mp3
+Time: 294
+Artist: Nine Inch Nails
+Title: Eraser
+Album: The Downward Spiral
+Track: 11
+Date: 1994
+Genre: Metal
+Disc: 1/1
+mtime: 1364236023
+song_end
+song_begin: 12 - Reptile.mp3
+Time: 412
+Artist: Nine Inch Nails
+Title: Reptile
+Album: The Downward Spiral
+Track: 12
+Date: 1994
+Genre: Metal
+Disc: 1/1
+mtime: 1364236024
+song_end
+song_begin: 13 - The Downward Spiral.mp3
+Time: 239
+Artist: Nine Inch Nails
+Title: The Downward Spiral
+Album: The Downward Spiral
+Track: 13
+Date: 1994
+Genre: Metal
+Disc: 1/1
+mtime: 1364236024
+song_end
+song_begin: 14 - Hurt.mp3
+Time: 375
+Artist: Nine Inch Nails
+Title: Hurt
+Album: The Downward Spiral
+Track: 14
+Date: 1994
+Genre: Metal
+Disc: 1/1
+mtime: 1364236020
+song_end
+end: NIN/NIN -1994 - [halo 08] The Downward Spiral
+end: NIN
+directory: Of Monsters And Men
+mtime: 1364236024
+begin: Of Monsters And Men
+directory: My Head Is an Animal
+mtime: 1364236032
+begin: Of Monsters And Men/My Head Is an Animal
+song_begin: 01 Of Monsters and Men - Dirty Paws.mp3
+Time: 266
+Artist: Of Monsters and Men
+AlbumArtist: Of Monsters and Men
+Title: Dirty Paws
+Album: My Head Is an Animal
+Track: 1/11
+Date: 2011
+Genre: Indie Rock
+mtime: 1364236033
+song_end
+song_begin: 02 Of Monsters and Men - King and Lionheart.mp3
+Time: 275
+Artist: Of Monsters and Men
+AlbumArtist: Of Monsters and Men
+Title: King and Lionheart
+Album: My Head Is an Animal
+Track: 2/11
+Date: 2011
+Genre: Indie Rock
+mtime: 1364236025
+song_end
+song_begin: 03 Of Monsters and Men - Numb Bears.mp3
+Time: 165
+Artist: Of Monsters and Men
+AlbumArtist: Of Monsters and Men
+Title: Numb Bears
+Album: My Head Is an Animal
+Track: 3/11
+Date: 2011
+Genre: Indie Rock
+mtime: 1364236026
+song_end
+song_begin: 04 Of Monsters and Men - Sloom.mp3
+Time: 282
+Artist: Of Monsters and Men
+AlbumArtist: Of Monsters and Men
+Title: Sloom
+Album: My Head Is an Animal
+Track: 4/11
+Date: 2011
+Genre: Indie Rock
+mtime: 1364236026
+song_end
+song_begin: 05 Of Monsters and Men - Little Talks.mp3
+Time: 264
+Artist: Of Monsters and Men
+AlbumArtist: Of Monsters and Men
+Title: Little Talks
+Album: My Head Is an Animal
+Track: 5/11
+Date: 2011
+Genre: Indie Rock
+mtime: 1364236027
+song_end
+song_begin: 06 Of Monsters and Men - From Finner.mp3
+Time: 221
+Artist: Of Monsters and Men
+AlbumArtist: Of Monsters and Men
+Title: From Finner
+Album: My Head Is an Animal
+Track: 6/11
+Date: 2011
+Genre: Indie Rock
+mtime: 1364236027
+song_end
+song_begin: 07 Of Monsters and Men - Six Weeks.mp3
+Time: 332
+Artist: Of Monsters and Men
+AlbumArtist: Of Monsters and Men
+Title: Six Weeks
+Album: My Head Is an Animal
+Track: 7/11
+Date: 2011
+Genre: Indie Rock
+mtime: 1364236028
+song_end
+song_begin: 08 Of Monsters and Men - Love Love Love.mp3
+Time: 242
+Artist: Of Monsters and Men
+AlbumArtist: Of Monsters and Men
+Title: Love Love Love
+Album: My Head Is an Animal
+Track: 8/11
+Date: 2011
+Genre: Indie Rock
+mtime: 1364236029
+song_end
+song_begin: 09 Of Monsters and Men - Your Bones.mp3
+Time: 247
+Artist: Of Monsters and Men
+AlbumArtist: Of Monsters and Men
+Title: Your Bones
+Album: My Head Is an Animal
+Track: 9/11
+Date: 2011
+Genre: Indie Rock
+mtime: 1364236029
+song_end
+song_begin: 10 Of Monsters and Men - Lakehouse.mp3
+Time: 342
+Artist: Of Monsters and Men
+AlbumArtist: Of Monsters and Men
+Title: Lakehouse
+Album: My Head Is an Animal
+Track: 10/11
+Date: 2011
+Genre: Indie Rock
+mtime: 1364236030
+song_end
+song_begin: 11 Of Monsters and Men - Yellow Light (Short).mp3
+Time: 288
+Artist: Of Monsters and Men
+AlbumArtist: Of Monsters and Men
+Title: Yellow Light
+Album: My Head Is an Animal
+Track: 11
+Date: 2011
+Genre: Indie Rock
+mtime: 1364236030
+song_end
+song_begin: 11 Of Monsters and Men - Yellow Light.mp3
+Time: 945
+Artist: Of Monsters and Men
+AlbumArtist: Of Monsters and Men
+Title: Yellow Light
+Album: My Head Is an Animal
+Track: 11/11
+Date: 2011
+Genre: Indie Rock
+mtime: 1364236032
+song_end
+song_begin: 12 Of Monsters and Men - The Sinking Man.mp3
+Time: 170
+Artist: Of Monsters and Men
+AlbumArtist: Of Monsters and Men
+Title: The Sinking Man
+Album: My Head Is an Animal
+Track: 12
+Date: 2011
+Genre: Indie Rock
+mtime: 1364236024
+song_end
+end: Of Monsters And Men/My Head Is an Animal
+end: Of Monsters And Men

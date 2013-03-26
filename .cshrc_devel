@@ -1,0 +1,5 @@
+# # # # # # # # # # # #
+# Development exports #
+# # # # # # # # # # # #
+
+setenv CFLAGS  " -Wall -pedantic "

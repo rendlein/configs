@@ -1,0 +1,19 @@
+URxvt*font:     -xos4-terminus-medium-r-normal-*-12-*-*-*-*-*-*-*
+URxvt*boldFont: -*-terminus-medium-*-*-*-12-*-*-*-*-*-*-*
+URxvt*scrollBar:  false
+URxvt*jumpScroll: true
+URxvt*skipScroll: true
+URxvt*visualBell: false
+
+URxvt*depth:       32
+URxvt*buffered:    true
+URxvt*background:  #000000
+URxvt*foreground:  #D3D3D3
+URxvt*transparent: false
+URxvt*fading:      5%
+URxvt*fadeColor:   grey
+URxvt*shading:     75
+
+URxvt*intensityStyles: true
+URxvt*termName:        rxvt-256color
+URxvt*urgentOnBell:    true
