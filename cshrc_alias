@@ -10,3 +10,4 @@ alias scheme    scheme48
 alias libd      musicpd ~/.mpd.lib/mpd.conf
 alias lib       ncmpcpp -p 6601 -c ~/.ncmpcpp.lib/config
 
+alias novik		ssh novikov@shell.cjb.net

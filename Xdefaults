@@ -18,7 +18,7 @@ URxvt*fadeColor:   grey
 URxvt*shading:     75
 
 URxvt*intensityStyles: true
-URxvt*termName:        xterm-256color
+URxvt*termName:        rxvt-256color
 URxvt*urgentOnBell:    true
 
 !----------------!
@@ -33,4 +33,4 @@ XTerm*buffered:		true
 XTerm*background:	#333333
 XTerm*foreground:	#D3D3D3
 XTerm*transparent:	false
-
+XTerm*termname:		xterm-256color

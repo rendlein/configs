@@ -16,7 +16,7 @@ alias grep	/usr/bin/grep --color=auto
 alias lsa	ls -a
 alias lsl	ls -l
 
-setenv TERM	rxvt
+setenv TERM	xterm-256color
 
 # A righteous umask
 umask 		22
@@ -48,8 +48,9 @@ if ($?prompt) then
 		bindkey "^W" backward-delete-word
 		bindkey -k up history-search-backward
 		bindkey -k down history-search-forward
+		bindkey "\e[3~" delete-char
 	endif
 
 endif
-	bindkey "\e[3~" delete-char
-# .cshrc - csh resource script, read at beginning of execution by each shell
+
+# vim: set filetype=tcsh : #

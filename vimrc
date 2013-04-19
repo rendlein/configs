@@ -3,16 +3,17 @@ set nocp
 
 syntax on
 
-set ruler
 set nu
 
 set bs=2
 
 set ts=4
 set shiftwidth=4
-
-set encoding=utf-8
 set fileencoding=utf-8
+
+set t_Co=256
+
+colorscheme desert
 
 filetype on
 if has("autocmd")
