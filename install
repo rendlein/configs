@@ -10,7 +10,7 @@ my $home = $ENV{"HOME"} . "/";
 chomp($home);
 
 foreach (@files) {
-	if (!(/^\S*\.\S*$/) && !(/install/)) {
+	if (!(/^\S*\.\S*$/) && !(/install/) || /\S*\.conf/) {
 
 		my $dotfile = "." . $_;
 		chomp $dotfile;

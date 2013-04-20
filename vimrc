@@ -1,21 +1,22 @@
 set nomodeline
 set nocp
-
-syntax on
-
+set nobackup
+set nowritebackup
+set noswapfile
+set ruler
 set nu
-
 set bs=2
-
 set ts=4
 set shiftwidth=4
+set expandtab
 set fileencoding=utf-8
 
+syntax on
 set t_Co=256
-
 colorscheme desert
 
-filetype on
+filetype plugin on
+
 if has("autocmd")
     autocmd FileType make setlocal ts=4 sts=4 sw=4 noexpandtab
     autocmd FileType c setlocal ts=8 shiftwidth=4 cindent expandtab 
