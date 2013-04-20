@@ -2,7 +2,6 @@
 ! Urxvt Settings !
 !----------------!
 URxvt*font:     -xos4-terminus-medium-r-normal-*-12-*-*-*-*-*-*-*
-URxvt*boldFont: -*-terminus-medium-*-*-*-12-*-*-*-*-*-*-*
 URxvt*scrollBar:  false
 URxvt*jumpScroll: true
 URxvt*skipScroll: true
