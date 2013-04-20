@@ -10,9 +10,11 @@
 (defun cat (&rest strings) 
 	(apply 'concatenate 'string strings))
 
-(defcommand Surf () ()
-	"Start surf w/tabs or switch to it"
-	(run-or-raise "tabbed surf -e" '(:class "tabbed")))
+(defcommand Browser () ()
+	"Start brwoser or switch to it"
+;;	(run-or-raise "tabbed surf -e" '(:class "tabbed")))
+    (run-or-raise "luakit" '(:class "luakit")))
+
 
 (defcommand reinit () ()
 	(run-commands "reload" "loadrc"))

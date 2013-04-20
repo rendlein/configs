@@ -1,20 +1,5 @@
-# $FreeBSD: release/9.1.0/share/skel/dot.cshrc 242850 2012-11-10 06:05:04Z eadler $
-#
-# .cshrc - csh resource script, read at beginning of execution by each shell
-#
-# see also csh(1), environ(7).
-# more examples available at /usr/share/examples/csh/
-#
-
 source $HOME/.cshrc_alias
 source $HOME/.cshRadio
-
-alias h		history 25
-alias j		jobs -l
-alias ls	/bin/ls -G
-alias grep	/usr/bin/grep --color=auto
-alias lsa	ls -a
-alias lsl	ls -l
 
 setenv TERM	xterm-256color
 

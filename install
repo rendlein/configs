@@ -16,9 +16,11 @@ foreach (@files) {
 		chomp $dotfile;
 		my $oldfile = $_;
 		chomp $oldfile;
-
-		my $cmd = "ln -sv " . cwd() . "/" . $oldfile . " " . $home . $dotfile . "\n";
-		system ($cmd);
+        
+        unless (-e $home . $dotfile) {
+		    my $cmd = "ln -sv " . cwd() . "/" . $oldfile . " " . $home . $dotfile . "\n";
+		    system ($cmd);
+        }
 	}	
 }
 

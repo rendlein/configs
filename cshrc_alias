@@ -1,4 +1,14 @@
+alias ls        /bin/ls -G
+alias lsa       ls -a
+alias lsl       ls -l
+alias lsh       ls -lh
+alias lsi       ls -il
+alias lsr       ls -R
+
+alias grep /usr/bin/grep --color=auto
+
 alias scheme    scheme48
+
 alias libd      musicpd ~/.mpd.lib/mpd.conf
 alias lib       ncmpcpp -p 6601 -c ~/.ncmpcpp.lib/config
 
@@ -7,3 +17,5 @@ alias novik		ssh novikov@shell.cjb.net
 alias tmuxa     tmux attach -t 
 alias tmuxs     tmux switch -t 
 alias tmuxl     tmux ls
+
+# vim: set filetype=tcsh : #
