@@ -18,8 +18,7 @@ foreach (@files) {
 		chomp $oldfile;
 
 		my $cmd = "ln -sv " . cwd() . "/" . $oldfile . " " . $home . $dotfile . "\n";
-		#system ($cmd);
-		print $cmd;
+		system ($cmd);
 	}	
 }
 

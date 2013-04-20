@@ -36,3 +36,10 @@ TagLib: MPEG::Header::parse() -- Invalid sample rate.
 TagLib: MPEG::Properties::read() -- Page headers were invalid.
 TagLib: MPEG::Header::parse() -- Invalid sample rate.
 TagLib: MPEG::Properties::read() -- Page headers were invalid.
+TagLib: MPEG::Header::parse() -- Invalid sample rate.
+TagLib: MPEG::Header::parse() -- Invalid sample rate.
+TagLib: MPEG::Header::parse() -- Invalid sample rate.
+TagLib: MPEG::Header::parse() -- Invalid sample rate.
+TagLib: MPEG::Header::parse() -- Invalid sample rate.
+TagLib: MPEG::Header::parse() -- Invalid sample rate.
+TagLib: MPEG::Header::parse() -- Invalid sample rate.
