@@ -11,6 +11,9 @@ set shiftwidth=4
 set expandtab
 set fileencoding=utf-8
 
+execute pathogen#infect()
+let NERDTreeShowHidden=1
+
 syntax on
 set t_Co=256
 colorscheme desert
@@ -18,6 +21,7 @@ colorscheme desert
 filetype plugin on
 
 if has("autocmd")
+    autocmd vimenter * if !argc() | NERDTree | endif
     autocmd FileType make setlocal ts=4 sts=4 sw=4 noexpandtab
     autocmd FileType c setlocal ts=8 shiftwidth=4 cindent expandtab 
     autocmd FileType h setlocal ts=8 shiftwidth=4 cindent expandtab 

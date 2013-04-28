@@ -12,8 +12,8 @@
 
 (defcommand Browser () ()
 	"Start brwoser or switch to it"
-;;	(run-or-raise "tabbed surf -e" '(:class "tabbed")))
-    (run-or-raise "luakit" '(:class "luakit")))
+	(run-or-raise "tabbed surf -e" '(:class "tabbed")))
+    ;;(run-or-raise "luakit" '(:class "luakit")))
 
 
 (defcommand reinit () ()
@@ -25,8 +25,8 @@
 	(run-shell-command "you"))
 
 (defcommand urxvtc () ()
-;;	(run-shell-command "urxvtc"))
-	(run-shell-command "st"))	
+	(run-shell-command "urxvtc"))
+;;	(run-shell-command "st"))	
 (defcommand CLR () ()
 	(echo "Cleared"))
 
@@ -36,14 +36,14 @@
 (define-key *root-map* (kbd "c") 	"urxvtc")
 (define-key *root-map* (kbd "y") 	"Youtube")
 (define-key *root-map* (kbd "Y") 	"Youtube-fs")
-(define-key *root-map* (kbd "M-w")	"Surf")
+(define-key *root-map* (kbd "M-w")	"Browser")
 (define-key *root-map* (kbd "Q") 	"quit")
 (define-key *root-map* (kbd "M-r") 	"reinit")
 (define-key *root-map* (kbd "b") 	"mode-line")
 (define-key *root-map* (kbd "ESC") 	"CLR")
 
 ;; MPD Bindings
-;; (define-key *root-map* (kbd "M-x") *mpd-map*)
+(define-key *root-map* (kbd "M-x") '*mpd-map*)
 
 
 ;; vim: set filetype=lisp : ;;
