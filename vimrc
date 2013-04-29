@@ -16,7 +16,7 @@ let NERDTreeShowHidden=1
 
 syntax on
 set t_Co=256
-colorscheme desert
+colorscheme zenburn
 
 filetype plugin on
 

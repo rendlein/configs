@@ -27,6 +27,10 @@
 (defcommand urxvtc () ()
 	(run-shell-command "urxvtc"))
 ;;	(run-shell-command "st"))	
+
+(defcommand Dmenu () ()
+    (run-shell-command "dmenu"))
+
 (defcommand CLR () ()
 	(echo "Cleared"))
 
@@ -41,6 +45,7 @@
 (define-key *root-map* (kbd "M-r") 	"reinit")
 (define-key *root-map* (kbd "b") 	"mode-line")
 (define-key *root-map* (kbd "ESC") 	"CLR")
+(define-key *root-map* (kbd "C-p")  "Dmenu")
 
 ;; MPD Bindings
 (define-key *root-map* (kbd "M-x") '*mpd-map*)
