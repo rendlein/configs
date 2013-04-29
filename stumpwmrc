@@ -19,8 +19,6 @@
 (defcommand reinit () ()
 	(run-commands "reload" "loadrc"))
 
-(defcommand Youtube-fs () ()
-	(run-shell-command "you -fs "))
 (defcommand Youtube () ()
 	(run-shell-command "you"))
 

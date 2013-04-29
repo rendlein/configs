@@ -9,7 +9,7 @@ URxvt*visualBell: false
 
 URxvt*depth:       32
 URxvt*buffered:    true
-URxvt*background:  #000000
+URxvt*background:  #202020
 URxvt*foreground:  #D3D3D3
 URxvt*transparent: false
 URxvt*fading:      5%

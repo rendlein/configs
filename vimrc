@@ -1,3 +1,10 @@
+execute pathogen#infect()
+let NERDTreeShowHidden=1
+
+syntax on
+set t_Co=256
+filetype plugin on
+
 set nomodeline
 set nocp
 set nobackup
@@ -10,15 +17,15 @@ set ts=4
 set shiftwidth=4
 set expandtab
 set fileencoding=utf-8
+set wildmenu
+set hidden
+set ignorecase
+set smartcase
 
-execute pathogen#infect()
-let NERDTreeShowHidden=1
-
-syntax on
-set t_Co=256
 colorscheme zenburn
+set background=dark
 
-filetype plugin on
+let g:is_posix = 1
 
 if has("autocmd")
     autocmd vimenter * if !argc() | NERDTree | endif
@@ -33,5 +40,6 @@ nmap <F6> :clist <CR>
 nmap <F7> :cn <CR>
 nmap <S-F7> :cfirst <CR>
 nmap <C-F7> :clast <CR>
+nmap <C-t> :TlistToggle <CR>
 
 
