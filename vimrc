@@ -32,6 +32,7 @@ if has("autocmd")
     autocmd FileType make setlocal ts=4 sts=4 sw=4 noexpandtab
     autocmd FileType c setlocal ts=8 shiftwidth=4 cindent expandtab 
     autocmd FileType h setlocal ts=8 shiftwidth=4 cindent expandtab 
+    autocmd FileType html,css set noexpandtab tabstop=2
 endif
 
 nmap <F5> :w<CR>:make <CR>
