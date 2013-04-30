@@ -1,0 +1,26 @@
+#!/usr/bin/perl
+use Cwd;
+
+my @files = `ls -1`;
+
+my $symcmd = "ln -sv";
+my $home = $ENV{"HOME"} . "/";
+
+
+chomp($home);
+
+foreach (@files) {
+	if (!(/^\S*\.\S*$/) && !(/install/) || /\S*\.conf/ || /\S*\.rc/) {
+
+		my $dotfile = "." . $_;
+		chomp $dotfile;
+		my $oldfile = $_;
+		chomp $oldfile;
+        
+        unless (-e $home . $dotfile) {
+		    my $cmd = "ln -sv " . cwd() . "/" . $oldfile . " " . $home . $dotfile . "\n";
+		    system ($cmd);
+        }
+	}	
+}
+

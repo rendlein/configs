@@ -1,0 +1,53 @@
+(in-package :stumpwm)
+(load "/home/voleur/.src/stumpwm/contrib/mpd")
+
+(setf stumpwm:*screen-mode-line-format*
+	(list "%w"))
+
+(stumpwm:run-shell-command "xsetroot -cursor_name left_ptr")
+(set-font "-*-terminus-medium-r-*-*-12-*-*-*-*-*-*-")
+
+(defun cat (&rest strings) 
+	(apply 'concatenate 'string strings))
+
+(defcommand Browser () ()
+	"Start brwoser or switch to it"
+	(run-or-raise "tabbed surf -e" '(:class "tabbed")))
+    ;;(run-or-raise "luakit" '(:class "luakit")))
+
+
+(defcommand reinit () ()
+	(run-commands "reload" "loadrc"))
+
+(defcommand Youtube () ()
+	(run-shell-command "you"))
+
+(defcommand urxvtc () ()
+	(run-shell-command "urxvtc"))
+;;	(run-shell-command "st"))	
+
+(defcommand Dmenu () ()
+    (run-shell-command "dmenu"))
+
+(defcommand CLR () ()
+	(echo "Cleared"))
+
+(setf *mode-line-border-width* 0)
+
+;; Key bindings
+(define-key *root-map* (kbd "c") 	"urxvtc")
+(define-key *root-map* (kbd "y") 	"Youtube")
+(define-key *root-map* (kbd "Y") 	"Youtube-fs")
+(define-key *root-map* (kbd "M-w")	"Browser")
+(define-key *root-map* (kbd "Q") 	"quit")
+(define-key *root-map* (kbd "M-r") 	"reinit")
+(define-key *root-map* (kbd "b") 	"mode-line")
+(define-key *root-map* (kbd "ESC") 	"CLR")
+(define-key *root-map* (kbd "C-p")  "Dmenu")
+
+;; MPD Bindings
+(define-key *root-map* (kbd "M-x") '*mpd-map*)
+
+
+;; vim: set filetype=lisp : ;;
+
