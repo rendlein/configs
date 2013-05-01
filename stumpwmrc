@@ -15,12 +15,11 @@
 	(run-or-raise "tabbed surf -e" '(:class "tabbed")))
     ;;(run-or-raise "luakit" '(:class "luakit")))
 
-
 (defcommand reinit () ()
 	(run-commands "reload" "loadrc"))
 
 (defcommand Youtube () ()
-	(run-shell-command "you"))
+	(run-shell-command "you -speed 1.3"))
 
 (defcommand urxvtc () ()
 	(run-shell-command "urxvtc"))
@@ -48,6 +47,21 @@
 ;; MPD Bindings
 (define-key *root-map* (kbd "M-x") '*mpd-map*)
 
+;; Set it up to be a little bit more like dwm
+;; Workspaces
+(run-commands "gnewbg Web" "gnewdb Misc")
+
+(clear-window-placement-rules)
+
+(define-frame-preference "Default"
+    (0 t    t :title "vim")
+    (0 t    t :class "XTerm"))
+
+(define-frame-preference "Web"
+    (0 t    t :class "Surf"))
+
+(define-frame-preference "Misc"
+    (0 t    t :class "MPlayer"))
 
 ;; vim: set filetype=lisp : ;;
 

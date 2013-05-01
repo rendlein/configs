@@ -1,9 +1,5 @@
-execute pathogen#infect()
+silent! execute pathogen#infect()
 let NERDTreeShowHidden=1
-
-syntax on
-set t_Co=256
-filetype plugin on
 
 set nomodeline
 set nocp
@@ -21,9 +17,18 @@ set wildmenu
 set hidden
 set ignorecase
 set smartcase
+set t_Co=256
+
+syntax on
+filetype plugin on
+
+let g:pandoc_no_folding         = 1
+let g:pandoc_use_hard_wraps     = 1
+let g:zenburn_alternate_Visual  = 1
+let g:zenburn_high_Contrast     = 1
+let g:zenburn_old_Visual        = 1
 
 colorscheme zenburn
-set background=dark
 
 let g:is_posix = 1
 
