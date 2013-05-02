@@ -31,6 +31,9 @@
 (defcommand CLR () ()
 	(echo "Cleared"))
 
+(defcommand Cataclysm () ()
+    (run-shell-command "st"))
+
 (setf *mode-line-border-width* 0)
 
 ;; Key bindings
@@ -43,6 +46,7 @@
 (define-key *root-map* (kbd "b") 	"mode-line")
 (define-key *root-map* (kbd "ESC") 	"CLR")
 (define-key *root-map* (kbd "C-p")  "Dmenu")
+(define-key *root-map* (kbd "C-s")  "Cataclysm")
 
 ;; MPD Bindings
 (define-key *root-map* (kbd "M-x") '*mpd-map*)
