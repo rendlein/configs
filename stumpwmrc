@@ -28,6 +28,13 @@
 (defcommand Dmenu () ()
     (run-shell-command "dmenu"))
 
+(defun shell-command (command)
+    (check-type command string)
+    (echo-string (current-screen) (run-shell-command command t)))
+
+(defcommand get-class () ()
+    (shell-command "getclass"))
+
 (defcommand CLR () ()
 	(echo "Cleared"))
 
@@ -35,6 +42,21 @@
     (run-shell-command "st"))
 
 (setf *mode-line-border-width* 0)
+
+;;; Mplayer key-commands
+(defcommand mplayer-pause () ()
+    (run-shell-command "mplr p"))
+(defcommand mplayer-next () ()
+    (run-shell-command "mplr n"))
+(defcommand mplayer-seek-forward () ()
+    (run-shell-command "mplr s 10%"))
+
+;;; Custom key sets
+(defvar *mplayer-map* *nil*)
+(fill-keymap *mplayer-map*
+        (kbd "SPC") "mplayer-pause"
+        (kbd "n")   "mplayer-next"
+        (kbd "f")   "mplayer-seek-forward")
 
 ;; Key bindings
 (define-key *root-map* (kbd "c") 	"urxvtc")
@@ -44,16 +66,18 @@
 (define-key *root-map* (kbd "Q") 	"quit")
 (define-key *root-map* (kbd "M-r") 	"reinit")
 (define-key *root-map* (kbd "b") 	"mode-line")
+(define-key *root-map* (kbd "C-b")  "get-class")
 (define-key *root-map* (kbd "ESC") 	"CLR")
 (define-key *root-map* (kbd "C-p")  "Dmenu")
 (define-key *root-map* (kbd "C-s")  "Cataclysm")
+(define-key *root-map* (kbd "C-m")  '*mplayer-map*)
 
 ;; MPD Bindings
 (define-key *root-map* (kbd "M-x") '*mpd-map*)
 
 ;; Set it up to be a little bit more like dwm
 ;; Workspaces
-(run-commands "gnewbg Web" "gnewdb Misc")
+(run-commands "gnewbg Web" "gnewbg Misc")
 
 (clear-window-placement-rules)
 
@@ -62,7 +86,7 @@
     (0 t    t :class "XTerm"))
 
 (define-frame-preference "Web"
-    (0 t    t :class "Surf"))
+    (0 t    t :class "tabbed"))
 
 (define-frame-preference "Misc"
     (0 t    t :class "MPlayer"))
