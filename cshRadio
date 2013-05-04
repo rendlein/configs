@@ -1,4 +1,3 @@
-
 # SomaFm Stations
 alias lush      mplayer "http://mp1.somafm.com:8800"
 alias drone     mplayer "http://mp2.somafm.com:8002"
@@ -6,5 +5,9 @@ alias agent     mplayer "http://voxsc1.somafm.com:8002"
 alias beat      mplayer "http://voxsc1.somafm.com:8384"
 alias cliq      mplayer "http://mp2.somafm.com:2668"
 
-# RTL France
+# RTL Deux
 alias rtl2      mplayer "http://streaming.radio.rtl.fr/rtl2-1-44-96"
+
+# BBC
+alias bbc1      mplayer -playlist "http://www.bbc.co.uk/radio/listen/live/r1.asx"
+alias bbc5      mplayer -playlist "http://www.bbc.co.uk/radio/listen/live/r5l.asx"
