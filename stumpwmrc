@@ -1,15 +1,22 @@
 (in-package :stumpwm)
 (load "/home/voleur/.src/stumpwm/contrib/mpd")
 
-(setf stumpwm:*screen-mode-line-format*
-	(list "%w"))
-
+(setf stumpwm:*screen-mode-line-format* (list "%w"))
 (stumpwm:run-shell-command "xsetroot -cursor_name left_ptr")
 (set-font "-*-terminus-medium-r-*-*-12-*-*-*-*-*-*-")
+(setf *mode-line-border-width* 0)
 
+;;; Functions
+;;; 
 (defun cat (&rest strings) 
 	(apply 'concatenate 'string strings))
 
+(defun shell-command (command)
+    (check-type command string)
+    (echo-string (current-screen) (run-shell-command command t)))
+
+;;; Applications
+;;; 
 (defcommand Browser () ()
 	"Start brwoser or switch to it"
 	(run-or-raise "tabbed surf -e" '(:class "tabbed")))
@@ -22,28 +29,22 @@
 	(run-shell-command "you -speed 1.3"))
 
 (defcommand urxvtc () ()
-	(run-shell-command "urxvtc"))
-;;	(run-shell-command "st"))	
+	(run-shell-command "st"))	
 
 (defcommand Dmenu () ()
     (run-shell-command "dmenu"))
 
-(defun shell-command (command)
-    (check-type command string)
-    (echo-string (current-screen) (run-shell-command command t)))
-
+;; Simple shell script to get the info
+;; for ':class' 
 (defcommand get-class () ()
     (shell-command "getclass"))
-
-(defcommand CLR () ()
-	(echo "Cleared"))
 
 (defcommand Cataclysm () ()
     (run-shell-command "st"))
 
-(setf *mode-line-border-width* 0)
-
-;;; Mplayer key-commands
+;;; Keybindings
+;;; 
+;; Mplayer key-commands
 (defcommand mplayer-pause () ()
     (run-shell-command "mplr p"))
 (defcommand mplayer-next () ()
@@ -51,8 +52,8 @@
 (defcommand mplayer-seek-forward () ()
     (run-shell-command "mplr s 10%"))
 
-;;; Custom key sets
-(defvar *mplayer-map* *nil*)
+;; Custom key maps
+(defvar *mplayer-map* nil)
 (fill-keymap *mplayer-map*
         (kbd "SPC") "mplayer-pause"
         (kbd "n")   "mplayer-next"
@@ -71,10 +72,10 @@
 (define-key *root-map* (kbd "C-p")  "Dmenu")
 (define-key *root-map* (kbd "C-s")  "Cataclysm")
 (define-key *root-map* (kbd "C-m")  '*mplayer-map*)
+(define-key *root-map* (kbd "M-x")  '*mpd-map*)
 
-;; MPD Bindings
-(define-key *root-map* (kbd "M-x") '*mpd-map*)
-
+;;; Groups
+;;; 
 ;; Set it up to be a little bit more like dwm
 ;; Workspaces
 (run-commands "gnewbg Web" "gnewbg Misc")
