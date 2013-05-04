@@ -1,5 +1,10 @@
 silent! execute pathogen#infect()
+
 let NERDTreeShowHidden=1
+let NERDTreeCaseSensitiveSort=1
+let NERDTreeHighlightCursorline=1
+let NERDTreeIgnore=['\.git*','\.svn$','\.hg$']
+let NERDTreeDirArrows=0
 
 set nomodeline
 set nocp
