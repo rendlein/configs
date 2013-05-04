@@ -7,4 +7,4 @@ alias beat      mplayer "http://voxsc1.somafm.com:8384"
 alias cliq      mplayer "http://mp2.somafm.com:2668"
 
 # RTL France
-alias rtl2      'mplayer http://streaming.radio.rtl.fr/rtl2-1-44-96'
+alias rtl2      mplayer "http://streaming.radio.rtl.fr/rtl2-1-44-96"
