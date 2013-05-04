@@ -32,7 +32,7 @@
 	(run-shell-command "st"))	
 
 (defcommand Dmenu () ()
-    (run-shell-command "dmenu"))
+    (run-shell-command "dmenu_run"))
 
 ;; Simple shell script to get the info
 ;; for ':class' 
