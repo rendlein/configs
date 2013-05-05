@@ -27,11 +27,16 @@ let g:zenburn_alternate_Visual  = 1
 let g:zenburn_high_Contrast     = 1
 let g:zenburn_old_Visual        = 1
 
-let NERDTreeShowHidden=1
-let NERDTreeCaseSensitiveSort=1
-let NERDTreeHighlightCursorline=1
-let NERDTreeIgnore=['\.git*','\.svn$','\.hg$']
-let NERDTreeDirArrows=0
+let NERDTreeShowHidden          = 1
+let NERDTreeCaseSensitiveSort   = 1
+let NERDTreeHighlightCursorline = 1
+let NERDTreeIgnore              = ['\.git*','\.svn$','\.hg$']
+let NERDTreeDirArrows           = 0
+let NERDTreeWinSize             = 40
+
+let Tlist_Auto_Highlight_tag    = 1
+let Tlist_Use_Right_Window      = 1
+let Tlist_WinWidth              = 40
 
 colorscheme zenburn
 
