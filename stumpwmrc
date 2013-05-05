@@ -1,7 +1,10 @@
 (in-package :stumpwm)
 (load "/home/voleur/.src/stumpwm/contrib/mpd")
 
-
+;; Check if musicpd (mpd) is running and if 
+;; it is connect to it
+(if (equal (run-shell-command "is_running musicpd" t) "1")
+  (run-commands "mpd-connect"))
 
 (setf stumpwm:*screen-mode-line-format* (list "%m"))
 (stumpwm:run-shell-command "xsetroot -cursor_name left_ptr")
