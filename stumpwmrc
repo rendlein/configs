@@ -26,7 +26,7 @@
 	(run-commands "reload" "loadrc"))
 
 (defcommand Youtube () ()
-	(run-shell-command "you -speed 1.3"))
+            (run-or-raise (run-shell-command "you -speed 1.3") (:class "MPlayer")))
 
 (defcommand urxvtc () ()
 	(run-shell-command "st"))	
@@ -68,7 +68,6 @@
 (define-key *root-map* (kbd "M-r") 	"reinit")
 (define-key *root-map* (kbd "b") 	"mode-line")
 (define-key *root-map* (kbd "C-b")  "get-class")
-(define-key *root-map* (kbd "ESC") 	"CLR")
 (define-key *root-map* (kbd "C-p")  "Dmenu")
 (define-key *root-map* (kbd "C-s")  "Cataclysm")
 (define-key *root-map* (kbd "C-m")  '*mplayer-map*)
