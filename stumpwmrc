@@ -26,6 +26,7 @@
 
 (defcommand Browser () ()
             "Start brwoser or switch to it"
+            
             (run-or-raise "tabbed surf -e" '(:class "tabbed")))
 
 (defcommand Youtube () ()
@@ -84,20 +85,20 @@
 ;;; Groups
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-;; Set it up to be a little bit more like dwm
 ;; Workspaces
+;; Set it up to be a little bit more like dwm
 (run-commands "gnewbg Web" "gnewbg Misc")
 
 (clear-window-placement-rules)
 
 (define-frame-preference "Default"
-    (0 t    t :title "vim")
-    (0 t    t :class "XTerm"))
+    (0 t t :title "vim")
+    (0 t t :class "XTerm"))
 
 (define-frame-preference "Web"
-    (0 t    t :class "tabbed"))
+    (0 t t :class "tabbed"))
 
 (define-frame-preference "Misc"
-    (0 t    t :class "MPlayer"))
+    (0 t t :class "MPlayer"))
 
 ;; vim: set ft=lisp : ;;
