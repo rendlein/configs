@@ -35,8 +35,10 @@
 (defcommand reinit () ()
             (run-commands "reload" "loadrc"))
 
-(defcommand urxvtc () ()
-            (run-or-raise "st" '(:class "st-256color")))	
+(defcommand terminal () ()
+            (run-or-raise "urxvt" '(:class "URxvt")))	
+(defcommand terminal-2 () ()
+            (run-or-raise "st" '(:class "st-256color")))
 
 (defcommand Dmenu () ()
             (run-shell-command "dmenu_run"))
@@ -46,8 +48,6 @@
 (defcommand get-class () ()
             (shell-command "getclass"))
 
-(defcommand Cataclysm () ()
-            (run-shell-command "st"))
 
 ;;; Keybindings
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -68,7 +68,8 @@
         (kbd "f")   "mplayer-seek-forward")
 
 ;; Key bindings
-(define-key *root-map* (kbd "c") 	"urxvtc")
+(define-key *root-map* (kbd "c") 	"terminal")
+(define-key *root-map* (kbd "C-s")  "terminal-2")
 (define-key *root-map* (kbd "y") 	"Youtube")
 (define-key *root-map* (kbd "Y") 	"Youtube-fs")
 (define-key *root-map* (kbd "M-w")	"Browser")
@@ -77,7 +78,6 @@
 (define-key *root-map* (kbd "b") 	"mode-line")
 (define-key *root-map* (kbd "C-b")  "get-class")
 (define-key *root-map* (kbd "C-p")  "Dmenu")
-(define-key *root-map* (kbd "C-s")  "Cataclysm")
 
 (define-key *root-map* (kbd "C-m")  '*mplayer-map*)
 (define-key *root-map* (kbd "M-x")  '*mpd-map*)
