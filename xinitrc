@@ -2,7 +2,7 @@
 
 xset +fp /usr/local/lib/X11/fonts/terminus-font &
 
-feh --bg-max "/home/voleur/.wallpapers/Doctors.jpg" &
+#feh --bg-max "/home/voleur/.wallpapers/Doctors.jpg" &
 
 urxvtd -q -f -o
 
