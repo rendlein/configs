@@ -1,15 +1,15 @@
 (in-package :stumpwm)
 (load "/home/voleur/.src/stumpwm/contrib/mpd")
 
-;; Check if musicpd (mpd) is running and if 
-;; it is connect to it
-(if (equal (run-shell-command "is_running musicpd" t) "1")
-  (run-commands "mpd-connect"))
-
-(setf stumpwm:*screen-mode-line-format* (list "%m"))
-(stumpwm:run-shell-command "xsetroot -cursor_name left_ptr")
+(setf *screen-mode-line-format* (list "%m"))
+(run-shell-command "xsetroot -cursor_name left_ptr")
 (set-font "-*-terminus-medium-r-*-*-12-*-*-*-*-*-*-")
 (setf *mode-line-border-width* 0)
+
+;;; Variables
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+(defvar *wallpapers* "/home/voleur/.wallpapers/")
+(defvar *mplayer-map* nil)
 
 ;;; Functions
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -20,6 +20,14 @@
 (defun shell-command (command)
   (check-type command string)
   (echo-string (current-screen) (run-shell-command command t)))
+
+;; From XSteve's StumpWM page
+;; (www.xsteve.at/prg/stumpwm/)
+(defun random-background ()
+    "Select a random image"
+      (let ((file-list (directory (cat *wallpapers* "*.*")))
+                    (*random-state* (make-random-state t)))
+            (namestring (nth (random (length file-list)) file-list))))
 
 ;;; Application Commands
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -36,7 +44,7 @@
             (run-commands "reload" "loadrc"))
 
 (defcommand terminal () ()
-            (run-or-raise "urxvt" '(:class "URxvt")))	
+            (run-or-raise "urxvtc -e tmux attach -t main" '(:class "URxvt")))	
 (defcommand terminal-2 () ()
             (run-or-raise "st" '(:class "st-256color")))
 
@@ -61,7 +69,6 @@
             (run-shell-command "mplr s 10%"))
 
 ;; Custom key maps
-(defvar *mplayer-map* nil)
 (fill-keymap *mplayer-map*
         (kbd "SPC") "mplayer-pause"
         (kbd "n")   "mplayer-next"
@@ -92,13 +99,25 @@
 (clear-window-placement-rules)
 
 (define-frame-preference "Default"
-    (0 t t :title "vim")
-    (0 t t :class "XTerm"))
+    (0 t t :class "URxvt"))
 
 (define-frame-preference "Web"
     (0 t t :class "tabbed"))
 
 (define-frame-preference "Misc"
     (0 t t :class "MPlayer"))
+
+;;; Run at startups
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;; Start tmux server if not already running
+(if (equal (run-shell-command "is_running tmux" t) "0")
+  (run-commands "tmux_setup"))
+
+;; Check if musicpd (mpd) is running and if 
+;; it is connect to it
+(if (equal (run-shell-command "is_running musicpd" t) "1")
+  (run-commands "mpd-connect"))
+(run-shell-command (cat "feh --bg-max " *wallpapers*  "Doctors.jpg" ))
 
 ;; vim: set ft=lisp : ;;
