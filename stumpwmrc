@@ -2,13 +2,12 @@
 (load "/home/voleur/.src/stumpwm/contrib/mpd")
 
 (setf *screen-mode-line-format* (list "%m"))
-(run-shell-command "xsetroot -cursor_name left_ptr")
 (set-font "-*-terminus-medium-r-*-*-12-*-*-*-*-*-*-")
 (setf *mode-line-border-width* 0)
 
 ;;; Variables
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-(defvar *wallpapers* "/home/voleur/.wallpapers/")
+(defvar *wallpapers-dir* "/home/voleur/.wallpapers/")
 (defvar *mplayer-map* nil)
 
 ;;; Functions
@@ -25,19 +24,25 @@
 ;; (www.xsteve.at/prg/stumpwm/)
 (defun random-background ()
     "Select a random image"
-      (let ((file-list (directory (cat *wallpapers* "*.*")))
+      (let ((file-list (directory (cat +wallpapers-dir+ "*.*")))
                     (*random-state* (make-random-state t)))
             (namestring (nth (random (length file-list)) file-list))))
+
+(defmacro if-running (program code command)
+  `(if (equal (run-shell-command (cat "is_running " ,program) t) ,code)
+     (run-commands ,command)))
 
 ;;; Application Commands
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-(defcommand Browser () ()
-            "Start brwoser or switch to it"
-            
+(defcommand browser () ()
             (run-or-raise "tabbed surf -e" '(:class "tabbed")))
+(defcommand luakit () ()
+            (run-or-raise "luakit" '(:class "luakit")))
+(defcommand opera () ()
+            (run-or-raise "opera" '(:class "Opera")))
 
-(defcommand Youtube () ()
+(defcommand play-tube () ()
             (run-or-raise "you -speed 1.3" '(:class "MPlayer")))
 
 (defcommand reinit () ()
@@ -48,7 +53,7 @@
 (defcommand terminal-2 () ()
             (run-or-raise "st" '(:class "st-256color")))
 
-(defcommand Dmenu () ()
+(defcommand dmenu () ()
             (run-shell-command "dmenu_run"))
 
 ;; Simple shell script to get the info
@@ -77,14 +82,14 @@
 ;; Key bindings
 (define-key *root-map* (kbd "c") 	"terminal")
 (define-key *root-map* (kbd "C-s")  "terminal-2")
-(define-key *root-map* (kbd "y") 	"Youtube")
-(define-key *root-map* (kbd "Y") 	"Youtube-fs")
-(define-key *root-map* (kbd "M-w")	"Browser")
+(define-key *root-map* (kbd "y") 	"play-tube")
+(define-key *root-map* (kbd "M-w")	"browser")
+(define-key *root-map* (kbd "M-W")  "luakit")
 (define-key *root-map* (kbd "Q") 	"quit")
 (define-key *root-map* (kbd "M-r") 	"reinit")
 (define-key *root-map* (kbd "b") 	"mode-line")
 (define-key *root-map* (kbd "C-b")  "get-class")
-(define-key *root-map* (kbd "C-p")  "Dmenu")
+(define-key *root-map* (kbd "C-p")  "dmenu")
 
 (define-key *root-map* (kbd "C-m")  '*mplayer-map*)
 (define-key *root-map* (kbd "M-x")  '*mpd-map*)
@@ -98,26 +103,28 @@
 
 (clear-window-placement-rules)
 
+;; set for lock and raise
 (define-frame-preference "Default"
     (0 t t :class "URxvt"))
 
 (define-frame-preference "Web"
-    (0 t t :class "tabbed"))
+    (0 t t :class "tabbed")
+    (0 t t :class "Opera") 
+    (0 t t :class "luakit"))
 
 (define-frame-preference "Misc"
-    (0 t t :class "MPlayer"))
+    (0 t t :class "MPlayer")
+    (0 t t :class "Wine"))
 
 ;;; Run at startups
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ;; Start tmux server if not already running
-(if (equal (run-shell-command "is_running tmux" t) "0")
-  (run-commands "tmux_setup"))
+(if-running "tmux" "0" "tmux_setup")
 
-;; Check if musicpd (mpd) is running and if 
-;; it is connect to it
-(if (equal (run-shell-command "is_running musicpd" t) "1")
-  (run-commands "mpd-connect"))
-(run-shell-command (cat "feh --bg-max " *wallpapers*  "Doctors.jpg" ))
+;; Connect to mpd if running
+(if-running "musicpd" "1" "mpd-connect")
 
+(run-shell-command "xsetroot -cursor_name left_ptr")
+(run-shell-command (cat "feh --bg-max " *wallpapers-dir*  "Doctors.jpg"))
 ;; vim: set ft=lisp : ;;
