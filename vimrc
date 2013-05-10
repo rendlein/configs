@@ -38,6 +38,8 @@ let Tlist_Auto_Highlight_tag    = 1
 let Tlist_Use_Right_Window      = 1
 let Tlist_WinWidth              = 40
 
+let g:slimv_repl_split          = 4
+
 colorscheme zenburn
 
 let g:is_posix = 1

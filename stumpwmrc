@@ -29,7 +29,7 @@
             (namestring (nth (random (length file-list)) file-list))))
 
 (defmacro if-running (program code command)
-  `(if (equal (run-shell-command (cat "is_running " ,program) t) ,code)
+  `(if (equal (run-shell-command (cat "is_running " ,program) t) ,code) 
      (run-commands ,command)))
 
 ;;; Application Commands
@@ -49,7 +49,7 @@
             (run-commands "reload" "loadrc"))
 
 (defcommand terminal () ()
-            (run-or-raise "urxvtc -e tmux attach -t main" '(:class "URxvt")))	
+            (run-or-raise "urxvtc -e tmux attach " '(:class "URxvt")))	
 (defcommand terminal-2 () ()
             (run-or-raise "st" '(:class "st-256color")))
 
@@ -123,7 +123,7 @@
 (if-running "tmux" "0" "tmux_setup")
 
 ;; Connect to mpd if running
-(if-running "musicpd" "1" "mpd-connect")
+(if-running "musicpd" "1" "mpd-connect" )
 
 (run-shell-command "xsetroot -cursor_name left_ptr")
 (run-shell-command (cat "feh --bg-max " *wallpapers-dir*  "Doctors.jpg"))
