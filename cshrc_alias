@@ -22,6 +22,7 @@ alias novik     /usr/bin/ssh novikov@shell.cjb.net
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
 alias gs        git status
 alias gc        git commit
+alias gd        git diff
 alias gp        git push
 
 # vim: set filetype=tcsh : #
