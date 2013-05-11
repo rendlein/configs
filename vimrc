@@ -38,6 +38,7 @@ let Tlist_Auto_Highlight_tag    = 1
 let Tlist_Use_Right_Window      = 1
 let Tlist_WinWidth              = 40
 
+" Right side of window
 let g:slimv_repl_split          = 4
 
 colorscheme zenburn
@@ -45,7 +46,7 @@ colorscheme zenburn
 let g:is_posix = 1
 
 if has("autocmd")
-    autocmd vimenter * if !argc() | NERDTree | endif
+    autocmd vimenter * if !argc() | NERDTree | endif " if just `vim` load NERDtree
     autocmd FileType make setlocal ts=4 sts=4 sw=4 noexpandtab
     autocmd FileType c setlocal ts=8 shiftwidth=4 cindent expandtab 
     autocmd FileType h setlocal ts=8 shiftwidth=4 cindent expandtab 
@@ -53,3 +54,4 @@ if has("autocmd")
     autocmd FileType html,css set noexpandtab tabstop=2
 endif
 
+" vim: set foldmethod=indent : 
