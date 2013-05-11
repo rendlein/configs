@@ -1,54 +1,54 @@
 !----------------!
 ! Urxvt Settings !
 !----------------!
-URxvt*font:     -xos4-terminus-medium-r-normal-*-12-*-*-*-*-*-*-*
-URxvt*scrollBar:  false
-URxvt*jumpScroll: true
-URxvt*skipScroll: true
-URxvt*visualBell: false
+URxvt*font:             -xos4-terminus-medium-r-normal-*-12-*-*-*-*-*-*-*
+URxvt*scrollBar:        false
+URxvt*jumpScroll:       true
+URxvt*skipScroll:       true
+URxvt*visualBell:       false
 
-URxvt*depth:       32
-URxvt*buffered:    true
-URxvt*transparent: false
-URxvt*fading:      5%
-URxvt*fadeColor:   grey
-URxvt*shading:     75
+URxvt*depth:            32
+URxvt*buffered:         true
+URxvt*transparent:      false
+URxvt*fading:           5%
+URxvt*fadeColor:        grey
+URxvt*shading:          75
 
-URxvt*intensityStyles: true
-URxvt*termName:        rxvt-256color
-URxvt*background: #1f1f1f
-URxvt*foreground: #dcdccc
-URxvt*cursorColor: #aaaaaa
-URxvt*colorUL: #366060
-URxvt*underlineColor: #dfaf8f
-URxvt*color0: #3f3f3f
-URxvt*color1: #cc9393
-URxvt*color2: #7f9f7f
-URxvt*color3: #d0bf8f
-URxvt*color4: #6ca0a3
-URxvt*color5: #dc8cc3
-URxvt*color6: #93e0e3
-URxvt*color7: #dcdccc
-URxvt*color8: #000000
-URxvt*color9: #dca3a3
-URxvt*color10: #bfebbf
-URxvt*color11: #f0dfaf
-URxvt*color12: #8cd0d3
-URxvt*color13: #dc8cc3
-URxvt*color14: #93e0e3
-URxvt*color15: #ffffff
-URxvt*urgentOnBell:    true
+URxvt*intensityStyles:  true
+URxvt*termName:         rxvt-256color
+URxvt*background:       #1f1f1f
+URxvt*foreground:       #dcdccc
+URxvt*cursorColor:      #aaaaaa
+URxvt*colorUL:          #366060
+URxvt*underlineColor:   #dfaf8f
+URxvt*color0:           #3f3f3f
+URxvt*color1:           #cc9393
+URxvt*color2:           #7f9f7f
+URxvt*color3:           #d0bf8f
+URxvt*color4:           #6ca0a3
+URxvt*color5:           #dc8cc3
+URxvt*color6:           #93e0e3
+URxvt*color7:           #dcdccc
+URxvt*color8:           #000000
+URxvt*color9:           #dca3a3
+URxvt*color10:          #bfebbf
+URxvt*color11:          #f0dfaf
+URxvt*color12:          #8cd0d3
+URxvt*color13:          #dc8cc3
+URxvt*color14:          #93e0e3
+URxvt*color15:          #ffffff
+URxvt*urgentOnBell:     true
 
 !----------------!
 ! Xterm Settings !
 !----------------!
 
-XTerm*font:			-xos4-terminus-medium-r-normal-*-12-*-*-*-*-*-*-*
-XTerm*scrollBar:	false
-XTerm*visualBell:	false
-XTerm*buffered:		true
+XTerm*font:			    -xos4-terminus-medium-r-normal-*-12-*-*-*-*-*-*-*
+XTerm*scrollBar:	    false
+XTerm*visualBell:	    false
+XTerm*buffered:		    true
 
-XTerm*background:	#333333
-XTerm*foreground:	#D3D3D3
-XTerm*transparent:	false
-XTerm*termname:		xterm-256color
+XTerm*background:	    #333333
+XTerm*foreground:	    #D3D3D3
+XTerm*transparent:	    false
+XTerm*termname:		    xterm-256color
