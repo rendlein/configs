@@ -28,10 +28,6 @@
                     (*random-state* (make-random-state t)))
             (namestring (nth (random (length file-list)) file-list))))
 
-(defmacro if-running (program code command)
-  `(if (equal (run-shell-command (cat "is_running " ,program) t) ,code) 
-     (run-commands ,command)))
-
 ;;; Application Commands
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
@@ -118,12 +114,18 @@
 
 ;;; Run at startups
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+(defmacro startup-scripts (name command)
+  `(if (equal (run-shell-command (cat "is_running " ,name) t) "0") 
+     ,command))
 
 ;; Start tmux server if not already running
-(if-running "tmux" "0" "tmux_setup")
+(startup-scripts "tmux" (run-shell-command "tmux_setup"))
 
 ;; Connect to mpd if running
-(if-running "musicpd" "1" "mpd-connect" )
+(startup-scripts "musicpd" 
+                 (progn
+                   (run-shell-command "musicpd")
+                   (run-commands "mpd-connect")))
 
 (run-shell-command "xsetroot -cursor_name left_ptr")
 (run-shell-command (cat "feh --bg-max " *wallpapers-dir*  "Doctors.jpg"))
