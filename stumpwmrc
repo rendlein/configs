@@ -13,6 +13,10 @@
 ;;; Functions
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
+(defmacro startup-scripts (name &rest commands)
+  `(if (equal (run-shell-command (cat "is_running " ,name) t) "0") 
+     (progn ,@commands)))
+
 (defun cat (&rest strings) 
   (apply 'concatenate 'string strings))
 
@@ -114,10 +118,6 @@
 
 ;;; Run at startups
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-(defmacro startup-scripts (name &rest commands)
-  `(if (equal (run-shell-command (cat "is_running " ,name) t) "0") 
-     (progn ,@commands)))
-
 ;; Start tmux server if not already running
 (startup-scripts "tmux" (run-shell-command "tmux_setup"))
 
