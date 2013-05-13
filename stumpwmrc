@@ -9,13 +9,14 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 (defvar *wallpapers-dir* "/home/voleur/.wallpapers/")
 (defvar *mplayer-map* nil)
+(defvar *runningp* "is_running")
 
 ;;; Functions
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-(defmacro startup-scripts (name &rest commands)
-  `(if (equal (run-shell-command (cat "is_running " ,name) t) "0") 
-     (progn ,@commands)))
+(defmacro startup-scripts (process-name &body body)
+  `(if (equal (run-shell-command (cat *runningp* ,process-name) t) "0") 
+     ,@body))
 
 (defun cat (&rest strings) 
   (apply 'concatenate 'string strings))
@@ -49,7 +50,7 @@
             (run-commands "reload" "loadrc"))
 
 (defcommand terminal () ()
-            (run-or-raise "urxvtc -e tmux attach " '(:class "URxvt")))	
+            (run-or-raise "urxvtc -e tmux_setup" '(:class "URxvt")))	
 (defcommand terminal-2 () ()
             (run-or-raise "st" '(:class "st-256color")))
 
@@ -57,7 +58,7 @@
             (run-shell-command "dmenu_run"))
 
 ;; Simple shell script to get the info
-;; for ':class' 
+;; for ':instance :class :title' 
 (defcommand get-class () ()
             (shell-command "getclass"))
 
@@ -123,7 +124,8 @@
 
 ;; Connect to mpd if running
 (startup-scripts "musicpd" 
-                 (run-shell-command "musicpd") (run-commands "mpd-connect"))
+                 (progn (run-shell-command "musicpd") (run-commands "mpd-connect"))
+                 (run-commands "mpd-connect"))
 
 (run-shell-command "xsetroot -cursor_name left_ptr")
 (run-shell-command (cat "feh --bg-max " *wallpapers-dir*  "Doctors.jpg"))
