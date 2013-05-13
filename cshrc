@@ -1,5 +1,4 @@
 source $HOME/.cshrc_alias
-source $HOME/.cshRadio
 
 setenv TERM	xterm-256color
 

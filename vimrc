@@ -17,6 +17,7 @@ set hidden
 set ignorecase
 set smartcase
 set t_Co=256
+set cryptmethod=blowfish
 
 syntax on
 filetype plugin on
