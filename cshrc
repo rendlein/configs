@@ -22,7 +22,7 @@ if ($?prompt) then
 
 	set filec
 	set history = 1000
-	set savehist = (1000 merge)
+	set savehist = 0
 	set autolist = ambiguous
 	# Use history to aid expansion
 	set autoexpand

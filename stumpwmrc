@@ -4,18 +4,21 @@
 (setf *screen-mode-line-format* (list "%m"))
 (set-font "-*-terminus-medium-r-*-*-12-*-*-*-*-*-*-")
 (setf *mode-line-border-width* 0)
+(setf *mode-line-timeout* 15)
+
+(run-shell-command (cat "feh --bg-max " *wallpapers-dir*  "margaux.jpg"))
 
 ;;; Variables
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 (defvar *wallpapers-dir* "/home/voleur/.wallpapers/")
 (defvar *mplayer-map* nil)
-(defvar *runningp* "is_running")
+(defvar *running* "is_running")
 
 ;;; Functions
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-(defmacro startup-scripts (process-name &body body)
-  `(if (equal (run-shell-command (cat *runningp* ,process-name) t) "0") 
+(defmacro start-script (process-name &body body)
+  `(if (equal (run-shell-command (cat *running* ,process-name) t) "0") 
      ,@body))
 
 (defun cat (&rest strings) 
@@ -29,7 +32,7 @@
 ;; (www.xsteve.at/prg/stumpwm/)
 (defun random-background ()
     "Select a random image"
-      (let ((file-list (directory (cat +wallpapers-dir+ "*.*")))
+      (let ((file-list (directory (cat *wallpapers-dir* "*.*")))
                     (*random-state* (make-random-state t)))
             (namestring (nth (random (length file-list)) file-list))))
 
@@ -86,6 +89,7 @@
 (define-key *root-map* (kbd "y") 	"play-tube")
 (define-key *root-map* (kbd "M-W")	"browser")
 (define-key *root-map* (kbd "M-w")  "luakit")
+(define-key *root-map* (kbd "C-W")  "opera")
 (define-key *root-map* (kbd "Q") 	"quit")
 (define-key *root-map* (kbd "M-r") 	"reinit")
 (define-key *root-map* (kbd "b") 	"mode-line")
@@ -100,7 +104,7 @@
 
 ;; Workspaces
 ;; Set it up to be a little bit more like dwm
-(run-commands "gnewbg Web" "gnewbg Misc")
+(run-commands "gnewbg Web" "gnewbg Docs" "gnewbg Misc")
 
 (clear-window-placement-rules)
 
@@ -113,20 +117,23 @@
     (0 t t :class "Opera") 
     (0 t t :class "luakit"))
 
+(define-frame-preference "Docs"
+    (0 t t :class "MuPDF"))
+
 (define-frame-preference "Misc"
     (0 t t :class "MPlayer")
     (0 t t :class "Wine"))
 
+
 ;;; Run at startups
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Start tmux server if not already running
-(startup-scripts "tmux" (run-shell-command "tmux_setup"))
+(start-script "tmux" (run-shell-command "tmux_setup"))
 
 ;; Connect to mpd if running
-(startup-scripts "musicpd" 
-                 (progn (run-shell-command "musicpd") (run-commands "mpd-connect"))
+(start-script "musicpd" 
+                 (progn (run-shell-command "mpd") (run-commands "mpd-connect"))
                  (run-commands "mpd-connect"))
 
 (run-shell-command "xsetroot -cursor_name left_ptr")
-(run-shell-command (cat "feh --bg-max " *wallpapers-dir*  "Doctors.jpg"))
 ;; vim: set ft=lisp : ;;
