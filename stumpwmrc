@@ -6,7 +6,6 @@
 (setf *mode-line-border-width* 0)
 (setf *mode-line-timeout* 15)
 
-(run-shell-command (cat "feh --bg-max " *wallpapers-dir*  "margaux.jpg"))
 
 ;;; Variables
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -47,7 +46,7 @@
             (run-or-raise "opera" '(:class "Opera")))
 
 (defcommand play-tube () ()
-            (run-or-raise "you -speed 1.3" '(:class "MPlayer")))
+            (run-or-raise "you " '(:class "MPlayer")))
 
 (defcommand reinit () ()
             (run-commands "reload" "loadrc"))
@@ -135,5 +134,6 @@
                  (progn (run-shell-command "mpd") (run-commands "mpd-connect"))
                  (run-commands "mpd-connect"))
 
+(run-shell-command (cat "feh --bg-max " *wallpapers-dir*  "Doctors.jpg"))
 (run-shell-command "xsetroot -cursor_name left_ptr")
 ;; vim: set ft=lisp : ;;
