@@ -6,7 +6,6 @@
 (setf *mode-line-border-width* 0)
 (setf *mode-line-timeout* 15)
 
-
 ;;; Variables
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 (defvar *wallpapers-dir* "/home/voleur/.wallpapers/")
@@ -63,7 +62,6 @@
 ;; for ':instance :class :title' 
 (defcommand get-class () ()
             (shell-command "getclass"))
-
 
 ;;; Keybindings
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -122,7 +120,6 @@
 (define-frame-preference "Misc"
     (0 t t :class "MPlayer")
     (0 t t :class "Wine"))
-
 
 ;;; Run at startups
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
