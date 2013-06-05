@@ -15,9 +15,16 @@
 ;;; Functions
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-(defmacro start-script (process-name &body body)
-  `(if (equal (run-shell-command (cat *running* ,process-name) t) "0") 
+(defmacro run-script (pro &body body)
+  `(if (equal (run-shell-command (cat *running* ,pro) t) "0")
      ,@body))
+
+;; If Musicpd is not running start it 
+;; and connect to it
+((lambda ()
+   (if (equal (run-shell-command (cat *running* " musicpd") t) "0") 
+     (run-shell-command "mpd"))
+   (run-commands "mpd-connect")))
 
 (defun cat (&rest strings) 
   (apply 'concatenate 'string strings))
@@ -29,10 +36,9 @@
 ;; From XSteve's StumpWM page
 ;; (www.xsteve.at/prg/stumpwm/)
 (defun random-background ()
-    "Select a random image"
-      (let ((file-list (directory (cat *wallpapers-dir* "*.*")))
-                    (*random-state* (make-random-state t)))
-            (namestring (nth (random (length file-list)) file-list))))
+  (let ((file-list (directory (cat *wallpapers-dir* "*.*")))
+        (*random-state* (make-random-state t)))
+    (namestring (nth (random (length file-list)) file-list))))
 
 ;;; Application Commands
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -51,7 +57,7 @@
             (run-commands "reload" "loadrc"))
 
 (defcommand terminal () ()
-            (run-or-raise "urxvtc -e tmux_setup" '(:class "URxvt")))	
+            (run-or-raise "urxvtc -e tm" '(:class "URxvt")))	
 (defcommand terminal-2 () ()
             (run-or-raise "st" '(:class "st-256color")))
 
@@ -76,9 +82,9 @@
 
 ;; Custom key maps
 (fill-keymap *mplayer-map*
-        (kbd "SPC") "mplayer-pause"
-        (kbd "n")   "mplayer-next"
-        (kbd "f")   "mplayer-seek-forward")
+             (kbd "SPC") "mplayer-pause"
+             (kbd "n")   "mplayer-next"
+             (kbd "f")   "mplayer-seek-forward")
 
 ;; Key bindings
 (define-key *root-map* (kbd "c") 	"terminal")
@@ -119,18 +125,13 @@
 
 (define-frame-preference "Misc"
     (0 t t :class "MPlayer")
-    (0 t t :class "Wine"))
+    (0 t t :class "Wine")
+    (0 t t :class "Dwarf_Fortress"))
 
 ;;; Run at startups
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; Start tmux server if not already running
-(start-script "tmux" (run-shell-command "tmux_setup"))
-
-;; Connect to mpd if running
-(start-script "musicpd" 
-                 (progn (run-shell-command "mpd") (run-commands "mpd-connect"))
-                 (run-commands "mpd-connect"))
 
 (run-shell-command (cat "feh --bg-max " *wallpapers-dir*  "Doctors.jpg"))
 (run-shell-command "xsetroot -cursor_name left_ptr")
+
 ;; vim: set ft=lisp : ;;
