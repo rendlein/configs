@@ -19,15 +19,15 @@
   `(if (equal (run-shell-command (cat *running* ,pro) t) "0")
      ,@body))
 
+(defun cat (&rest strings) 
+  (apply 'concatenate 'string strings))
+
 ;; If Musicpd is not running start it 
 ;; and connect to it
 ((lambda ()
    (if (equal (run-shell-command (cat *running* " musicpd") t) "0") 
      (run-shell-command "mpd"))
    (run-commands "mpd-connect")))
-
-(defun cat (&rest strings) 
-  (apply 'concatenate 'string strings))
 
 (defun shell-command (command)
   (check-type command string)
