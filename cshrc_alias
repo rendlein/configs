@@ -25,7 +25,8 @@ alias gc        git commit
 alias gd        git diff
 alias gp        git push
 
-# vim: set filetype=tcsh : #
+# # Radio
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # SomaFm Stations
 alias lush      mplayer "http://mp1.somafm.com:8800"
 alias drone     mplayer "http://mp2.somafm.com:8002"
@@ -40,3 +41,5 @@ alias rtl2      mplayer "http://streaming.radio.rtl.fr/rtl2-1-44-96"
 alias bbc1      mplayer -playlist "http://www.bbc.co.uk/radio/listen/live/r1.asx"
 alias bbc5      mplayer -playlist "http://www.bbc.co.uk/radio/listen/live/r5l.asx"
 alias bbcm      mplayer -playlist "http://www.bbc.co.uk/radio/listen/live/bbcmanchester.asx"   
+
+# vim: set filetype=tcsh : #
