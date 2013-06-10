@@ -15,18 +15,18 @@
 ;;; Functions
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
+(defun cat (&rest strings) 
+  (apply 'concatenate 'string strings))
+
 (defmacro run-script (pro &body body)
   `(if (equal (run-shell-command (cat *running* ,pro) t) "0")
      ,@body))
-
-(defun cat (&rest strings) 
-  (apply 'concatenate 'string strings))
 
 ;; If Musicpd is not running start it 
 ;; and connect to it
 ((lambda ()
    (if (equal (run-shell-command (cat *running* " musicpd") t) "0") 
-     (run-shell-command "mpd"))
+     (run-shell-command "mpd" t))
    (run-commands "mpd-connect")))
 
 (defun shell-command (command)
@@ -106,12 +106,10 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ;; Workspaces
-;; Set it up to be a little bit more like dwm
 (run-commands "gnewbg Web" "gnewbg Docs" "gnewbg Misc")
 
 (clear-window-placement-rules)
 
-;; set for lock and raise
 (define-frame-preference "Default"
     (0 t t :class "URxvt"))
 
