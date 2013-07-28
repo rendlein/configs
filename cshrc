@@ -5,12 +5,12 @@ setenv TERM	xterm-256color
 # A righteous umask
 umask 		22
 
-set path = (/sbin /bin /usr/sbin /usr/bin /usr/games /usr/local/sbin /usr/local/bin $HOME/.bin $HOME/.cabal/bin)
+set path = ($HOME/.sys/bin /sbin /bin /usr/sbin /usr/bin /usr/games /usr/local/sbin /usr/local/bin $HOME/.bin $HOME/.cabal/bin)
 
 setenv	EDITOR		vim
 setenv	PAGER		less
 setenv	BLOCKSIZE	K
-setenv	XDG_DATA_HOME '/home/voleur/.config' 
+setenv	XDG_DATA_HOME $HOME/.config
 
 if ($?prompt) then
 	# An interactive shell -- set some stuff up
