@@ -1,6 +1,6 @@
 check_hash = yes
-directory = /home/voleur/.torrents/
-session = /home/voleur/.session/
+directory = /home/rendlein/.torrents/
+session = /home/rendlein/.session/
 
 port_range = 49164-49264
 encryption = allow_incoming,try_outgoing,enable_retry
@@ -9,4 +9,4 @@ dht = auto
 dht_port = 49165
 peer_exchange = yes
 
-schedule = watch_directory,10,10,load_start=/home/voleur/.tors/*.torrent
+schedule = watch_directory,10,10,load_start=/home/rendlein/.tors/*.torrent

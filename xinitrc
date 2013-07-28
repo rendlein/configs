@@ -6,11 +6,9 @@ xset +fp /usr/local/lib/X11/fonts/terminus-font &
 
 urxvtd -q -f -o
 
-while true; do
-	xsetroot -name "`status`"
-	sleep 60;
-done & 
+#while true; do
+#	xsetroot -name "`status`"
+#	sleep 60;
+#done & 
 
-#exec xmonad
-#exec /home/voleur/.bin/dwm
-exec /home/voleur/.bin/stumpwm
+exec /home/rendlein/.bin/stumpwm

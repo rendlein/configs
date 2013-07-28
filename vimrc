@@ -1,4 +1,4 @@
-silent! execute pathogen#infect()
+execute pathogen#infect()
 
 set nomodeline
 set nocp
