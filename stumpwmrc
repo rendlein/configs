@@ -116,7 +116,7 @@
 
 (define-frame-preference "Misc"
     (0 t t :class "MPlayer")
-    (0 0 0 :class "Wine")
+    (0 t t :class "Wine")
     (0 t t :class "Dwarf_Fortress"))
 
 ;;; Run at startups
@@ -129,7 +129,7 @@
 ;; and connect to it
 ((lambda ()
    (if (equal (run-shell-command (cat *running* " musicpd") t) "0") 
-     (run-shell-command "mpd" t))
+     (run-shell-command "mpd"))
    (run-commands "mpd-connect")))
 
 ;; vim: set ft=lisp : ;;
