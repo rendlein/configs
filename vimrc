@@ -39,6 +39,8 @@ let Tlist_Auto_Highlight_tag    = 1
 let Tlist_Use_Right_Window      = 1
 let Tlist_WinWidth              = 40
 
+let g:vimwiki_list = [{'path': '~/.wiki/'}]
+
 " Right side of window
 let g:slimv_repl_split          = 4
 
