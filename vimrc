@@ -18,9 +18,12 @@ set ignorecase
 set smartcase
 set t_Co=256
 set cryptmethod=blowfish
+set completeopt=menuone,longest,preview
 
 syntax on
-filetype plugin on
+filetype plugin indent on
+
+map <leader>g :GundoToggle<CR>
 
 let g:pandoc_no_folding         = 1
 let g:pandoc_use_hard_wraps     = 1
@@ -41,6 +44,8 @@ let Tlist_WinWidth              = 40
 
 let g:vimwiki_list = [{'path': '~/.wiki/'}]
 
+let g:SuperTabDefaultCompletionType = "context"
+
 " Right side of window
 let g:slimv_repl_split          = 4
 
@@ -55,6 +60,7 @@ if has("autocmd")
     autocmd FileType h setlocal ts=8 shiftwidth=4 cindent expandtab 
     autocmd FileType html set formatoptions+=tl
     autocmd FileType html,css set noexpandtab tabstop=2
+    autocmd FileType python set omnifunc=pythoncomplete#Complete
 endif
 
 " vim: set foldmethod=indent : 

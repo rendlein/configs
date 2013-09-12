@@ -65,6 +65,9 @@
 (defcommand get-class () ()
             (shell-command "getclass"))
 
+(defcommand java () ()
+            (run-or-raise "netbeans-7.3" '(:class "NetBeans")))
+
 ;;; Keybindings
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
@@ -95,6 +98,7 @@
 (define-key *root-map* (kbd "C-b")  "get-class")
 (define-key *root-map* (kbd "C-p")  "dmenu")
 (define-key *root-map* (kbd "C-L")  "toggle-keylayout")
+(define-key *root-map* (kbd "j")    "java")
 
 (define-key *root-map* (kbd "C-m")  '*mplayer-map*)
 (define-key *top-map* (kbd "M-x")  '*mpd-map*)
@@ -103,7 +107,7 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ;; Workspaces
-(run-commands "gnewbg Web" "gnewbg Docs" "gnewbg Misc")
+(run-commands "gnewbg Web" "gnewbg Docs" "gnewbg Misc" "gnewbg Dev")
 
 (clear-window-placement-rules)
 
@@ -123,17 +127,14 @@
     (0 t t :class "Wine")
     (0 t t :class "Dwarf_Fortress"))
 
+(define-frame-preference "Dev"
+    (0 nil t :class "NetBeans")
+    (0 nil t :class "java-lang-Thread"))
+
 ;;; Run at startups
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 (run-shell-command (cat "feh --bg-max " *wallpapers-dir*  "DeadMau5.jpg"))
 (run-shell-command "xsetroot -cursor_name left_ptr")
-
-;; If Musicpd is not running start it 
-;; and connect to it
-((lambda ()
-   (if (equal (run-shell-command (cat *running* "musicpd") t) "0") 
-       (run-shell-command "musicpd --stdout --verbose"))
-   (run-commands "mpd-connect")))
 
 ;; vim: set ft=lisp : ;;
