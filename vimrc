@@ -1,5 +1,8 @@
 execute pathogen#infect()
 
+syntax on
+filetype plugin indent on
+
 set nomodeline
 set nocp
 set nobackup
@@ -20,10 +23,8 @@ set t_Co=256
 set cryptmethod=blowfish
 set completeopt=menuone,longest,preview
 
-syntax on
-filetype plugin indent on
-
 map <leader>g :GundoToggle<CR>
+
 
 let g:pandoc_no_folding         = 1
 let g:pandoc_use_hard_wraps     = 1
@@ -60,7 +61,16 @@ if has("autocmd")
     autocmd FileType h setlocal ts=8 shiftwidth=4 cindent expandtab 
     autocmd FileType html set formatoptions+=tl
     autocmd FileType html,css set noexpandtab tabstop=2
-    autocmd FileType python set omnifunc=pythoncomplete#Complete
 endif
+
+augroup python_autocmds
+    autocmd!
+    "highlight characters past column 120
+    autocmd FileType python highlight Excess ctermbg=DarkGrey
+    autocmd FileType python match Excess /\%120v.*/
+    autocmd FileType python set nowrap
+    autocmd FileType python set tabstop=8 expandtab shiftwidth=4 softtabstop=4
+    autocmd FileType python set omnifunc=pythoncomplete#Complete
+augroup END
 
 " vim: set foldmethod=indent : 
