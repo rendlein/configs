@@ -22,12 +22,15 @@ set smartcase
 set t_Co=256
 set cryptmethod=blowfish
 set completeopt=menuone,longest,preview
+set foldmethod=indent
+
+set laststatus=2
 
 map <leader>g :GundoToggle<CR>
 
-
 let g:pandoc_no_folding         = 1
 let g:pandoc_use_hard_wraps     = 1
+
 let g:zenburn_alternate_Visual  = 1
 let g:zenburn_high_Contrast     = 1
 let g:zenburn_old_Visual        = 1
@@ -45,14 +48,13 @@ let Tlist_WinWidth              = 40
 
 let g:vimwiki_list = [{'path': '~/.wiki/'}]
 
-let g:SuperTabDefaultCompletionType = "context"
-
 " Right side of window
 let g:slimv_repl_split          = 4
 
 colorscheme zenburn
 
 let g:is_posix = 1
+
 
 if has("autocmd")
     autocmd vimenter * if !argc() | NERDTree | endif " if just `vim` load NERDtree
@@ -70,7 +72,5 @@ augroup python_autocmds
     autocmd FileType python match Excess /\%120v.*/
     autocmd FileType python set nowrap
     autocmd FileType python set tabstop=8 expandtab shiftwidth=4 softtabstop=4
-    autocmd FileType python set omnifunc=pythoncomplete#Complete
+    autocmd FileType python nnoremap <F12> :!python %<CR>
 augroup END
-
-" vim: set foldmethod=indent : 
