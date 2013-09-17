@@ -11,6 +11,7 @@ setenv	EDITOR		vim
 setenv	PAGER		less
 setenv	BLOCKSIZE	K
 setenv	XDG_DATA_HOME $HOME/.config
+setenv  PYTHONPATH  "/usr/local:/home/rendlein/.sys"
 
 if ($?prompt) then
 	# An interactive shell -- set some stuff up

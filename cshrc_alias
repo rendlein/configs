@@ -17,6 +17,7 @@ alias libd      musicpd ~/.mpd.lib/mpd.conf
 alias lib       ncmpcpp -p 6601 -c ~/.ncmpcpp.lib/config
 
 alias novik     /usr/bin/ssh novikov@shell.cjb.net
+alias mpc       mpc --format "[[[%artist% -> ]%title% ](%album%)]|[%file%] "
 
 # # Git
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
