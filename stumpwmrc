@@ -101,7 +101,7 @@
 (define-key *root-map* (kbd "j")    "java")
 
 (define-key *root-map* (kbd "C-m")  '*mplayer-map*)
-(define-key *top-map* (kbd "M-x")  '*mpd-map*)
+(define-key *top-map*  (kbd "M-x")  '*mpd-map*)
 
 ;;; Groups
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -134,7 +134,7 @@
 ;;; Run at startups
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-(run-shell-command (cat "feh --bg-max " *wallpapers-dir*  "DeadMau5.jpg"))
+(run-shell-command (cat "feh --bg-fill " *wallpapers-dir*  "lemons.jpg"))
 (run-shell-command "xsetroot -cursor_name left_ptr")
 
 ;; vim: set ft=lisp : ;;
