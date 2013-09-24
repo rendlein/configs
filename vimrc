@@ -65,6 +65,12 @@ if has("autocmd")
     autocmd FileType html,css set noexpandtab tabstop=2
 endif
 
+augroup c_autocmds
+    autocmd!
+    autocmd FileType c nnoremap <F12> :!gcc % && ./a.out<CR>
+augroup END
+
+
 augroup python_autocmds
     autocmd!
     "highlight characters past column 120
