@@ -68,6 +68,9 @@
 (defcommand java () ()
             (run-or-raise "netbeans-7.3" '(:class "NetBeans")))
 
+(defcommand shot () ()
+            (run-shell-command "scrot -s"))
+
 ;;; Keybindings
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
@@ -99,6 +102,7 @@
 (define-key *root-map* (kbd "C-p")  "dmenu")
 (define-key *root-map* (kbd "C-L")  "toggle-keylayout")
 (define-key *root-map* (kbd "j")    "java")
+(define-key *root-map* (kbd "M-s")  "shot")
 
 (define-key *root-map* (kbd "C-m")  '*mplayer-map*)
 (define-key *top-map*  (kbd "M-x")  '*mpd-map*)

@@ -13,6 +13,8 @@ setenv	BLOCKSIZE	K
 setenv	XDG_DATA_HOME $HOME/.config
 setenv  PYTHONPATH  "/usr/local:/home/rendlein/.sys"
 
+setenv LC_ALL "C"
+
 if ($?prompt) then
 	# An interactive shell -- set some stuff up
 	if ($uid == 0) then
