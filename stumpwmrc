@@ -10,6 +10,7 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 (defvar *wallpapers-dir* "/home/rendlein/.wallpapers/")
 (defvar *mplayer-map* nil)
+(defvar *game-map* nil)
 (defvar *running* "is_running")
 
 ;;; Functions
@@ -60,19 +61,22 @@
 (defcommand toggle-keylayout () ()
             (run-shell-command "keyboard_toggle"))
 
-;; Simple shell script to get the info
-;; for ':instance :class :title' 
-(defcommand get-class () ()
-            (shell-command "getclass"))
-
 (defcommand java () ()
             (run-or-raise "netbeans-7.3" '(:class "NetBeans")))
 
 (defcommand shot () ()
             (run-shell-command "scrot -s"))
 
-;;; Keybindings
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+(defcommand screen-blank () ()
+            (run-shell-command "xset dpms force off"))
+
+;; Games
+(defcommand europa () () 
+            (run-shell-command "eu"))
+(defcommand fmanager () ()
+            (run-shell-command "foot"))
+(defcommand fm-cpu () ()
+            (run-shell-command "fm"))
 
 ;; Mplayer key-commands
 (defcommand mplayer-pause () ()
@@ -82,19 +86,27 @@
 (defcommand mplayer-seek-forward () ()
             (run-shell-command "mplr s 10%"))
 
+;;; Keybindings
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;; Custom key maps
 (fill-keymap *mplayer-map*
              (kbd "SPC") "mplayer-pause"
              (kbd "n")   "mplayer-next"
              (kbd "f")   "mplayer-seek-forward")
 
+(fill-keymap *game-map*
+             (kbd "f") "fmanager"
+             (kbd "c") "fm-cpu"
+             (kbd "e") "europa") 
+
 ;; Key bindings
 (define-key *root-map* (kbd "c") 	"terminal")
 (define-key *root-map* (kbd "C-s")  "terminal-2")
 (define-key *root-map* (kbd "y") 	"play-tube")
-(define-key *root-map* (kbd "M-W")	"browser")
+(define-key *root-map* (kbd "M-W")	"opera")
 (define-key *root-map* (kbd "M-w")  "luakit")
-(define-key *root-map* (kbd "C-w")  "opera")
+(define-key *root-map* (kbd "C-w")  "browser")
 (define-key *root-map* (kbd "Q") 	"quit")
 (define-key *root-map* (kbd "M-r") 	"reinit")
 (define-key *root-map* (kbd "b") 	"mode-line")
@@ -103,9 +115,11 @@
 (define-key *root-map* (kbd "C-L")  "toggle-keylayout")
 (define-key *root-map* (kbd "j")    "java")
 (define-key *root-map* (kbd "M-s")  "shot")
+(define-key *root-map* (kbd "M-S")  "screen-blank")
 
 (define-key *root-map* (kbd "C-m")  '*mplayer-map*)
 (define-key *top-map*  (kbd "M-x")  '*mpd-map*)
+(define-key *top-map*  (kbd "M-g")  '*game-map*)
 
 ;;; Groups
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
