@@ -12,6 +12,17 @@ setenv	PAGER		less
 setenv	BLOCKSIZE	K
 setenv	XDG_DATA_HOME $HOME/.config
 setenv  PYTHONPATH  "/usr/local:/home/rendlein/.sys"
+setenv  LC_ALL "C"
+
+# Colors for prompt
+set     red="%{\033[1;31m%}"
+set   green="%{\033[1;32m%}"
+set  yellow="%{\033[1;33m%}"
+set    blue="%{\033[1;34m%}"
+set magenta="%{\033[1;35m%}"
+set    cyan="%{\033[1;36m%}"
+set   white="%{\033[1;37m%}"
+set     end="%{\033[0m%}"
 
 setenv LC_ALL "C"
 
@@ -20,7 +31,7 @@ if ($?prompt) then
 	if ($uid == 0) then
 		set user = root
 	endif
-	set prompt = "(%/): "
+	set prompt = "${blue}(${green}%/${blue})${white}:${end} "
 	set promptchars = "%#"
 
 	set filec
