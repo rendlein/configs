@@ -59,8 +59,8 @@ let g:is_posix = 1
 if has("autocmd")
     autocmd vimenter * if !argc() | NERDTree | endif " if just `vim` load NERDtree
     autocmd FileType make setlocal ts=4 sts=4 sw=4 noexpandtab
-    autocmd FileType c setlocal ts=8 shiftwidth=4 cindent expandtab 
-    autocmd FileType h setlocal ts=8 shiftwidth=4 cindent expandtab 
+    autocmd FileType c setlocal ts=4 shiftwidth=4 softtabstop=4 cindent expandtab 
+    autocmd FileType h setlocal ts=4 shiftwidth=4 cindent expandtab 
     autocmd FileType html set formatoptions+=tl
     autocmd FileType html,css set noexpandtab tabstop=2
 endif
@@ -68,8 +68,8 @@ endif
 augroup c_autocmds
     autocmd!
     autocmd FileType c nnoremap <F12> :!gcc % && ./a.out<CR>
+    autocmd FileType c nnoremap ^<F12> :!make <CR>
 augroup END
-
 
 augroup python_autocmds
     autocmd!
