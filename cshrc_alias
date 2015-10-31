@@ -1,7 +1,7 @@
 # # Colors
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
-alias ls        /bin/ls --color=auto
-alias grep      /bin/grep --color=auto
+alias ls        ls -G
+alias grep      grep --color=auto
 
 alias lsa       ls -a
 alias lsl       ls -l

@@ -55,6 +55,7 @@ colorscheme zenburn
 
 let g:is_posix = 1
 
+nnoremap <silent> <F8> :TlistToggle<CR>
 
 if has("autocmd")
     autocmd vimenter * if !argc() | NERDTree | endif " if just `vim` load NERDtree

@@ -4,14 +4,14 @@ xset +fp /usr/local/lib/X11/fonts/terminus-font &
 
 urxvtd -q -f -o
 
-musicpd &
+#musicpd &
 
-while true; do
-    xsetroot -name " `mpc --format "[[%artist% - ](%album%)]|[%file%]" | head -1 `"
-	sleep 3;
-done & 
+#while true; do
+#    xsetroot -name " `mpc --format "[[%artist% - ](%album%)]|[%file%]" | head -1 `"
+#	sleep 3;
+#done & 
 
 ## Un comment when stumpwm can compile with sbcl again
-#exec /home/rendlein/.bin/stumpwm
-exec stumpwm
+exec /home/rendlein/.bin/stumpwm
+#exec stumpwm
 #exec dwm

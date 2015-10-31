@@ -1,7 +1,4 @@
 (in-package :stumpwm)
-(load "/home/rendlein/.src/stumpwm/contrib/mpd")
-
-(setf *screen-mode-line-format* (list "%m"))
 (set-font "-*-terminus-medium-r-*-*-12-*-*-*-*-*-*-")
 (setf *mode-line-border-width* 0)
 (setf *mode-line-timeout* 1)
@@ -38,7 +35,7 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 (defcommand browser () ()
-            (run-or-raise "tabbed surf -e" '(:class "tabbed")))
+            (run-or-raise "chrome" '(:class "chrome")))
 (defcommand luakit () ()
             (run-or-raise "luakit" '(:class "luakit")))
 (defcommand opera () ()
@@ -110,7 +107,6 @@
 (define-key *root-map* (kbd "Q") 	"quit")
 (define-key *root-map* (kbd "M-r") 	"reinit")
 (define-key *root-map* (kbd "b") 	"mode-line")
-(define-key *root-map* (kbd "C-b")  "get-class")
 (define-key *root-map* (kbd "C-p")  "dmenu")
 (define-key *root-map* (kbd "C-L")  "toggle-keylayout")
 (define-key *root-map* (kbd "j")    "java")
@@ -135,7 +131,8 @@
 (define-frame-preference "Web"
     (0 t t :class "tabbed")
     (0 t t :class "Opera") 
-    (0 t t :class "luakit"))
+    (0 t t :class "luakit")
+    (0 t t :class "chromium-browser"))
 
 (define-frame-preference "Docs"
     (0 t t :class "MuPDF"))
@@ -152,7 +149,7 @@
 ;;; Run at startups
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-(run-shell-command (cat "feh --bg-fill " *wallpapers-dir*  "lemons.jpg"))
+(run-shell-command (cat "feh --bg-scale " (random-background)))
 (run-shell-command "xsetroot -cursor_name left_ptr")
 
 ;; vim: set ft=lisp : ;;
