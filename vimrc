@@ -1,10 +1,27 @@
-execute pathogen#infect()
+set nocp
+filetype off
 
-syntax on
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+" Allow vundle to manage itself "
+Plugin 'VundleVim/Vundle.vim'
+
+" Other stuff                   "
+Plugin 'tpope/vim-fugitive'
+Plugin 'scrooloose/nerdtree'
+Plugin 'kovisoft/slimv'
+Plugin 'Valloric/YouCompleteMe'
+Plugin 'vim-scripts/taglist.vim'
+Plugin 'vim-scripts/zenburn'
+Plugin 'vim-scripts/c.vim'
+
+call vundle#end()
+
 filetype plugin indent on
+syntax on
 
 set nomodeline
-set nocp
 set nobackup
 set nowritebackup
 set noswapfile
@@ -28,6 +45,8 @@ set laststatus=2
 
 map <leader>g :GundoToggle<CR>
 
+let g:ycm_global_ycm_extra_conf = "~/.config/vim/.ycm_extra_conf.py"
+
 let g:pandoc_no_folding         = 1
 let g:pandoc_use_hard_wraps     = 1
 
@@ -48,6 +67,10 @@ let Tlist_WinWidth              = 40
 
 let g:vimwiki_list = [{'path': '~/.wiki/'}]
 
+" Slimv Settings
+let g:slimv_swank_cmd = '! tmux new-window -d -n REPL-SBCL "sbcl --load ~/.vim/bundle/slimv/slime/start-swank.lisp"'
+let g:swank_hjost               = 127.0.0.1
+let g:swank_port                = 4005
 " Right side of window
 let g:slimv_repl_split          = 4
 
