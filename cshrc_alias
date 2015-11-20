@@ -1,6 +1,11 @@
 # # Colors
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
-alias ls        ls -G
+if ( `uname` == "Freebsd") then
+    alias ls        ls -G
+else
+    alias ls        ls --color=auto
+endif
+
 alias grep      grep --color=auto
 
 alias lsa       ls -a

@@ -31,7 +31,11 @@ if ($?prompt) then
 	if ($uid == 0) then
 		set user = root
 	endif
-	set prompt = "${blue}(${green}%/${blue})${white}:${end} "
+    if ("$SSH_CONNECTION" != "") then
+        set prompt = "${blue}[${green}%m${blue}]${blue}(${green}%/${blue})${white}:${end} "
+    else
+	    set prompt = "${blue}(${green}%/${blue})${white}:${end} "
+    endif
 	set promptchars = "%#"
 
 	set filec

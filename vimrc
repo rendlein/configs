@@ -1,4 +1,4 @@
-set nocp
+set nocompatible
 filetype off
 
 set rtp+=~/.vim/bundle/Vundle.vim
@@ -11,7 +11,7 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'tpope/vim-fugitive'
 Plugin 'scrooloose/nerdtree'
 Plugin 'kovisoft/slimv'
-Plugin 'Valloric/YouCompleteMe'
+"Plugin 'Valloric/YouCompleteMe'
 Plugin 'vim-scripts/taglist.vim'
 Plugin 'vim-scripts/zenburn'
 Plugin 'vim-scripts/c.vim'
