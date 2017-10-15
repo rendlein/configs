@@ -1,6 +1,6 @@
 # # Colors
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
-if ( `uname` == "Freebsd") then
+if ( `uname` == "FreeBSD") then
     alias ls        ls -G
 else
     alias ls        ls --color=auto
@@ -16,13 +16,10 @@ alias lsr       ls -R
 
 # # Shortcuts
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
-alias scheme    /usr/local/bin/scheme48
+#alias scheme    /usr/local/bin/scheme48
 
 alias libd      musicpd ~/.mpd.lib/mpd.conf
 alias lib       ncmpcpp -p 6601 -c ~/.ncmpcpp.lib/config
-
-alias shell     /usr/bin/ssh rendlein@shell.cjb.net
-alias mpc       'mpc --format "[[[%artist% -> ]%title% ](%album%)]|[%file%]"'
 
 # # Git
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 

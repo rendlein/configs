@@ -15,6 +15,8 @@ Plugin 'kovisoft/slimv'
 Plugin 'vim-scripts/taglist.vim'
 Plugin 'vim-scripts/zenburn'
 Plugin 'vim-scripts/c.vim'
+Plugin 'racer-rust/vim-racer'
+Plugin 'tpope/vim-vinegar'
 
 call vundle#end()
 
@@ -49,6 +51,9 @@ let g:ycm_global_ycm_extra_conf = "~/.config/vim/.ycm_extra_conf.py"
 
 let g:pandoc_no_folding         = 1
 let g:pandoc_use_hard_wraps     = 1
+
+let g:racer_cmd = "/home/rendlein/.cargo/racer"
+let g:racer_experimental_completer = 1
 
 let g:zenburn_alternate_Visual  = 1
 let g:zenburn_high_Contrast     = 1

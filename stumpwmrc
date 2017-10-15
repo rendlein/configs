@@ -1,5 +1,5 @@
 (in-package :stumpwm)
-(set-font "-*-terminus-medium-r-*-*-12-*-*-*-*-*-*-")
+(set-font "-*-terminus-medium-r-*-*-16-*-*-*-*-*-*-")
 (setf *mode-line-border-width* 0)
 (setf *mode-line-timeout* 1)
 

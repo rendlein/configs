@@ -1,6 +1,6 @@
 #!/bin/sh
 
-xset +fp /usr/local/lib/X11/fonts/terminus-font &
+xset +fp /usr/local/share/fonts/terminus-font &
 
 urxvtd -q -f -o
 
@@ -12,6 +12,6 @@ urxvtd -q -f -o
 #done & 
 
 ## Un comment when stumpwm can compile with sbcl again
-exec /home/rendlein/.bin/stumpwm
+exec /home/rendlein/.src/stumpwm/stumpwm
 #exec stumpwm
 #exec dwm

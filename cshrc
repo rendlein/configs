@@ -5,7 +5,7 @@ setenv TERM	xterm-256color
 # A righteous umask
 umask 		22
 
-set path = ($HOME/.sys/bin /sbin /bin /usr/sbin /usr/bin /usr/games /usr/local/sbin /usr/local/bin $HOME/.bin $HOME/.cabal/bin)
+set path = ($HOME/.cargo/bin $HOME/.sys/bin /sbin /bin /usr/sbin /usr/bin /usr/games /usr/local/sbin /usr/local/bin $HOME/.bin $HOME/.local/bin)
 
 setenv	EDITOR		vim
 setenv	PAGER		less
@@ -13,6 +13,7 @@ setenv	BLOCKSIZE	K
 setenv	XDG_DATA_HOME $HOME/.config
 setenv  PYTHONPATH  "/usr/local:/home/rendlein/.sys"
 setenv  LC_ALL "C"
+setenv  RUST_SRC_PATH "/usr/home/rendlein/.rustup/toolchains/nightly-x86_64-unknown-freebsd/lib/rustlib/src/rust/src"
 
 # Colors for prompt
 set     red="%{\033[1;31m%}"
