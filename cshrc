@@ -5,7 +5,7 @@ setenv TERM	xterm-256color
 # A righteous umask
 umask 		22
 
-set path = ($HOME/.cargo/bin $HOME/.sys/bin /sbin /bin /usr/sbin /usr/bin /usr/games /usr/local/sbin /usr/local/bin $HOME/.bin $HOME/.local/bin)
+set path = ( /usr/local/cross/bin $HOME/.cargo/bin $HOME/.sys/bin /sbin /bin /usr/sbin /usr/bin /usr/games /usr/local/sbin /usr/local/bin $HOME/.bin $HOME/.local/bin)
 
 setenv	EDITOR		vim
 setenv	PAGER		less
