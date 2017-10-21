@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/bin/env perl
 
 use Cwd;
 
@@ -11,17 +11,21 @@ my $home = $ENV{"HOME"} . "/";
 chomp($home);
 
 foreach (@files) {
-	if (!(/README.md$/) && !(/install/)) {
+	if (!(/README.md$/) && !(/install/) && !(/scripts/)) {
 
-		my $dotfile = "." . $_;
+        my $dotfile = "." . $_;
 		chomp $dotfile;
 		my $oldfile = $_;
 		chomp $oldfile;
-        
+       
         unless (-e $home . $dotfile) {
 		    my $cmd = "ln -sv " . cwd() . "/" . $oldfile . " " . $home . $dotfile . "\n";
 		    system ($cmd);
-        }
-	}	
+	    }
+    }    
 }
 
+unless ( -e $home . ".bin") {
+    my $c = "ln -sv " . cwd() . "/scripts " . "~/.bin\n";
+    system($c);
+}

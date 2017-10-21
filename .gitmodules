@@ -1,0 +1,6 @@
+[submodule "vim"]
+	path = vim
+	url = https://github.com/rendlein/vim-conf
+[submodule "scripts"]
+	path = scripts
+	url = https://github.com/rendlein/scripts
