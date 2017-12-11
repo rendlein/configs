@@ -63,8 +63,10 @@ let NERDTreeShowHidden          = 1
 let NERDTreeCaseSensitiveSort   = 1
 let NERDTreeHighlightCursorline = 1
 let NERDTreeIgnore              = ['\.git*','\.svn$','\.hg$']
-let NERDTreeDirArrows           = 0
 let NERDTreeWinSize             = 40
+
+let g:NERDTreeDirArrowExpandable = '>'
+let g:NERDTreeDirArrowCollapsible = '|'
 
 let Tlist_Auto_Highlight_tag    = 1
 let Tlist_Use_Right_Window      = 1
