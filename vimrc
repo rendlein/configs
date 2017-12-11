@@ -16,7 +16,7 @@ Plugin 'vim-scripts/taglist.vim'
 Plugin 'vim-scripts/zenburn'
 Plugin 'vim-scripts/c.vim'
 Plugin 'racer-rust/vim-racer'
-Plugin 'tpope/vim-vinegar'
+Plugin 'dhruvasagar/vim-vinegar'
 
 call vundle#end()
 

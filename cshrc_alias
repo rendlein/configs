@@ -27,6 +27,7 @@ alias gs        git status
 alias gc        git commit
 alias gd        git diff
 alias gp        git push
+alias gsu       git submodule init && git submodule update
 
 # # Radio
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
