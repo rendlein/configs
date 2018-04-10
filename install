@@ -4,7 +4,7 @@ use Cwd;
 
 my @files = `ls -1`;
 
-my $symcmd = "ln -sv";
+my $symcmd = "ln -s";
 my $home = $ENV{"HOME"} . "/";
 
 
@@ -19,13 +19,13 @@ foreach (@files) {
 		chomp $oldfile;
        
         unless (-e $home . $dotfile) {
-		    my $cmd = "ln -sv " . cwd() . "/" . $oldfile . " " . $home . $dotfile . "\n";
+		    my $cmd = "ln -s " . cwd() . "/" . $oldfile . " " . $home . $dotfile . "\n";
 		    system ($cmd);
 	    }
     }    
 }
 
 unless ( -e $home . ".bin") {
-    my $c = "ln -sv " . cwd() . "/scripts " . "~/.bin\n";
+    my $c = "ln -s " . cwd() . "/scripts " . "~/.bin\n";
     system($c);
 }

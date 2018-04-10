@@ -2,6 +2,8 @@
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
 if ( `uname` == "FreeBSD") then
     alias ls        ls -G
+else if (`uname` == "OpenBSD") then
+    alias ls        ls
 else
     alias ls        ls --color=auto
 endif
