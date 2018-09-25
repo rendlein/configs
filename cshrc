@@ -32,7 +32,7 @@ if ($?prompt) then
 	if ($uid == 0) then
 		set user = root
 	endif
-	set prompt = "${blue}(${green}%/${blue})${white}:${end} "
+	set prompt = "${blue}(${green}%/${blue})${red}[${blue}%m${red}]${white}:${end} "
     endif
 	set promptchars = "%#"
 
