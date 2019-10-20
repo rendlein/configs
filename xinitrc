@@ -1,8 +1,8 @@
 #!/bin/sh
 
-xset +fp /usr/local/share/fonts/terminus-font &
+xset +fp /usr/share/fonts/
 
-urxvtd -q -f -o
+#urxvtd -q -f -o
 
 #musicpd &
 
@@ -12,6 +12,6 @@ urxvtd -q -f -o
 #done & 
 
 ## Un comment when stumpwm can compile with sbcl again
-exec /home/rendlein/.src/stumpwm/stumpwm
-#exec stumpwm
+#exec /home/rendlein/.src/stumpwm/stumpwm
+exec stumpwm
 #exec dwm
