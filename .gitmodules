@@ -4,3 +4,5 @@
 [submodule "scripts"]
 	path = scripts
 	url = https://github.com/rendlein/scripts
+	path = stumpwm_config
+	url = https://github.com/rendlein/stumpwm_config
